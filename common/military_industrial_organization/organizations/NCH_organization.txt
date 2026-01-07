@@ -48,11 +48,15 @@ NCH_greda_organization = {
 		original_tag = NCH
 		has_dlc = "Arms Against Tyranny"
 	}
-	visible = { 
-		original_tag = NCH
+	visible = {
+		owner = {	
+			original_tag = NCH
+		}
 	}
 	available = { 
-		original_tag = NCH
+		owner = {
+			original_tag = NCH
+		}
 	}
 	include = generic_artillery_organization
 }

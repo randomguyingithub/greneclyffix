@@ -60,7 +60,7 @@ characters={
 
 			slot = political_advisor
 			idea_token = NCH_Oiren_Judge_itoken
-			large = army
+			#large = army
 			cost = 150
 			traits = {
 				higher_judge_oiren
@@ -105,9 +105,7 @@ characters={
 
 		advisor = {
 			available = {
-				no = {
 					has_government = fascism
-				}
 			}
 
 			slot = political_advisor
@@ -243,7 +241,7 @@ characters={
 
 	NCH_Valha = {
 		name = Valha_Ksilokopa
-		desc = Valha_Ksilokopa_desc 
+		#desc = Valha_Ksilokopa_desc 
 		portraits = {
 			army = {
 				small = "gfx/interface/ideas/Advisors/NCH/Valha.tga"
@@ -474,7 +472,7 @@ characters={
 
 	NCH_Arachi= {
 		name = Arachi
-		desc = "Arachi_desc"
+		#desc = "Arachi_desc"
 		portraits= {
 			civilian= {
 				small = "gfx/interface/ideas/Advisors/NCH/Arachi.tga"
@@ -491,7 +489,7 @@ characters={
 
 	NCH_Yorilos = {
 		name = Yorilos
-		desc = "Yorilos_desc"
+		#desc = "Yorilos_desc"
 		portraits= {
 			civilian= {
 				small = "gfx/interface/ideas/Advisors/NCH/Yorilos.tga"
@@ -745,7 +743,7 @@ characters={
 				large="gfx/leaders/NCH/Moronlan.tga"
 				small="gfx/interface/ideas/Advisors/NCH/Moronlan.tga"
 			}
-				desc = "NCH_Desc_Moronlan"
+				#desc = "NCH_Desc_Moronlan"
 		}
 
 		advisor={
