@@ -1,0 +1,46 @@
+spriteTypes = {
+	### Leaders ###
+
+	spriteType = {
+		name = "GFX_NCH_operative_Tribbie"
+		textureFile = "gfx/leaders/NCH/Tribbie.tga"
+	}
+
+	## GYTHA ## 
+	spriteType = {
+		name = "GFX_NCH_Steel_Gytha"
+		textureFile = "gfx/leaders/NCH/Steel_Gytha.tga"
+	}
+
+	spriteType = {
+		name = "GFX_NCH_President_Gytha"
+		textureFile = "gfx/leaders/NCH/President_Gytha.tga"
+	}
+
+	spriteType = {
+		name = "GFX_NCH_Queen_Gytha"
+		textureFile = "gfx/leaders/NCH/Queen.tga"
+	}
+
+	## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+
+	spriteType = {
+		name = "GFX_Arctic_Wastland"
+		textureFile = "gfx/leaders/NCH/Wastland.tga"
+	}
+
+	spriteType = {
+		name = "GFX_NCH_riv_senate"
+		textureFile = "gfx/leaders/NCH/NCH_senate.tga"
+	}
+
+	spriteType = {
+		name = "GFX_NCH_riverswirl"
+		textureFile = "gfx/leaders/NCH/Riverswirl.tga"
+	}
+
+	spriteType = {
+		name = "GFX_NCH_Adler"
+		textureFile = "gfx/leaders/NCH/Helvia.tga"
+	}
+}

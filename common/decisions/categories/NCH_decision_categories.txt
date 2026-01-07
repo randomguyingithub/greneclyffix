@@ -1,0 +1,155 @@
+### REDUX ### 
+NCH_debug_decision = {
+	icon = GFX_unknow
+
+	allowed = {
+		original_tag = NCH
+		is_debug = yes
+	}
+	priority = { base = 200 }
+}
+
+NCH_chrysalis_category = {
+	icon = GFX_decision_category_great_party
+	picture = GFX_decision_category_chn_queens_tower
+
+	priority = {
+		base = 155
+	}
+}
+
+NCH_arctic_expedition_category = {
+	icon = GFX_unkmow
+
+	priority = {
+		base = 147
+	}
+}
+
+NCH_fed_found_category = {
+	icon = GFX_decision_category_form_river_federation
+	picture = GFX_decision_fed_war_found
+
+	priority = {
+		base = 153
+	}
+}
+
+NCH_boost_harmony_river = {
+	icon = GFX_decision_category_generic_democracy
+
+	priority = {
+		base = 146
+	}
+}
+
+NCH_gov_rotation_category = {
+	icon = GFX_decision_category_eaw_vote
+	picture = GFX_decision_category_goverment_rotations
+
+	priority = {
+		base = 154
+	}
+}
+
+NCH_river_of_op_category = {
+	icon = GFX_political
+	
+	visible = {
+		has_completed_focus = NCH_not_so_united
+		has_country_flag = NCH_debug
+	}
+	priority = {
+		base = 152
+	}
+}
+
+NCH_typography_category = {
+	icon = GFX_news
+	picture = GFX_decision_typography_propaganda
+	
+	visible = {
+		has_country_flag = NCH_typography_create
+	}
+	priority = {
+		base = 151
+	}
+}
+
+NCH_queen_plan = {
+	icon = GFX_princess_cat
+
+	allowed = {
+		original_tag = NCH
+	}
+	visible = {
+		has_completed_focus = NCH_patch_to_prosperty
+		has_country_flag = NCH_debug
+	}
+
+	priority = {
+		base = 152
+	}
+}
+
+NCH_celarl_laboratory = {
+	icon = GFX_CTH_Scientifids
+
+	allowed = {
+		original_tag = NCH
+	}
+	visible = {
+		has_country_flag = NCH_celarl_laboratory_opend
+	}
+
+	priority = {
+		base = 148
+	}
+}
+
+NCH_hunger_bop_category = {
+	icon = GFX_wheat_bundle
+
+	allowed = {
+		original_tag = NCH
+	}
+
+	visible = {
+		has_power_balance = {
+			id = NCH_hunger_bop
+		}
+	}
+}
+
+NCH_obsidian_category = {
+	icon = GFX_decision_category_obsidian_trade
+	allowed = {
+		original_tag = NCH
+	}
+}
+
+# NCH_change_portrait_category = {
+# 	icon = GFX
+# 	allowed = {
+# 		original_tag = NCH
+# 	}
+# 	priority = {
+# 		base = 0
+# 	}
+
+# 	visible = {
+# 		has_government = democratic
+# 	}
+# }
+
+# Submod
+NCH_nuke_category = {
+	#picture = "GFX_event_mission_reward" #add later
+	allowed = {
+		original_tag = NCH
+	}
+	priority = {
+		base = 100
+	}
+}
+

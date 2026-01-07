@@ -1,0 +1,484 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			
+		}
+	}
+
+    on_daily_NCH = {
+        effect = {
+			# REDUX #
+
+			# START HIVES WAR #
+			if = {
+				limit = {
+					has_war_with = CHN
+					REB = {
+						is_subject_of = NCH
+					}
+				}
+				country_event = {
+					id = greneclyf_hive.10
+					major = yes
+					days = 0
+				}
+			}
+
+			# DEFEAT HIVES WAR #
+			if = {
+				limit = {
+					has_war_with = CHN
+					REB = {
+						is_subject_of = NCH
+					}
+					REB = {
+						is_captured = yes
+					}
+				}
+				country_event = {
+					id = greneclyf_hive.11
+					major = yes
+					days = 0
+				}
+			}
+			
+			# SUCSESS HIVES WAR #
+			if = {
+				limit = {
+					has_war_with = CHN
+					REB = {
+						is_subject_of = NCH
+					}
+					or = {
+						CHN = {
+							is_captured = yes
+						}
+						REB = {
+							owns_state = 251
+						}
+						NCH = {
+							owns_state = 251
+						}
+					}
+				}
+				country_event = {
+					id = greneclyf_hive.12
+					major = yes
+					days = 0
+				}
+			}
+
+			if = {
+				limit = {
+					has_completed_focus = NCH_colony_development
+				}
+				if = {
+					limit = {
+						owns_state = 1234
+					}
+					add_victory_points = {
+						province = 20358
+						value = 1
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 20358
+					}
+				}
+
+				if = {
+					limit = {
+						owns_state = 1215
+					}
+					add_victory_points = {
+						province = 20324
+						value = 1
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 20324
+					}
+				}
+
+				if = {
+					limit = {
+						owns_state = 1245
+					}
+					add_victory_points = {
+						province = 20352
+						value = 1
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 20352
+					}
+				}
+
+				if = {
+					limit = {
+						owns_state = 1236
+					}
+					add_victory_points = {
+						province = 20321
+						value = 1
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 20321
+					}
+				}
+				
+				if = {
+					limit = {
+						owns_state = 1227
+					}
+					add_victory_points = {
+						province = 20314
+						value = 1
+					}
+					add_building_construction = {
+						type = naval_base
+						level = 1
+						province = 20314
+					}
+				}
+			}
+		 
+			every_country = {
+				if = {
+					limit = {
+						is_riverlands_country = yes
+						is_in_faction_with = NCH
+						has_idea = NCH_declaration_nations
+					}
+					NCH = {
+						add_ideas = NCH_declaration_nations
+					}
+				}
+			}
+
+			every_country = {
+				if = {
+					limit = {
+						is_riverlands_country = yes
+						is_in_faction_with = NCH
+						has_idea = NCH_goodbye_despair
+					}
+					NCH = {
+						add_ideas = NCH_goodbye_despair
+					}
+				}
+			}
+
+			every_country = {
+				if = {
+					limit = {
+						is_riverlands_country = yes
+						is_in_faction_with = NCH
+						has_idea = NCH_riv_volounters
+					}
+					NCH = {
+						add_ideas = NCH_riv_volounters
+					}
+				}
+			}
+
+			every_country = {
+				if = {
+					limit = {
+						is_riverlands_country = yes
+						is_in_faction_with = NCH
+						has_idea = NCH_riv_senate
+					}
+					NCH = {
+						add_ideas = NCH_riv_senate
+					}
+				}
+			}
+			
+			every_country = {
+				if = {
+					limit = {
+						is_riverlands_country = yes
+						is_in_faction_with = NCH
+						has_idea = NCH_bos_riv
+					}
+					NCH = {
+						add_ideas = NCH_bos_riv
+					}
+				}
+			}
+
+			every_country = {
+				if = {
+					limit = {
+						is_riverlands_country = yes
+						is_in_faction_with = NCH
+						has_idea = NCH_blosmport_economic_consequences
+					}
+					NCH = {
+						add_ideas = NCH_blosmport_economic_consequences
+					}
+				}
+			}
+
+			every_country = {
+				if = {
+					limit = {
+						is_riverlands_country = yes
+						is_in_faction_with = NCH
+						has_country_flag = NCH_neg_blosmport_economic
+						not = {
+							has_idea = NCH_blosmport_economic_consequences
+						}
+
+						add_ideas = {
+							NCH_blosmport_economic_org
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					has_war_with = EQS
+				}
+				remove_ideas = NCH_trade_and_support_EQS
+			}
+			if = {
+				limit = {
+					has_war_with = CHN
+				}
+				remove_ideas = NCH_trade_and_support_CHN
+			}
+
+			# CHN и EQS need fix #
+			# EQS #
+			# if = {
+            #     limit = {
+			# 		not = {
+			# 			has_completed_focus = NCH_princess_in_a_high_castle
+			# 		}
+			# 		focus_progress = {
+			# 			focus = NCH_princess_in_a_high_castle
+			# 			progress = 0.4
+			# 		}
+            #     }
+			# 	NCH = {
+			# 	    country_event = {
+            #         	id = greneclyf_foregin.13
+            #         	days = 0
+            #   		}	
+			# 	}
+
+			# 	EQS = {
+			# 		country_event = {
+            #         	id = greneclyf_foregin.13
+            #         	days = 0
+            # 		}	
+			# 	}
+            # }
+
+			# CHN #
+			# if = {
+            #     limit = {
+			# 		not = {
+			# 			has_completed_focus = NCH_emvassy_to_equestria
+			# 		}
+			# 		focus_progress = {
+			# 			focus = NCH_emvassy_to_equestria
+			# 			progress = 0.15
+			# 		}
+            #     }
+			# 	NCH = {
+			# 	    country_event = {
+            #         id = greneclyf_foregin.16
+            #         days = 0
+			# 		fire_only_once = yes
+            #   		}	
+			# 	}
+
+			# 	CHN = {
+			# 		 country_event = {
+            #         id = greneclyf_foregin.16
+            #         days = 0
+			# 		fire_only_once = yes
+            # 		}	
+			# 	}
+            # }
+
+			# if = {
+			# 	limit = {
+			# 		focus_progress = {
+			# 			focus = NCH_our_best_qualities
+			# 			progress = 0.65
+			# 		}
+			# 	}
+			# 	CHN = {
+			# 		country_event = {
+			# 			id = greneclyf_foregin.21
+			# 			days = 0
+			# 			fire_only_once = yes
+			# 		}
+			# 	}
+
+			# 	EQS = {
+			# 		country_event = {
+			# 			id = greneclyf_foregin.21
+			# 			days = 0
+			# 			fire_only_once = yes
+			# 		}
+			# 	}
+			# }
+
+			# if = {
+			# 	limit = {
+			# 		not = {
+			# 			has_completed_focus = NCH_princess_in_a_high_castle
+			# 		}
+			# 		focus_progress = {
+			# 			focus = NCH_princess_in_a_high_castle
+			# 			progress = 0.85
+			# 		}
+			# 	}
+			# 	country_event = {
+			# 		id = greneclyf_foregin.15
+			# 		days = 0
+			# 	}
+			# }
+
+
+			if = {
+				limit = {
+					not = {
+						has_completed_focus = NCH_Blosmport_navy_institute
+					}
+					and = {
+						focus_progress = {
+							focus = NCH_Blosmport_navy_institute
+							progress = 0.8
+						}
+						670 = {
+							OR = {
+								nuclear_facility > 0
+								air_facility > 0
+								land_facility > 0
+								magical_facility > 0
+							}
+						}
+					}
+				}
+
+				670 = {
+					remove_building = {
+						type = nuclear_facility
+						level = 1
+					}
+				}
+				670 = {
+					remove_building = {
+						type = air_facility
+						level = 1
+					}
+				}
+				670 = {
+					remove_building = {
+						type = land_facility
+						level = 1
+					}
+				}
+				670 = {
+					remove_building = {
+						type = magical_facility
+						level = 1
+					}
+				}
+			}
+
+			# if = {
+			# 	limit = {
+			# 		no = {
+			# 			and = {
+			# 				has_idea = NCH_Overpopulation
+			# 				has_country_flag = NCH_overpopulation_defeat
+			# 			}
+			# 		}
+			# 	}
+			# 	add_ideas = NCH_Overpopulation_2
+			# }
+
+			if = {
+				limit = { 
+					has_government = communism
+				}
+				remove_ideas = NCH_Basalt_Shaw
+			}
+
+			if = {
+				limit = {
+					has_completed_focus = NCH_our_future_at_sea
+				}
+				remove_ideas = NCH_blosmporn_dockyards
+				remove_ideas = NCH_naval_academy_establish
+				remove_ideas = NCH_break_ice_idea
+			}
+			
+
+			# SUBMOD EXAMPLE #
+
+			# if = {
+			# 	limit = {
+			# 		OR = {
+			# 			has_completed_focus = NCH_operation_lightspark
+			# 			has_completed_focus = NCH_inaugurate_the_industrial_district
+			# 			has_completed_focus = NCH_the_four_year_plan
+			# 			has_completed_focus = NCH_foreign_advisors # don't rename
+			# 		}
+			# 	 }
+			# 	 set_country_flag = NCH_start_industrial
+			# }
+	
+			# if = {
+            #     limit = {
+			# 		focus_progress = {
+			# 			focus = NCH_lay_down_the_hatcher
+			# 			progress = 0.25
+			# 		}
+            #     }
+            #     country_event = {
+            #         id = greneclyf.611
+            #         days = 0
+            #     }
+            # }
+
+			# Resource ev -> resource dec
+			#if = {
+            #    limit = {
+			#		focus_progress = {
+			#			focus = NCH_lay_down_the_hatcher
+			#			progress > 0.75
+			#		}
+             #  # }
+             #   country_event = {
+              #      id = greneclyf.612
+               #     days = 0
+                #} 
+            #}
+
+			# if = {
+            #     limit = {
+			# 		has_completed_focus = NCH_lay_down_the_hatcher
+            #     }
+            #     country_event = {
+            #         id = greneclyf.614
+            #         days = 0
+            #     } 
+            # }
+		}
+	}
+}
+

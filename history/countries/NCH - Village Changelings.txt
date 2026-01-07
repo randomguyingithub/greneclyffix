@@ -1,0 +1,236 @@
+capital = 670
+
+oob = "NCH_1007"
+set_research_slots = 3
+
+set_country_flag = has_custom_advisors
+set_country_flag = has_custom_designers
+set_country_flag = has_custom_spymaster
+
+set_technology = {
+	changeling_race = 1
+	tech_support = 1
+	tech_jager = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_military_police = 1
+
+	melee_weapons = 1
+	melee_weapons1 = 1
+	infantry_weapons = 1
+
+	NCH_Marines_debuff = 1
+	pre_gw_artillery = 1
+	gw_artillery = 1
+	basic_train = 1
+}
+actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIGHT AFTER MAIN set_technology!
+
+#Ship stuff dont touch.
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_destroyer = 1
+		coastal_defense_ships_nomtg = 1
+		pre_dreadnoughts_nomtg = 1
+		transport = 1
+	}
+	set_naval_oob = "NCH_1007_naval_legacy"
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		mtg_transport = 1
+		pre_dreadnoughts = 1
+		coastal_defense_ships = 1
+	}
+
+	create_equipment_variant = {
+		name = "Cineál 17"
+		type = ship_hull_light_1
+		name_group = NCH_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Cineál 13"
+		type = ship_hull_cruiser_coastal_defense_ship	
+		name_group = NCH_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_medium_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Queen Class"
+		type = ship_hull_pre_dreadnought
+		name_group = NCH_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Hatcher Class"
+		type = ship_hull_pre_dreadnought
+		name_group = NCH_BC_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bc_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+	set_naval_oob = "NCH_1007_naval"
+}
+# End of ship stuff
+
+set_convoys = 20
+set_popularities = {
+	democratic = 90
+	fascism = 3
+	communism = 6
+	neutrality = 1
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "700.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+add_ideas = {
+	pre_industrial_society
+	isolation
+	lack_of_scientists
+
+	NCH_idyllic_society_1
+	NCH_FBK_pact
+	NCH_luddites_1
+	NCH_Overpopulation
+
+	NCH_fleet_stagnation
+	NCH_air_stagnation
+
+}
+
+add_tech_bonus = {
+	name = specialised_drones
+	bonus = 1
+	uses = 1
+	technology = tech_changeling_a
+}
+
+add_tech_bonus = {
+	name = specialised_drones
+	bonus = 1
+	uses = 1
+	technology = tech_changeling_a2
+}
+
+set_variable = {
+    NCH_queen_gytha_portrait = 1
+}
+
+add_opinion_modifier = { target = FBK modifier = besties }
+add_opinion_modifier = { target = FBK modifier = trading }
+set_stability = 0.73
+
+
+recruit_character = NCH_Oiren_Judge
+recruit_character = NCH_scientist_celarl
+recruit_character = NCH_admiral_hart
+recruit_character = NCH_admiral_lorri
+recruit_character = NCH_Derkliones
+recruit_character = NCH_Moronlan
+recruit_character = NCH_Coilholt
+recruit_character = NCH_Merelay
+recruit_character = NCH_Hailman
+recruit_character = NCH_Goulen
+recruit_character = NCH_Floppa
+recruit_character = NCH_Farris_Fork
+recruit_character = NCH_Zaliack
+recruit_character = NCH_Basalt_Shaw
+recruit_character = NCH_Ludas
+recruit_character = NCH_Arachi
+recruit_character = NCH_Yorilos
+recruit_character = NCH_Realta_Dearg
+recruit_character = NCH_Furrelion
+recruit_character = NCH_Marikel
+#recruit_character = NCH_Tornus
+recruit_character = NCH_Sul_Oraiste
+recruit_character = NCH_Valha
+recruit_character = NCH_Caider
+recruit_character = NCH_Gerald_3
+recruit_character = NCH_kianit_oir
+recruit_character = NCH_Adler
+recruit_character = NCH_Foiki
+recruit_character = NCH_scientist_Retgir
+recruit_character = NCH_scientist_Zoris
+recruit_character = NCH_Gagat
+
+# leaders #
+recruit_character = NCH_queen_gytha
+recruit_character = NCH_oiren_of_oir
+recruit_character = NCH_cader_sclerite
+
+#############################################
+# recruit_character = NCH_feilean
+# recruit_character = NCH_airann
+# recruit_character = NCH_garran_of_leamhan
+###############################################
+
+#NCH_generic_army_log = { set_character_flag = RIV_advisor_from_NCH }
+#NCH_generic_navy_fleet_log = { set_character_flag = RIV_advisor_from_NCH }
+#NCH_captain_of_industry = { set_character_flag = RIV_advisor_from_NCH }
+#NCH_fortification_engineer = { set_character_flag = RIV_advisor_from_NCH }
+
+
+set_rule = {
+	can_generate_female_aces = yes
+	can_generate_female_unit_leaders  = yes
+	can_generate_female_country_leaders = yes
+}

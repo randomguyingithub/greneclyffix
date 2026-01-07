@@ -1,0 +1,48 @@
+
+opinion_modifiers = {
+	NCH_cold_trade = {
+		value = -50
+		trade = yes
+		months = 9
+	}
+
+	NCH_trade_with_riverlands = {
+		value = 30
+		months = 12
+	}
+
+	NCH_trade_with_homeland = {
+		value = 25
+		trade = yes
+		months = 9
+	}
+
+	NCH_trade_with_riverlands_opportunity = {
+		export_bonus = 0.15  
+		value = 50
+		months = 50
+	}
+
+	NCH_trade_with_riverlands_prey = {
+		value = -50
+		months = 12
+		decay = 0.5
+	}
+
+	NCH_FBK_friends = {
+		value = 30
+		months = 6
+	}
+
+	NCH_WAT_friends = {
+		value = 50
+		months = 60
+	}
+
+	NCH_new_hillspony = {
+		value = 25
+		months = 5
+	}
+}
+
+

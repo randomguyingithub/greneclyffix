@@ -1,0 +1,2906 @@
+### REDUX ###
+
+
+### DEBUG ###
+NCH_debug_decision = {
+	NCH_show_all_focuses_GYTHA = {
+		icon = d
+		
+		complete_effect = {
+			set_country_flag = NCH_island_found
+			set_country_flag = NCH_hunger_starts
+			set_country_flag = NCH_crisis_end
+			set_country_flag = NCH_army_forces_allow
+			set_country_flag = NCH_queen_hive_abmitions
+			set_country_flag = NCH_debug_vision
+
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+	NCH_obsidian_sale_increase={
+		icon = changeling_category_icon
+		visible = {
+			original_tag = NCH
+			
+		}
+		allowed = {
+			original_tag = NCH
+			
+		}
+		complete_effect = {
+			obsidian_trade_power_increase = yes
+		}
+	}
+	NCH_obsidian_sale_add_idea={
+		icon = changeling_category_icon
+		visible = {
+			original_tag = NCH
+			
+		}
+		allowed = {
+			original_tag = NCH
+			
+		}
+		complete_effect = {
+			add_ideas = obsidian_trade_power_1
+		}
+	}
+
+
+	NCH_show_typographia = {
+		icon = d
+		
+		complete_effect = {
+			set_country_flag = NCH_typography_create
+		}
+	}
+
+	# NCH_fed_found #
+	NCH_create_country = {
+		icon = d
+		#visible = {
+		#	has_country_flag = NCH_fed_found
+		#}
+		complete_effect = {
+			#remove_country_leader_role = yes
+			set_country_flag = NCH_manicpor_unlocked
+			set_country_flag = NCH_presidentpor_unlocked
+
+			set_variable = {
+				NCH_queen_gytha_portrait = 3
+			}
+			NCH_queen_gytha = {
+				set_portraits = {
+					civilian = {
+						large = "GFX_NCH_Steel_Gytha"
+					}
+				}
+
+				if = {
+					limit = {
+						NCH_queen_gytha = {
+							has_trait = The_naive_reformer
+						}
+					}
+					swap_ruler_traits = {
+						remove = The_naive_reformer
+						add = steel_lady
+					}
+				}
+
+				if = {
+					limit = {
+						NCH_queen_gytha = {
+							has_trait = The_god_chosen_queen
+						}
+					}
+					swap_ruler_traits = {
+						remove = The_god_chosen_queen
+						add = steel_lady
+					}
+				}
+			}
+
+			
+
+			NCH = {
+				every_state = {
+					if = {
+						limit = {
+							owner = RCT
+						}
+						add_core_of = NCH
+					}
+					if = {
+						limit = {
+							owner = NIM
+						}
+						add_core_of = NCH
+					}
+					if = {
+						limit = {
+							owner = DMT
+						}
+						add_core_of = NCH
+					}
+					if = {
+						limit = {
+							owner = BAK
+						}
+						add_core_of = NCH
+					}
+					if = {
+						limit = {
+							owner = DEP
+						}
+						add_core_of = NCH
+					}
+					if = {
+						limit = {
+							owner = LCT
+						}
+						add_core_of = NCH
+					}
+					if = {
+						limit = {
+							owner = WIT
+						}
+						add_core_of = NCH
+					}
+					if = {
+						limit = {
+							owner = FRE
+						}
+						add_core_of = NCH
+					}
+					if = {
+						limit = {
+							owner = FBK
+						}
+						add_core_of = NCH
+					}
+					if = {
+						limit = {
+							owner = FIR
+						}
+						add_core_of = NCH
+					}
+					if = {
+						limit = {
+							owner = WAT
+						}
+						add_core_of = NCH
+					}
+				}
+			}
+
+			NCH = {
+				set_cosmetic_tag = NCH_River
+				annex_country = {
+					target = RCT
+				}
+				annex_country = {
+					target = NIM
+				}
+				annex_country = {
+					target = DMT
+				}
+				annex_country = {
+					target = BAK
+				}
+				annex_country = {
+					target = DEP
+				}
+				annex_country = {
+					target = LCT
+				}
+				annex_country = {
+					target = WIT
+				}
+				annex_country = {
+					target = FRE
+				}
+
+				annex_country = {
+					target = FBK
+				}
+				annex_country = {
+					target = FIR
+				}
+				annex_country = {
+					target = WAT
+				}
+
+			}
+		}
+	}
+
+	NCH_show_power_balance = {
+		icon = d
+		complete_effect = {
+			set_power_balance = {
+				id = NCH_hunger_bop
+				set_default = yes
+			}
+		}
+	}
+	NCH_add_idea_great_hunger = {
+		icon = d
+		complete_effect = {
+			add_ideas = NCH_protests_on_street
+			add_ideas = NCH_massive_unemployed
+			add_ideas = NCH_food_shortage
+		}
+	}
+	NCH_show_celarl_laboratory = {
+		icon = d
+		complete_effect = {
+			set_country_flag = NCH_celarl_laboratory_opend
+		}
+	}
+}
+
+NCH_chrysalis_category = {
+	NCH_chrysalis_resistance_mission = {
+		priority = 1
+		icon = GFX_decision_great_party_mission
+		is_good = yes
+		fire_only_once = yes
+
+		days_remove = 0
+		days_mission_timeout = 90
+
+		activation = {
+			always = no
+		}
+
+		available = {
+			or = {
+				CHN = {
+					is_puppet_of = NCH
+				}
+				CHN = {
+					exists = no
+				}
+			}
+		}
+
+		cancel_trigger = {
+			or = {
+				not = { has_government = democratic }
+				is_puppet = yes
+			}
+		}
+
+		complete_effect = {
+			CHN = {
+				country_event = {
+					id = greneclyf_hive.6
+				}
+			}
+		}
+
+		timeout_effect = {
+			set_country_flag = NCH_chrysalis_reb
+			CHN = {
+				country_event = {
+					id = greneclyf_hive.5
+				}
+			}
+		}
+	}
+
+	NCH_use_agency_woops = {
+		icon = war_attache
+		cost = 70
+		days_re_enable = 1
+		
+		days_remove = 20
+		visible = {
+			has_active_mission = NCH_chrysalis_resistance_mission
+			or = {
+				has_country_flag = NCH_debug_vision
+				has_completed_focus = NCH_seek_support
+
+				not = {
+					or = {
+						has_completed_focus = NCH_take_a_equipment
+						has_completed_focus = NCH_equipment_suppporter
+						has_completed_focus = NCH_idea_of_harmony_in_hives
+					}
+				}
+			}
+		}
+
+		available = {
+			industrial_complex > 7
+		}
+
+		modifier = {
+			political_power_cost = 0.12
+			consumer_goods_factor = 0.13
+			intelligence_agency_defense = -0.15
+		}
+
+		complete_effect = {
+			add_command_power = -20
+			add_days_mission_timeout = {
+				mission = NCH_chrysalis_resistance_mission
+				days = 30
+			}
+		}
+	}
+
+	NCH_chn_high_class = {
+		icon = d
+		cost = 100
+		days_remove = 30
+
+		visible = {
+			has_active_mission = NCH_chrysalis_resistance_mission
+			or = {
+				has_country_flag = NCH_debug_vision
+				has_completed_focus = NCH_Queen_Ditrisium
+			}
+		}
+		
+		on_map_mode = map_and_decisions_view
+
+		available = {
+			has_political_power > 99
+		}
+
+		modifier = {
+			civilian_factory_use = 7
+			political_power_cost = 0.17
+		}
+
+		state_target = yes
+		targets = {
+			305 304 261 312 306 313
+		}
+
+		remove_effect = {
+			add_days_mission_timeout = {
+				mission = NCH_chrysalis_resistance_mission
+				days = -15
+			}
+
+			FROM = {
+				set_state_flag = NCH_high_class_support
+				add_state_modifier = {
+					modifier = {
+						local_manpower = 0.12
+						local_org_regain = 0.05
+						local_supplies = 0.07
+					}
+				}
+			}
+		}
+
+		complete_effect = {
+			add_political_power = -100
+			add_days_mission_timeout = {
+				mission = NCH_chrysalis_resistance_mission
+				days = -15
+			}
+		}
+	}
+
+	NCH_use_torax_followers_1 = {
+		icon = d
+		cost = 50
+		fire_only_once = yes
+
+		visible = {
+			has_active_mission = NCH_chrysalis_resistance_mission
+			or = {
+				has_country_flag = NCH_debug_vision
+				has_completed_focus = NCH_pressure_chrusalis
+			}
+		}
+
+		available = {
+			has_equipment = {
+				infantry_equipment > 19999
+			}
+			has_equipment = {
+				support_equipment > 3999
+			}
+			has_equipment = {
+				artillery_equipment > 1999
+			}
+		}
+
+		complete_effect = {
+			set_country_flag = NCH_use_torax_f1
+			custom_effect_tooltip = NCH_resistance_upgrade1
+
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -20000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -4000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = -2000
+			}
+		}
+	}
+
+
+	NCH_use_torax_followers_2 = {
+		icon = d
+		cost = 50
+		fire_only_once = yes
+
+		visible = {
+			has_active_mission = NCH_chrysalis_resistance_mission
+			or = {
+				has_country_flag = NCH_debug_vision
+				has_country_flag = NCH_use_torax_f1
+			}
+		}
+
+		available = {
+			has_equipment = {
+				medium_tank_chassis > 2999
+			}
+			has_equipment = {
+				motorized_equipment > 4999
+			}
+			has_equipment = {
+				anti_air_equipment > 499
+			}
+		}
+
+		complete_effect = {
+			set_country_flag = NCH_use_torax_f2
+
+			add_equipment_to_stockpile = {
+				type = medium_tank_chassis
+				amount = -3000
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = -5000
+			}
+			add_equipment_to_stockpile = {
+				type = anti_air_equipment
+				amount = -500
+			}
+		}
+	}
+
+	NCH_use_torax_followers_3 = {
+		icon = d
+		cost = 50
+		fire_only_once = yes
+		
+		visible = {
+			has_active_mission = NCH_chrysalis_resistance_mission
+			or = {
+				has_country_flag = NCH_debug_vision
+				has_country_flag = NCH_use_torax_f2
+			}
+		}
+
+		available = {
+			has_equipment = {
+				small_plane_airframe > 999
+			}
+			has_equipment = {
+				small_plane_cas_airframe > 499
+			}
+			has_equipment = {
+				train_equipment > 49
+			}
+		}
+
+		complete_effect = {
+			set_country_flag = NCH_use_torax_f3
+
+			add_equipment_to_stockpile = {
+				type = small_plane_airframe
+				amount = -1000
+			}
+			add_equipment_to_stockpile = {
+				type = small_plane_cas_airframe
+				amount = -500
+			}
+			add_equipment_to_stockpile = {
+				type = train_equipment
+				amount = -50
+			}
+		}
+	}
+
+	NCH_sabotage_9_stars = {
+		icon = d
+		cost = 70
+		days_remove = 30
+
+		available = {
+			country_exists = CHN
+		}
+
+		visible = {
+			country_exists = CHN
+			or = {
+				has_country_flag = NCH_debug_vision
+				has_completed_focus = NCH_idea_of_harmony_in_hives
+			}
+		}
+
+		modifier = {
+			command_power_gain = -0.5
+			political_power_cost = 0.08
+			production_factory_max_efficiency_factor = -0.05
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					country_exists = CHN
+					or = {
+						has_country_flag = NCH_debug_vision
+						has_completed_focus = NCH_idea_of_harmony_in_hives
+					}
+				}
+
+				CHN = {
+					add_timed_idea = {
+						idea = NCH_9_stars_diversions
+						days = 30
+					}
+				}
+
+				CHN = {
+					random_core_state = {
+						damage_building = {
+							type = industrial_complex
+							damage = 2
+						}
+					}
+					random_core_state = {
+						damage_building = {
+							type = industrial_complex
+							damage = 2
+						}
+					}
+					random_core_state = {
+						damage_building = {
+							type = industrial_complex
+							damage = 2
+						}
+					}
+					random_core_state = {
+						damage_building = {
+							type = industrial_complex
+							damage = 2
+						}
+					}
+				}
+			}
+		}
+	}
+
+	NCH_sabotage_chrysalis = {
+		icon = d
+		cost = 50
+		days_remove = 30
+
+		visible = {
+			country_exists = CHN
+			or = {
+				has_country_flag = NCH_debug_vision
+				has_completed_focus = NCH_spy_everywhere
+			}
+		}
+
+		modifier = {
+			command_power_gain = -0.5
+			consumer_goods_factor = 0.15
+		}
+
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = NCH_chrysalis_resistance_mission
+				days = -15
+			}
+
+			add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -2000
+			}
+			add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = -100
+			}
+
+			CHN = {
+				random_core_state = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+
+					damage_building = {
+						type = arms_factory
+						damage = 2
+					}
+				}
+
+				random_core_state = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+
+					damage_building = {
+						type = arms_factory
+						damage = 2
+					}
+				}
+
+				random_core_state = {
+					damage_building = {
+						type = infrastructure
+						damage = 2
+					}
+
+					damage_building = {
+						type = arms_factory
+						damage = 2
+					}
+				}
+			}
+		}
+	}
+}
+
+# WAR ONLY Fed found # 
+# AND #
+# PEACE ONLY Fed found
+NCH_fed_found_category = {
+	NCH_war_fed_found_dec = {
+		#icon = x
+		ai_will_do = {
+			base = 1
+		}
+		fire_only_once = yes
+		#on_map_mode = map_only
+		
+		visible = {
+			or = {
+				has_country_flag = NCH_debug_vision
+				has_completed_focus = NCH_dreems_of_more
+				has_war_with = RCT
+				controls_state = 619
+			}
+
+			not = {
+				has_country_flag = NCH_war_fed_found
+				has_country_flag = NCH_peace_fed_found
+			}
+		}
+
+		available = {
+			controls_state = 681
+			controls_state = 580
+			controls_state = 621
+			controls_state = 618
+			controls_state = 452
+			controls_state = 622
+			controls_state = 645
+			controls_state = 587
+			controls_state = 649
+			controls_state = 648
+			controls_state = 438
+			controls_state = 461
+			controls_state = 638
+			controls_state = 647
+			controls_state = 637
+			controls_state = 635
+			controls_state = 619
+			controls_state = 682
+			controls_state = 620
+			controls_state = 577
+			controls_state = 646
+			controls_state = 586
+			controls_state = 544
+			controls_state = 491
+			controls_state = 543
+			controls_state = 627
+			controls_state = 629
+			controls_state = 628
+			controls_state = 617
+			controls_state = 616
+			controls_state = 614
+			controls_state = 615
+			controls_state = 550
+			controls_state = 551
+			controls_state = 387
+			controls_state = 499
+			controls_state = 560
+			controls_state = 541
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 681
+				state = 580
+				state = 621
+				state = 618
+				state = 452
+				state = 622
+				state = 645
+				state = 587
+				state = 649
+				state = 648
+				state = 438
+				state = 461
+				state = 638
+				state = 647
+				state = 637
+				state = 635
+				state = 619
+				state = 682
+				state = 620
+				state = 577
+				state = 646
+				state = 586
+				state = 544
+				state = 491
+				state = 543
+				state = 627
+				state = 629
+				state = 628
+				state = 617
+				state = 616
+				state = 614
+				state = 615
+				state = 550
+				state = 551
+				state = 387
+				state = 499
+				state = 560
+				state = 541
+			}
+		}
+
+		complete_effect = {
+			set_country_flag = NCH_manicpor_unlocked
+			set_country_flag = NCH_war_fed_found
+			hidden_effect = {
+					if = {
+					limit = {
+						OR = {
+							AND = {
+								controls_state = 681
+								controls_state = 580
+								controls_state = 621
+								controls_state = 618
+								controls_state = 452
+								controls_state = 622
+								controls_state = 645
+								controls_state = 587
+								controls_state = 649
+								controls_state = 648
+								controls_state = 438
+								controls_state = 461
+								controls_state = 638
+								controls_state = 647
+								controls_state = 637
+								controls_state = 635
+								controls_state = 619
+								controls_state = 682
+								controls_state = 620
+								controls_state = 577
+								controls_state = 646
+								controls_state = 586
+								controls_state = 544
+								controls_state = 491
+								controls_state = 543
+								controls_state = 627
+								controls_state = 629
+								controls_state = 628
+								controls_state = 617
+								controls_state = 616
+								controls_state = 614
+								controls_state = 615
+								controls_state = 550
+								controls_state = 551
+								controls_state = 387
+								controls_state = 499
+								controls_state = 560
+								controls_state = 541
+							}
+							
+							AND = {
+								any_subject_country = {
+									controls_state = 681
+								}
+								any_subject_country = {
+									controls_state = 580
+								}
+								any_subject_country = {
+									controls_state = 621
+								}
+								any_subject_country = {
+									controls_state = 618
+								}
+								any_subject_country = {
+									controls_state = 452
+								}
+								any_subject_country = {
+									controls_state = 622
+								}
+								any_subject_country = {
+									controls_state = 645
+								}
+								any_subject_country = {
+									controls_state = 587
+								}
+								any_subject_country = {
+									controls_state = 649
+								}
+								any_subject_country = {
+									controls_state = 648
+								}
+								any_subject_country = {
+									controls_state = 438
+								}
+								any_subject_country = {
+									controls_state = 461
+								}
+								any_subject_country = {
+									controls_state = 638
+								}
+								any_subject_country = {
+									controls_state = 647
+								}
+								any_subject_country = {
+									controls_state = 637
+								}
+								any_subject_country = {
+									controls_state = 635
+								}
+								any_subject_country = {
+									controls_state = 619
+								}
+								any_subject_country = {
+									controls_state = 682
+								}
+								any_subject_country = {
+									controls_state = 620
+								}
+								any_subject_country = {
+									controls_state = 577
+								}
+								any_subject_country = {
+									controls_state = 646
+								}
+								any_subject_country = {
+									controls_state = 586
+								}
+								any_subject_country = {
+									controls_state = 544
+								}
+								any_subject_country = {
+									controls_state = 491
+								}
+								any_subject_country = {
+									controls_state = 543
+								}
+								any_subject_country = {
+									controls_state = 627
+								}
+								any_subject_country = {
+									controls_state = 629
+								}
+								any_subject_country = {
+									controls_state = 628
+								}
+								any_subject_country = {
+									controls_state = 617
+								}
+								any_subject_country = {
+									controls_state = 616
+								}
+								any_subject_country = {
+									controls_state = 614
+								}
+								any_subject_country = {
+									controls_state = 615
+								}
+								any_subject_country = {
+									controls_state = 550
+								}
+								any_subject_country = {
+									controls_state = 551
+								}
+								any_subject_country = {
+									controls_state = 387
+								}
+								any_subject_country = {
+									controls_state = 499
+								}
+								any_subject_country = {
+									controls_state = 560
+								}
+								any_subject_country = {
+									controls_state = 541
+								}
+							}
+						}
+					}
+				}
+
+				NCH = {
+					every_state = {
+						if = {
+							limit = {
+								is_core_of = RCT
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = NIM
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = DMT
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								owner = BAK
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = DEP
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = LCT
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = WIT
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = FRE
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = FBK
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = FIR
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = WAT
+							}
+							add_core_of = NCH
+						}
+					}
+				}
+			}
+			
+
+			NCH = {
+				set_cosmetic_tag = NCH_River
+			}
+			
+			set_variable = {
+				NCH_queen_gytha_portrait = 3
+			}
+
+			NCH_queen_gytha = {
+				set_portraits = {
+					civilian = {
+						large = "GFX_NCH_Steel_Gytha"
+					}
+				}
+
+				if = {
+					limit = {
+						NCH_queen_gytha = {
+							has_trait = The_naive_reformer
+						}
+					}
+					swap_ruler_traits = {
+						remove = The_naive_reformer
+						add = steel_lady
+					}
+				}
+
+				if = {
+					limit = {
+						NCH_queen_gytha = {
+							has_trait = The_god_chosen_queen
+						}
+					}
+					swap_ruler_traits = {
+						remove = The_god_chosen_queen
+						add = steel_lady
+					}
+				}
+			}
+		}
+	}
+
+	NCH_peace_fed_found_dec = {
+		#icon = x
+		ai_will_do = {
+			base = 1
+		}
+		fire_only_once = yes
+		#on_map_mode = map_only
+		
+		visible = {
+			or = {
+				has_country_flag = NCH_debug_vision
+				has_country_flag = NCH_peace_fed_ambitions
+			}
+
+			not = {
+				has_country_flag = NCH_war_fed_found
+				has_country_flag = NCH_peace_fed_found
+				has_war_with = RCT
+				controls_state = 619
+			}
+		}
+
+		available = {
+			or = {
+				AND = {
+					controls_state = 619
+					controls_state = 620
+					controls_state = 577
+					controls_state = 646
+					controls_state = 682
+				}
+
+				
+				AND = {
+					619 = {
+						controller = {
+							is_subject_of = NCH
+						}
+					}
+					620 = {
+						controller = {
+							is_subject_of = NCH
+						}
+					}
+					577 = {
+						controller = {
+							is_subject_of = NCH
+						}
+					}
+					646 = {
+						controller = {
+							is_subject_of = NCH
+						}
+					}
+					682 = {
+						controller = {
+							is_subject_of = NCH
+						}
+					}
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 619
+				state = 620
+				state = 577
+				state = 646
+				state = 682
+
+				state = 618
+				state = 621
+				state = 580
+				state = 681
+			}
+		}
+
+		complete_effect = {
+			set_country_flag = NCH_manicpor_unlocked
+			set_country_flag = NCH_peace_fed_found
+			hidden_effect = {
+
+				annex_country = {
+					target = FRE
+				}
+				annex_country = {
+					target = RCT
+				}
+
+				NCH = {
+					every_state = {
+						if = {
+							limit = {
+								is_core_of = RCT
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = NIM
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = DMT
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = BAK
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = DEP
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = LCT
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = WIT
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = FRE
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = FBK
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = FIR
+							}
+							add_core_of = NCH
+						}
+						if = {
+							limit = {
+								is_core_of = WAT
+							}
+							add_core_of = NCH
+						}
+					}
+				}
+			}
+
+			NCH = {
+				set_cosmetic_tag = NCH_River
+			}
+
+			set_variable = {
+				NCH_queen_gytha_portrait = 3
+			}
+
+			NCH_queen_gytha = {
+				set_portraits = {
+					civilian = {
+						large = "GFX_NCH_Steel_Gytha"
+					}
+				}
+
+				if = {
+					limit = {
+						NCH_queen_gytha = {
+							has_trait = The_naive_reformer
+						}
+					}
+					swap_ruler_traits = {
+						remove = The_naive_reformer
+						add = steel_lady
+					}
+				}
+
+				if = {
+					limit = {
+						NCH_queen_gytha = {
+							has_trait = The_god_chosen_queen
+						}
+					}
+					swap_ruler_traits = {
+						remove = The_god_chosen_queen
+						add = steel_lady
+					}
+				}
+			}
+		}
+	}
+}
+
+
+NCH_arctic_expedition_category = {
+	NCH_gytha_island = {
+		icon = d
+		priority = 80
+
+		ai_will_do = {
+			base = 1
+		}
+
+		state_target = yes
+		#target_array = NCH.arctic_targets
+
+		# on_map_mode = map_only
+
+		allowed = {
+			any_controlled_state_is_coastal = yes
+		}
+		targets = {
+			1234 1215 1245 1236 1227
+		}
+
+		visible = {
+			has_completed_focus = NCH_land_behind_seas
+			has_government = democratic
+			FROM = {
+				not = {
+					has_state_flag = NCH_arctic_found_colony
+				}
+			}
+		}
+
+		available = {
+			has_equipment = { convoy > 4 }
+			has_manpower > 1199
+		}
+
+		custom_cost_text = NCH_arctic_cost
+
+		days_remove = 70
+		
+		custom_cost_trigger= {
+			has_equipment = { convoy > 4 }
+			has_political_power > 29
+			has_manpower > 1199
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+			command_power_gain = -0.10
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		remove_effect = {
+			clr_country_flag = NCH_arctic_found_colony
+			FROM = {
+				transfer_state_to = NCH
+				hidden_effect = {
+					remove_core_of = AWT
+					add_victory_points = {
+						value = 1
+					}
+				}
+				add_core_of = NCH
+
+				add_manpower = 1200
+				add_extra_state_shared_building_slots = 1
+
+				set_state_flag = NCH_arctic_found_colony
+			}
+
+			hidden_effect = {
+				ROOT = {
+					add_political_power = -30
+					add_manpower = -1200 
+					#add_equipment_to_stockpile = { type = convoy amount = -4 } 
+				}
+			}
+		}
+
+		complete_effect = {
+			set_country_flag = NCH_arctic_found_colony
+			
+			add_equipment_to_stockpile = { type = convoy amount = -25 } 
+			
+		}
+		
+		# cancel_trigger = {
+		# 	has_equipment = { convoy > 5 }	
+		# 	has_manpower > 1200
+		# }
+	}
+}
+
+
+## MAP ICON DREEMS OF MORE ##
+# RCT
+# BAK
+# DMT
+# NIM
+# DEP
+# LCT
+# FRE
+# WIT
+
+NCH_boost_harmony_river = {
+	NCH_overlay_riv_dem_boost = {
+		icon = x
+		priority = 80
+		
+		ai_will_do = {
+			base = 1
+		}
+
+		#fire_only_once = no
+		state_target = yes
+		target_array = NCH.boost_targets
+
+		on_map_mode = map_only
+
+		allowed = {
+			original_tag = NCH
+		}
+
+		visible = {
+			has_completed_focus = NCH_dreems_of_more
+
+			not = {
+				has_completed_focus = NCH_operation_raging_river
+			}
+
+			# not = {
+			# 	check_variable = {
+			# 		var = NCH_var_boost
+			# 		value = 10
+			# 		compare = greater_than_or_equals
+			# 	}
+			# }
+		}
+
+		days_remove = 30
+		cost = 50
+
+		modifier = {
+			civilian_factory_use = 3
+			political_power_cost = 0.15
+		}
+
+		complete_effect = {
+			FROM = {
+				add_popularity = {
+					ideology = neutrality
+					popularity = -0.05
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = -0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = -0.05
+				}	
+				add_stability = -0.05
+
+				set_country_flag = NCH_boost
+				add_timed_idea = {
+					idea = NCH_boost_exp
+					days = 30
+				}
+			}
+
+			add_to_variable = {
+				which = NCH_var_boost
+				value = 1
+			}
+			set_country_flag = NCH_RCT_boost
+		}
+
+		cancel_trigger = {
+			FROM = {
+				OR = {
+					OWNER = {
+						OR = {
+							exists = no
+							has_capitulated = yes
+							has_war_with = ROOT
+							is_subject = yes
+							is_in_faction_with = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+##  ##
+
+
+## POWER BALANCE DECISIONS ##
+NCH_hunger_bop_category = {
+
+	NCH_help_big_cities = {
+		icon = d
+		cost = 100
+		days_remove = 70
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 5
+			production_factory_max_efficiency_factor = 0.055
+			stability_weekly = 0.005
+			political_power_gain = 0.07
+		}
+
+		complete_effect = {
+			add_power_balance_value = {
+				id = NCH_hunger_bop
+				value = 0.065
+			}
+		}
+	}
+
+	NCH_help_small_cities = {
+		icon = d
+		cost = 75
+		days_remove = 56
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+			production_factory_max_efficiency_factor = 0.05 
+			stability_weekly = 0.003
+			political_power_gain = 0.05
+		}
+
+		complete_effect = {
+			add_power_balance_value = {
+				id = NCH_hunger_bop
+				value = 0.045
+			}
+		}
+	}
+
+	NCH_help_frontiers = {
+		icon = d
+		cost = 50
+		days_remove = 35
+		fire_only_once = no
+
+		modifier = {
+			civilian_factory_use = 2
+			production_factory_max_efficiency_factor = 0.02 
+			stability_weekly = 0.0025
+			political_power_gain = 0.035
+		}
+
+		complete_effect = {
+			add_power_balance_value = {
+				id = NCH_hunger_bop
+				value = 0.035
+			}
+		}
+	}
+
+	NCH_work_on_plane = {
+		icon = d
+		cost = 35
+		days_remove = 50
+		#fire_only_once = no
+
+		modifier = {
+			civilian_factory_use = 2
+			production_factory_max_efficiency_factor = 0.02 
+			stability_weekly = 0.001
+		}
+
+		complete_effect = {
+			add_manpower = -1000
+
+			add_power_balance_value = {
+				id = NCH_hunger_bop
+				value = 0.025
+			}
+		}
+	}
+
+	NCH_order_on_the_street = {
+		icon = d
+		cost = 75
+		days_remove = 50
+		#fire_only_once = no
+
+		modifier = {
+			political_power_factor = 0.1
+			stability_weekly = 0.0015
+		}
+
+		complete_effect = {
+			add_manpower = -2000
+			add_power_balance_value = {
+				id = NCH_hunger_bop
+				value = 0.025
+			}
+		}
+	}
+
+	NCH_import_food_1 = {
+		icon = d
+		cost = 50
+		days_remove = 70
+		#fire_only_once = no
+
+		modifier = {
+			civilian_factory_use = 3
+			consumer_goods_factor = 0.075
+			stability_weekly = 0.005
+		}
+
+		complete_effect = {
+			add_power_balance_value = {
+				id = NCH_hunger_bop
+				value = 0.035
+			}
+		}
+
+		remove_effect = {
+			set_country_flag = NCH_import_food_1_end
+		}
+	}
+
+	NCH_import_food_2 = {
+		icon = d
+		cost = 50
+		days_remove = 70
+		#fire_only_once = no
+
+		modifier = {
+			civilian_factory_use = 3
+			consumer_goods_factor = 0.075
+			stability_weekly = 0.005
+		}
+		
+		visible = {
+			has_country_flag = NCH_import_food_1_end
+		}
+
+		complete_effect = {
+			add_power_balance_value = {
+				id = NCH_hunger_bop
+				value = 0.035
+			}
+		}
+
+		remove_effect = {
+			set_country_flag = NCH_import_food_2_end
+		}
+	}
+
+	NCH_import_food_3 = {
+		icon = d
+		cost = 50
+		days_remove = 70
+		fire_only_once = yes
+
+		modifier = {
+			civilian_factory_use = 3
+			consumer_goods_factor = 0.075
+			stability_weekly = 0.005
+		}
+		
+		visible = {
+			has_country_flag = NCH_import_food_2_end
+		}
+
+		complete_effect = {
+			add_power_balance_value = {
+				id = NCH_hunger_bop
+				value = 0.035
+			}
+		}
+	}
+}
+
+#DMT 
+#BAK
+#FIR
+#WIT
+#NIM
+#RCT
+#LCT
+
+NCH_river_of_op_category = {
+	NCH_democratic_support_DMT = {
+		icon = d
+		cost = 30
+		days_remove = 50
+
+		visible = {
+			has_country_flag = NCH_debug
+			and = {
+				has_completed_focus = NCH_not_so_united
+				DMT = {
+					not = {
+						has_government = democratic
+					}
+				}
+			}
+		}
+
+		modifier = {
+			political_power_cost = 0.07
+			consumer_goods_factor = 0.05
+		}
+
+		complete_effect = {
+			DMT = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.075
+				}
+			}
+		}
+	}
+
+	NCH_democratic_support_BAK = {
+		icon = d
+		cost = 30
+		days_remove = 50
+
+		visible = {
+			has_country_flag = NCH_debug
+			and = {
+				has_completed_focus = NCH_not_so_united
+				BAK = {
+					not = {
+						has_government = democratic
+					}
+				}
+			}
+		}
+
+		modifier = {
+			political_power_cost = 0.07
+			consumer_goods_factor = 0.05
+		}
+
+		complete_effect = {
+			BAK = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.075
+				}
+			}
+		}
+	}
+
+	NCH_democratic_support_FRE = {
+		icon = d
+		cost = 30
+		days_remove = 50
+
+		visible = {
+			has_country_flag = NCH_debug
+			and = {
+				has_completed_focus = NCH_not_so_united
+				FRE = {
+					not = {
+						has_government = democratic
+					}
+				}
+			}
+		}
+
+		modifier = {
+			political_power_cost = 0.07
+			consumer_goods_factor = 0.05
+		}
+
+		complete_effect = {
+			set_country_flag = NCH_more_help_FRE
+			FRE = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.075
+				}
+			}
+		}
+	}
+
+	NCH_democratic_support_WIT = {
+		icon = d
+		cost = 30
+		days_remove = 50
+
+		visible = {
+			has_country_flag = NCH_debug
+			and = {
+				has_completed_focus = NCH_not_so_united
+				WIT = {
+					not = {
+						has_government = democratic
+					}
+				}
+			}
+		}
+
+		modifier = {
+			political_power_cost = 0.07
+			consumer_goods_factor = 0.05
+		}
+
+		complete_effect = {
+			WIT = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.075
+				}
+			}
+		}
+	}
+
+	NCH_democratic_support_RCT = {
+		icon = d
+		cost = 30
+		days_remove = 50
+
+		visible = {
+			has_country_flag = NCH_debug
+			and = {
+				has_completed_focus = NCH_not_so_united
+				RCT = {
+					not = {
+						has_government = democratic
+					}
+				}
+			}
+		}
+
+		modifier = {
+			political_power_cost = 0.07
+			consumer_goods_factor = 0.05
+		}
+
+		complete_effect = {
+			RCT = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.075
+				}
+			}
+		}
+	}
+
+	NCH_democratic_support_NIM = {
+		icon = d
+		cost = 30
+		days_remove = 50
+
+		visible = {
+			has_country_flag = NCH_debug
+			and = {
+				has_completed_focus = NCH_not_so_united
+				NIM = {
+					not = {
+						has_government = democratic
+					}
+				}
+			}
+		}
+
+		modifier = {
+			political_power_cost = 0.07
+			consumer_goods_factor = 0.05
+		}
+
+		complete_effect = {
+			NIM = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.075
+				}
+			}
+		}
+	}
+
+	NCH_democratic_support_LCT = {
+		icon = d
+		cost = 30
+		days_remove = 50
+
+		visible = {
+			has_country_flag = NCH_debug
+			and = {
+				has_completed_focus = NCH_not_so_united
+				LCT = {
+					not = {
+						has_government = democratic
+					}
+				}
+			}
+		}
+
+		modifier = {
+			political_power_cost = 0.07
+			consumer_goods_factor = 0.05
+		}
+
+		complete_effect = {
+			LCT = {
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.075
+				}
+			}
+		}
+	}
+}
+
+### ###
+
+NCH_typography_category = {
+	NCH_propaganda_anti_luddism = {
+		icon = d
+		cost = 50
+		days_remove = 70
+		days_re_enable = 50
+
+		visible = {
+			or = {
+				has_idea = NCH_luddites_1
+				has_idea = NCH_luddites_2
+			}
+		}
+
+		modifier = {
+			political_power_cost = 0.05
+			production_factory_max_efficiency_factor = 0.02 
+			local_resources_factor = 0.1
+			stability_weekly = 0.001
+		}
+	}
+
+	NCH_propaganda_company_party = {
+		icon = d
+		cost = 30
+		days_remove = 56
+
+		visible = {
+			has_government = democratic
+		}
+
+		modifier = {
+			democratic_drift = 0.03
+			stability_factor = 0.05
+
+			political_power_factor = -0.075
+		}
+	}
+
+	NCH_propaganda_company = {
+		icon = d
+		cost = 50
+		days_remove = 56
+
+		modifier = {
+			consumer_goods_factor = 0.075
+			civilian_factory_use = 2
+			stability_weekly = 0.001
+			political_power_factor = 0.075
+		}
+	}
+
+	NCH_defeat_scientlist_1 = {
+		icon = d
+		cost = 50
+		fire_only_once = yes
+		days_remove = 70
+		days_re_enable = 50
+
+		visible = {
+			not = {
+				has_idea = big_science_base
+				has_country_flag = NCH_ds_1
+			}
+		}
+
+		modifier = {
+			political_power_cost = 0.05
+			research_speed_factor = 0.07
+			communism_drift = 0.03
+			consumer_goods_factor = 0.05
+		}
+		remove_effect = {
+			set_country_flag = NCH_ds_1
+		}
+
+		complete_effect = {
+			set_country_flag = NCH_ds_1
+		}
+	}
+	
+
+	NCH_calm_down_people = {
+		icon =d
+		cost = 0
+		days_remove = 30
+		days_re_enable = 50
+		#fire_only_once = yes
+
+		visible = {
+			and = {
+				has_country_flag = NCH_second_hunger
+				not = {
+					has_country_flag = NCH_secong_hunger_finished
+				}
+			}
+		}
+		complete_effect = {
+			add_stability = 0.025
+		}
+	}
+
+	NCH_anti_spy_operation = {
+		icon =d
+		cost = 50
+
+		days_remove = 35
+		days_re_enable = 50
+
+
+		visible = {
+			has_dlc = "La Resistance"
+		}
+
+		modifier = {
+			civilian_factory_use = 3
+
+			encryption = 1
+			enemy_operative_detection_chance_factor = 0.75
+			enemy_operative_capture_chance_factor = 0.75
+		}
+	}
+
+	NCH_production_boost = {
+		icon =d
+		cost = 75
+		days_remove = 70
+		days_re_enable = 50
+
+		modifier = {
+			consumer_goods_factor = 0.25
+
+			production_factory_efficiency_gain_factor = 0.1 
+			industrial_capacity_dockyard = 0.05
+			production_speed_buildings_factor = 0.075
+		}
+		remove_effect = {
+			
+		}
+	}
+
+	NCH_support_army = {
+		icon =d
+		cost = 75
+		days_remove = 45
+		days_re_enable = 50
+
+		modifier = {
+			experience_gain_army_factor = 0.05
+			experience_gain_navy_factor = 0.05
+			weekly_manpower = 250
+
+			political_power_cost = 0.1
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			add_war_support = 0.025
+		}
+	}
+}
+
+
+# GOV ROTATION #
+NCH_gov_rotation_category = {
+	NCH_gov_rotation = {
+		icon = generic_politics
+		fire_only_once = no
+		#is_good = no
+		days_mission_timeout = 180
+
+		activation = {
+			has_completed_focus = NCH_to_the_new_order
+		}
+		cancel_trigger = {
+			not = {
+				has_government = democratic
+				has_country_flag = NCH_gov_rotation_end_cf
+			}
+		}
+
+		available = {
+			has_country_flag = NCH_new_gov_election
+		}
+
+		timeout_effect = {
+			# ALL POLITIC ADVISORS #
+			limit = {
+				has_idea = {
+					NCH_Oiren_Judge_itoken #pol
+					NCH_generic_military_theorist #other / Basalt
+					NCH_Caider_it #other
+					NCH_Valha_it #industrial
+					NCH_celarl_it #other
+					NCH_Derkliones_it #other spymaster
+					NCH_Sul_Oraiste_it # bunkers / industrial
+					NCH_Marikel_it #
+					NCH_Ludas_it #industrial
+					NCH_Arachi_it #pol 
+					NCH_Yorilos_it #industrial
+					NCH_Floppa_it #pol 
+				}
+				remove_ideas = {
+					NCH_Oiren_Judge_itoken #pol
+					NCH_generic_military_theorist #other / Basalt
+					NCH_Caider_it #other
+					NCH_Valha_it #industrial
+					NCH_celarl_it #other
+					NCH_Derkliones_it #other spymaster
+					NCH_Sul_Oraiste_it # bunkers / industrial
+					NCH_Marikel_it #
+					NCH_Ludas_it #industrial
+					NCH_Arachi_it #pol 
+					NCH_Yorilos_it #industrial
+					NCH_Floppa_it #pol 
+					NCH_Gerald_3_it #pol
+					NCH_kianit_oir_it # pol
+					NCH_Adler_it #other
+				}
+			}
+			
+			# NEW GOV #
+			# ECONOMIC #
+			random_list = {
+				25 = { add_ideas = NCH_Valha_it } 
+				25 = { add_ideas = NCH_Ludas_it } 
+				25 = { add_ideas = NCH_Sul_Oraiste_it } 
+				25 = { add_ideas = NCH_Yorilos_it }
+			}
+
+			# POLITIC #
+			random_list = {
+				17 = { add_ideas = NCH_Oiren_Judge_itoken } 
+				17 = { add_ideas = NCH_Arachi_it } 
+				17 = { add_ideas = NCH_Floppa_it } 
+				17 = { add_ideas = NCH_Marikel_it } 
+				17 = { add_ideas = NCH_Gerald_3_it }
+				17 = { add_ideas = NCH_kianit_oir_it }
+			}
+
+			# OTHER #
+			random_list = {
+				33 = { add_ideas = NCH_Derkliones_it } 
+				33 = { add_ideas = NCH_Caider_it } 
+				34 = { add_ideas = NCH_Adler_it }
+			}
+
+			# THEORETIC #
+			random_list = {
+				50 = { add_ideas = NCH_celarl_it } 
+				50 = { add_ideas = NCH_generic_military_theorist } 
+			}
+		}
+	}
+
+	NCH_gov_rotation_cancel = {
+		icon = generic_politics
+		fire_only_once = no
+		#is_good = no
+
+		available = {
+			has_country_flag = NCH_new_gov_election
+		}
+
+		visible = {
+			has_completed_focus = NCH_to_the_new_order
+		}
+		
+		complete_effect = {
+			set_country_flag = NCH_gov_rotation_end_cf
+			add_stability = -0.5
+			add_political_power = -300
+			add_war_support = -0.25
+			add_popularity = {
+				ideology = fascism 
+				popularity = 0.25
+			}
+			add_popularity = {
+				ideology = neutrality 
+				popularity = 0.15
+			}
+		}
+	}
+}
+
+
+# QUEEN PROJECTS #
+NCH_queen_plan = {
+	NCH_active_reforms = {
+		icon = d
+		fire_only_once = yes 
+		is_good = no
+		days_mission_timeout = 720
+
+		activation = {
+			has_completed_focus = NCH_patch_to_prosperty
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		cancel_trigger = {
+			not = {
+				has_government = democratic
+			}
+		}
+
+		available = {
+			or = {
+				has_completed_focus = NCH_new_instituts
+				has_completed_focus = NCH_traditional_way_of_life
+			}
+			has_completed_focus = NCH_to_the_new_order
+
+			or = {
+				has_completed_focus = NCH_economics_of_friendship
+				has_completed_focus = NCH_mobilizing_the_economy
+			}
+		}
+
+		complete_effect = {
+			custom_effect_tooltip = NCH_queen_plan_sucsess
+			add_stability = 0.05
+			add_political_power = 75
+		}	
+
+		timeout_effect = {
+			not = {
+				custom_effect_tooltip = NCH_queen_plan_sucsess
+			}
+			add_political_power = -200
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.25
+			}
+			add_stability = -0.15
+			
+		}
+	}
+}
+
+NCH_celarl_laboratory = {
+	NCH_experimental_starts = {
+		icon = d
+		cost = 50
+		days_remove = 70
+
+		modifier = {
+		}
+	}
+
+	NCH_navy_experimental = {
+		icon = d
+		cost = 50
+		days_remove = 45
+		
+		visible = {
+			and = {
+				has_completed_focus = NCH_hard_armor
+				has_completed_focus = NCH_experomental_developments
+			}
+		}
+		modifier = {
+			experience_gain_navy = 0.02
+			experience_gain_navy_factor = 0.1
+		}
+
+		complete_effect = {
+			add_ideas = NCH_battleships_cruaiser_bonus
+		}
+	}
+}
+
+
+
+	# Submod #
+	NCH_nuke_category = {
+		NCH_start_nuce_program = {
+			icon = gfx_decision_icon_default
+			fire_only_once = yes
+
+			visible = {
+				has_country_flag = NCH_start_nuce_program_fg
+			}
+			complete_effect = {
+				activate_mission = NCH_nuce_mission
+				custom_effect_tooltip = NCH_start_nc_pg
+				set_country_flag = resource_for_nuclear
+			}
+		}
+
+		# Explore resource
+		NCH_mining_cristal_for_reactor_0 = {
+			icon = gfx_decision_icon_default
+			fire_only_once = yes
+			cost = 30 
+			visible = {
+				has_country_flag = resource_for_nuclear
+			}
+
+			available = {
+				has_tech = excavation1
+			}
+			highlight_states = {
+				highlight_state_targets = {
+					state = 668
+				}
+			}
+			complete_effect = {
+				add_manpower = -200
+				custom_effect_tooltip = nuke_clue
+				set_country_flag = mining_cristal_mission_0
+			}
+		}
+
+		# Infrastructure
+		NCH_mining_cristal_for_reactor_1 = {
+			icon = railroad
+			fire_only_once = yes
+			on_map_mode = map_only
+			highlight_states = { state = 668 }
+			cost = 50
+			visible = {
+				has_country_flag = mining_cristal_mission_0
+			}
+			highlight_states = {
+				highlight_state_targets = {
+					state = 668
+				}
+			}
+			available = {
+				has_tech = construction2
+			}
+
+			complete_effect = {
+				set_country_flag = mining_crystal_infrastructure
+				668 = {
+					add_building_construction = {
+						type = infrastructure 
+						level = 2
+					}
+				}
+			}
+		}
+		
+		# Mission 
+		NCH_nuce_mission = {
+			icon = gfx_decision_icon_default
+			days_mission_timeout = 1100
+			mission_timeout = 1100
+			fire_only_once = yes
+			desc = ""
+			is_good = no
+			activation = {
+				has_tech = nuclear_reactor
+				has_active_mission = NCH_nuce_mission
+			}
+			ai_will_do = {
+				factor = 1
+			}
+				available = {
+					AND = {
+						NCH_scientist_celarl = {
+							is_hired_as_advisor = yes
+						}
+						has_country_flag = reactor_has_built
+					}
+				}
+
+			complete_effect = {
+				add_political_power = 100
+				add_stability = 0.05
+				add_state_modifier = {
+					modifier = { monthly_population = 0.15 }
+				}
+				country_event = {
+					id = greneclyf.516 # success
+					days = 0
+				}
+
+				hidden_effect = {
+					country_event = {
+						id = greneclyf.517 # Modern
+						days = 100
+					}
+				}
+			}
+
+			timeout_effect = {
+				add_political_power = -200
+				add_stability = -0.05
+				country_event = {
+					id = greneclyf.514 # faill
+					days = 0
+				}
+				
+			}
+		}
+	}
+
+	# NCH_change_portrait_category = {
+	# 	NCH_Gytha_vanila_portait_to_steel_lady = {
+	# 		icon = generic_politics
+	# 		days_re_enable = 1
+
+	# 		visible = {
+	# 			has_country_leader = {
+	# 				ruling_only = yes
+	# 				character = NCH_queen_gytha
+	# 			}
+	# 		}
+	# 		complete_effect = {
+	# 			set_country_leader_portrait = {
+    #    				portrait = GFX_NCH_Steel_Gytha
+	# 			}
+	# 		}
+	# 	}
+
+	# 	NCH_Gytha_vanila_portait_to_president= {
+	# 		icon = generic_politics
+	# 		days_re_enable = 1
+
+	# 		visible = {
+	# 			has_country_leader = {
+	# 				ruling_only = yes
+	# 				character = NCH_queen_gytha
+	# 			}
+	# 		}
+	# 		complete_effect = {
+	# 			set_country_leader_portrait = {
+    #    				portrait = GFX_NCH_President_Gytha
+	# 			}
+	# 		}
+	# 	}
+
+	# 	NCH_Gytha_vanila_portait_to_vanila = {
+	# 		icon = generic_politics
+	# 		days_re_enable = 1
+
+	# 		visible = {
+	# 			has_country_leader = {
+	# 				ruling_only = yes
+	# 				character = NCH_queen_gytha
+	# 			}
+	# 		}
+	# 		complete_effect = {
+	# 			set_country_leader_portrait = {
+    #    				portrait = GFX_NCH_Queen_Gytha
+	# 			}
+	# 		}
+	# 	}
+
+		
+		
+	# 	NCH_Gytha_steel_lady_portrait_to_vanila = {
+	# 		icon = generic_politics
+	# 		days_re_enable = 1
+
+	# 		visible = {
+	# 			has_country_leader = {
+	# 				ruling_only = yes
+	# 				character = NCH_Gytha_iron_lady
+	# 			}
+	# 		}
+	# 		complete_effect = {
+	# 			set_country_leader_portrait = {
+    #    				portrait = GFX_NCH_Queen_Gytha
+	# 			}
+	# 		}
+	# 	}
+
+	# 	NCH_Gytha_steel_lady_portrait_to_president = {
+	# 		icon = generic_politics
+	# 		days_re_enable = 1
+
+	# 		visible = {
+	# 			has_country_leader = {
+	# 				ruling_only = yes
+	# 				character = NCH_Gytha_iron_lady
+	# 			}
+	# 		}
+	# 		complete_effect = {
+	# 			set_country_leader_portrait = {
+    #    				portrait = GFX_NCH_President_Gytha
+	# 			}
+	# 		}
+	# 	}
+
+	# 	NCH_Gytha_steel_lady_portrait_to_steel_lady = {
+	# 		icon = generic_politics
+	# 		days_re_enable = 1
+
+	# 		visible = {
+	# 			has_country_leader = {
+	# 				ruling_only = yes
+	# 				character = NCH_Gytha_iron_lady
+	# 			}
+	# 		}
+	# 		complete_effect = {
+	# 			set_country_leader_portrait = {
+    #    				portrait = GFX_NCH_Steel_Gytha
+	# 			}
+	# 		}
+	# 	}
+	# }
+
+
+	# NCH_submarine_category = {
+	# 	NCH_remove_submarine = {
+	# 		icon = GFX_decision_infiltrate_state
+	# 		available = {
+	# 			original_tag = NCH
+	# 			has_country_flag = NCH_CHN_Submarine_Flag
+	# 		}
+	# 		cost = 600
+	# 		ai_will_do = {
+	# 			factor = 10
+	# 		}
+	# 		fire_only_once = yes
+
+	# 		visible = {
+	# 			original_tag = NCH
+	# 			has_country_flag = NCH_CHN_Submarine_Flag
+	# 		}
+
+	# 		complete_effect = {
+	# 			log = "[GetDateText]: [Root.GetName]: Decision NCH_remove_submarine"
+	# 			remove_ideas = NCH_changeling_submarine
+
+	# 			every_country = {
+	# 				limit = {
+	# 					is_trading_with_NCH = yes
+	# 				}
+	# 				NCH_set_trade_in_partner = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
+	# NCH_marriages = {
+	# 	NCH_marry_cenhelm_decision = {
+	# 		icon = GFX_decision_wedding
+
+	# 		cost = 200
+	# 		ai_will_do = {
+	# 			factor = 10
+	# 		}
+	# 		fire_only_once = yes
+
+	# 		visible = {
+	# 			has_government = democratic
+	# 			NOT = {
+	# 				has_country_flag = NCH_having_crisis_flag
+	# 			}
+	# 			FROM = {
+	# 				has_idea = NCH_trading_with_NCH_harmonic
+	# 			}
+	# 		}
+	# 		target_root_trigger = {
+	# 			has_government = democratic
+	# 		}
+	# 		targets = { FBK }
+	# 		target_trigger = {
+	# 			FROM = { tag = FBK }
+	# 		}
+
+
+	# 		complete_effect = {
+	# 			log = "[GetDateText]: [Root.GetName]: Decision NCH_marry_cenhelm_decision target: [From.GetName]"
+	# 			add_ideas = NCH_marriage_cenhelm_idea
+	# 			diplomatic_relation = {
+	# 				country = FROM
+	# 				relation = non_aggression_pact
+	# 				active = yes
+	# 			}
+	# 			give_guarantee = FROM
+	# 			FROM = {
+	# 				give_guarantee = ROOT
+	# 			}
+	# 		}
+	# 	}
+	# }
+	# Remove_NCH_trade_category = {
+	# 	Remove_NCH_trade = {
+	# 		icon = GFX_decision_infiltrate_state
+
+	# 		cost = 50
+	# 		ai_will_do = {
+
+	# 			factor = 1
+
+	# 			modifier = {
+	# 				has_idea = NCH_trading_with_NCH_harmonic
+	# 				factor = 0.01
+	# 			}
+	# 			modifier = {
+	# 				has_idea = NCH_trading_with_NCH_fascist
+	# 				factor = 80
+	# 			}
+	# 		}
+
+
+	# 		fire_only_once = yes
+
+	# 		visible = {
+	# 			is_trading_with_NCH = yes
+	# 		}
+	# 		target_root_trigger = {
+	# 			is_trading_with_NCH = yes
+	# 		}
+	# 		targets = { NCH }
+	# 		target_trigger = {
+	# 			FROM = { tag = NCH }
+	# 		}
+	# 		complete_effect = {
+	# 			log = "[GetDateText]: [Root.GetName]: Decision Remove_NCH_trade target: [From.GetName]"
+	# 			if = {
+	# 				limit = {
+	# 					has_idea = NCH_trading_with_NCH_harmonic
+	# 				}
+	# 				remove_ideas = NCH_trading_with_NCH_harmonic
+	# 			}
+
+	# 			if = {
+	# 				limit = {
+	# 					has_idea = NCH_trading_with_NCH_fascist
+	# 				}
+	# 				remove_ideas = NCH_trading_with_NCH_fascist
+	# 			}
+
+	# 			remove_opinion_modifier = {
+	# 				modifier = NCH_negative_trading target = FROM
+	# 			}
+	# 			remove_opinion_modifier = {
+	# 				modifier = trading target = FROM
+	# 			}
+
+	# 			FROM = {
+	# 				country_event = greneclyf.61
+	# 				hidden_effect = {
+	# 					add_to_variable = {
+	# 						var = NCH_trade_partners_iter
+	# 						value = -1
+	# 					}
+	# 					add_to_variable = { var = gytha_sanity value = 1 }
+	# 				}
+	# 				NCH_get_trading_idea = yes
+	# 			}
+	# 		}
+	# 	}
+	# }
+
+	NCH_obsidian_category = {
+		NCH_obsidian_EQS={
+			icon = changeling_category_icon
+
+			days_re_enable = 100
+
+			cost = 30
+
+			visible = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+				NOT = {
+					EQS={
+						or = {
+							has_country_flag = NCH_obs_deceline
+							has_idea = obsidian_trade_NCH
+						}
+					}
+				}
+			}
+			
+			allowed = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+			}
+
+			complete_effect = {
+				every_country = {
+					limit = {
+						tag = EQS
+					}
+					country_event ={ 
+						id = greneclyf_obsidian.1 
+						days = 10
+						}
+				}
+			}
+		}
+		NCH_obsidian_KIR={
+			icon = changeling_category_icon
+			days_re_enable = 100
+			cost = 30
+			visible = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+				NOT = {
+					KIR={
+						or = {
+							has_country_flag = NCH_obs_deceline
+							has_idea = obsidian_trade_NCH
+						}
+					}
+				}
+			}
+			allowed = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+			}
+			complete_effect = {
+				every_country = {
+					limit = {
+						tag = KIR
+					}
+					country_event ={ 
+						id = greneclyf_obsidian.1 
+						days = 10
+						}
+				}
+			}
+		}
+		NCH_obsidian_FBK={
+			icon = changeling_category_icon
+			days_re_enable = 100
+			cost = 30
+			visible = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+				NOT = {
+					FBK={
+						or = {
+							has_country_flag = NCH_obs_deceline
+							has_idea = obsidian_trade_NCH
+						}
+					}
+				}
+			}
+			allowed = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+			}
+			complete_effect = {
+				every_country = {
+					limit = {
+						tag = FBK
+					}
+					country_event ={ 
+						id = greneclyf_obsidian.1 
+						days = 10
+						}
+				}
+			}
+		}
+		NCH_obsidian_BAK={
+			icon = changeling_category_icon
+			days_re_enable = 100
+
+			cost = 30
+			visible = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+				NOT = {
+					BAK={
+						or = {
+							has_country_flag = NCH_obs_deceline
+							has_idea = obsidian_trade_NCH
+						}
+					}
+				}
+			}
+			allowed = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+			}
+			complete_effect = {
+				every_country = {
+					limit = {
+						tag = BAK
+					}
+					country_event ={ 
+						id = greneclyf_obsidian.1 
+						days = 10
+						}
+				}
+			}
+		}
+		NCH_obsidian_TRD={
+			icon = changeling_category_icon
+			days_re_enable = 100
+
+			cost = 30
+			visible = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+				NOT = {
+					TRD={
+						or = {
+							has_country_flag = NCH_obs_deceline
+							has_idea = obsidian_trade_NCH
+						}
+					}
+				}
+			}
+			allowed = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+			}
+			complete_effect = {
+				every_country = {
+					limit = {
+						tag = TRD
+					}
+					country_event ={ 
+						id = greneclyf_obsidian.1 
+						days = 10
+						}
+				}
+			}
+		}
+		NCH_obsidian_HIP={
+			icon = changeling_category_icon
+			days_re_enable = 100
+
+			cost = 30
+			visible = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+				NOT = {
+					HIP={
+						or = {
+							has_country_flag = NCH_obs_deceline
+							has_idea = obsidian_trade_NCH
+						}
+					}
+				}
+			}
+			allowed = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+			}
+			complete_effect = {
+				every_country = {
+					limit = {
+						tag = HIP
+					}
+					country_event ={ 
+						id = greneclyf_obsidian.1 
+						days = 10
+						}
+				}
+			}
+		}
+		NCH_obsidian_PNG={
+			icon = changeling_category_icon
+			days_re_enable = 100
+
+			cost = 30
+			visible = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+				NOT = {
+					PNG={
+						or = {
+							has_country_flag = NCH_obs_deceline
+							has_idea = obsidian_trade_NCH
+						}
+					}
+				}
+			}
+			allowed = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+			}
+			complete_effect = {
+				every_country = {
+					limit = {
+						tag = PNG
+					}
+					country_event ={ 
+						id = greneclyf_obsidian.1 
+						days = 10
+						}
+				}
+			}
+		}
+		NCH_obsidian_EQC={
+			icon = changeling_category_icon
+			days_re_enable = 100
+
+			cost = 30
+			visible = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+				NOT = {
+					EQC={
+						or = {
+							has_country_flag = NCH_obs_deceline
+							has_idea = obsidian_trade_NCH
+						}
+					}
+				}
+			}
+			allowed = {
+				original_tag = NCH
+				has_country_flag = NCH_obsidian_export
+			}
+			complete_effect = {
+				every_country = {
+					limit = {
+						tag = EQC
+					}
+					country_event ={ 
+					id = greneclyf_obsidian.1 
+					days = 10
+				    }
+				}
+			}
+		}
+	}
