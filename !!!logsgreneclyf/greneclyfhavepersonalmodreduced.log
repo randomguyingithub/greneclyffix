@@ -1,0 +1,845 @@
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/allied_speeches.mod line: 10
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/chaoaiediteaw.mod line: 14
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/dashiTANK.mod line: 16
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/eawbbuseclguns.mod line: 8
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/eawlocfix.mod line: 12
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/eawspspecial.mod line: 12
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/leadxers.mod line: 7
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ponymusicfixed.mod line: 8
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_1348267085.mod line: 7
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_1629702438.mod line: 6
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_2019479241.mod line: 3
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_2314343894.mod line: 6
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_2445956833.mod line: 8
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_2809213693.mod line: 8
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_2822131117.mod line: 7
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_2938290655.mod line: 8
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_2984939557.mod line: 11
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3009241301.mod line: 8
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3009437701.mod line: 7
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3011762096.mod line: 8
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3047188499.mod line: 7
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3144391068.mod line: 12
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3313579396.mod line: 8
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3366131759.mod line: 12
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3469310112.mod line: 11
+[00:58:48][no_game_date][persistent.cpp:66]: Error: "Unexpected token: pictire, near line: 9" in file: "mod/ugc_3587178170.mod" near line: 9
+[00:58:48][no_game_date][dlc.cpp:222]: Invalid supported_version in  file: mod/ugc_3587178170.mod line: 11
+[00:58:48][no_game_date][pdx_localize.cpp:1100]: Expected colon(:) at line 1 and column 10 in localisation/english/NCH_parties_l_english.yml
+[00:58:49][no_game_date][pdx_localize.cpp:1202]: Illegal break character (utf32=8221) at line 1378 and column 25 in localisation/english/country_NCH_l_english.yml
+[00:58:49][no_game_date][pdx_localize.cpp:1202]: Illegal break character (utf32=8221) at line 1378 and column 58 in localisation/english/country_NCH_l_english.yml
+[00:58:50][no_game_date][assetfactory_audio.cpp:499]: Could not find music file 'music/Resonant_Tonality-Hearth's_Warming_War.ogg' in  file: music/eaw_music.asset line: 121
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_001
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_002
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_003
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_004
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_005
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_006
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_007
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_008
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_009
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_010
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_011
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_012
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_013
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_014
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_015
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_016
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_017
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_018
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_019
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_020
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_021
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_022
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_023
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_024
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_025
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_026
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_idle_027
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_001
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_002
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_003
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_004
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_005
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_006
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_007
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_008
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_009
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_010
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_011
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_012
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_013
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_014
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_015
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_016
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_017
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_018
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_019
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_020
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Neutral_021
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_001
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_002
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_003
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_004
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_005
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_006
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_007
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_008
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_009
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_010
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_011
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_012
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_013
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_014
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_015
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_016
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_017
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_018
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_019
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_020
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_021
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_022
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_023
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Positive_024
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_001
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_002
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_003
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_004
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_005
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_006
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_007
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_008
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_009
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_010
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_011
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_012
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_013
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_014
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_015
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_016
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_017
+[00:58:50][no_game_date][pdx_audio.cpp:337]: Missing sound: por_Retreat_018
+[00:58:54][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/interface/goals/NCH/goal_school_for_engeeners.dds
+[00:58:54][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/interface/goals/NCH/goal_school_for_engeeners.dds'
+[00:58:54][no_game_date][spritetype.cpp:330]: Error initialising texture: gfx/interface/goals/NCH/goal_school_for_engeeners.dds for spritetype GFX_school_for_engeneers_shine
+[00:58:54][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/interface/goals/NCH/goal_nch_hart.dds
+[00:58:54][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/interface/goals/NCH/goal_nch_hart.dds'
+[00:58:54][no_game_date][spritetype.cpp:330]: Error initialising texture: gfx/interface/goals/NCH/goal_nch_hart.dds for spritetype GFX_goal_hart_side_shine
+[00:58:55][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/interface/goals/NCH/goal_nch_lorri.dds
+[00:58:55][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/interface/goals/NCH/goal_nch_lorri.dds'
+[00:58:55][no_game_date][spritetype.cpp:330]: Error initialising texture: gfx/interface/goals/NCH/goal_nch_lorri.dds for spritetype GFX_goal_lorri_side_shine
+[00:58:55][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'CHN_infantry_diffuse.dds' found (current path 'gfx/models/EAWEntity/ponies/CHN_infantry_diffuse.dds', previous path 'gfx/models/EAWEntity/newponies/CHN_infantry_diffuse.dds')
+[00:58:55][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'CHN_infantry_normal.dds' found (current path 'gfx/models/EAWEntity/ponies/CHN_infantry_normal.dds', previous path 'gfx/models/EAWEntity/newponies/CHN_infantry_normal.dds')
+[00:58:55][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'CHN_infantry_spec.dds' found (current path 'gfx/models/EAWEntity/ponies/CHN_infantry_spec.dds', previous path 'gfx/models/EAWEntity/newponies/CHN_infantry_spec.dds')
+[00:58:55][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'CRY_infantry_diffuse.dds' found (current path 'gfx/models/EAWEntity/ponies/CRY_infantry_diffuse.dds', previous path 'gfx/models/EAWEntity/newponies/CRY_infantry_diffuse.dds')
+[00:58:55][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'CRY_infantry_normal.dds' found (current path 'gfx/models/EAWEntity/ponies/CRY_infantry_normal.dds', previous path 'gfx/models/EAWEntity/newponies/CRY_infantry_normal.dds')
+[00:58:55][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'CRY_infantry_spec.dds' found (current path 'gfx/models/EAWEntity/ponies/CRY_infantry_spec.dds', previous path 'gfx/models/EAWEntity/newponies/CRY_infantry_spec.dds')
+[00:58:55][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'EQS_helmet_diffuse.dds' found (current path 'gfx/models/EAWEntity/newponies/attachments/EQS_helmet_diffuse.dds', previous path 'gfx/models/EAWEntity/newponies/EQS_helmet_diffuse.dds')
+[00:58:55][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'EQS_infantry_diffuse.dds' found (current path 'gfx/models/EAWEntity/ponies/EQS_infantry_diffuse.dds', previous path 'gfx/models/EAWEntity/newponies/EQS_infantry_diffuse.dds')
+[00:58:55][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'EQS_infantry_normal.dds' found (current path 'gfx/models/EAWEntity/ponies/EQS_infantry_normal.dds', previous path 'gfx/models/EAWEntity/newponies/EQS_infantry_normal.dds')
+[00:58:55][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'EQS_infantry_spec.dds' found (current path 'gfx/models/EAWEntity/ponies/EQS_infantry_spec.dds', previous path 'gfx/models/EAWEntity/newponies/EQS_infantry_spec.dds')
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/330-ARC_STRAT_1.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/330-ARC_STRAT_1.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/330-ARC_STRAT_1.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/330-ARC_STRAT_1.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/331-ARC_STRAT_2.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/331-ARC_STRAT_2.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/331-ARC_STRAT_2.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/331-ARC_STRAT_2.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/332-ARC_STRAT_3.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/332-ARC_STRAT_3.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/332-ARC_STRAT_3.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/332-ARC_STRAT_3.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/333-debug_strat.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/333-debug_strat.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/333-debug_strat.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/333-debug_strat.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/334-west1.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/334-west1.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/334-west1.txt) Region temperature, min > max
+[00:58:56][no_game_date][weather.cpp:149]: (map/strategicregions/334-west1.txt) Region temperature, min > max
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity ENG_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1025
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity GER_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1030
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity GER_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1034
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity GER_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1038
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity SOV_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1043
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1048
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1052
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1056
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1060
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1064
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1068
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1072
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity ITA_scout_plane_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1077
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity ENG_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1083
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity ENG_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1087
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity GER_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1092
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity GER_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1096
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity CHN_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1100
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity CHN_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1104
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity CHN_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1108
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity CHN_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1112
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity SOV_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1117
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity SOV_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1121
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1126
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1130
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1134
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1138
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1142
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1146
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1150
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1154
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1158
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1162
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1166
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1170
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1174
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity FRA_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1178
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity ITA_armored_car_0_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1183
+[00:58:57][no_game_date][assetfactory.cpp:876]: Couldn't find parent clone entity ITA_armored_car_1_entity, in file "gfx/entities/z_eaw_dlc_units.asset", near line 1187
+[00:58:57][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: construction_speed_factor, near line: 3" in file: "common/modifiers/NCH_new_modifier.txt" near line: 3
+[00:58:58][no_game_date][persistent.cpp:66]: Error: "Unexpected token: naval_supremacy_factor, near line: 139" in file: "common/units/equipment/ship_hull_heavy.txt" near line: 139
+[00:58:58][no_game_date][equipment_database.cpp:604]: Multiple convoy types are not supported.
+[00:58:58][no_game_date][buildingtemplate.cpp:325]: common/buildings/00_buildings.txt:217 MODIFIER_DIG_IN_SPEED_FACTOR is not state modifier!
+[00:58:58][no_game_date][buildingtemplate.cpp:325]: common/buildings/00_buildings.txt:217 MODIFIER_MAX_DIG_IN_FACTOR is not state modifier!
+[00:58:58][no_game_date][persistent.cpp:66]: Error: "Unexpected token: export_bonus, near line: 21" in file: "common/opinion_modifiers/NCH_opinion_modifiers.txt" near line: 21
+[00:58:58][no_game_date][trigger.cpp:700]: Invalid trigger 'allways' in common/military_industrial_organization/organizations/NCH_organization.txt line : 17
+[00:58:58][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: allways, near line: 17" in file: "common/military_industrial_organization/organizations/NCH_organization.txt" near line: 18
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_JAP_scout_plane2_medium", associated with LCT medium_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_JAP_scout_plane1_medium", associated with LCT medium_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_naval_bomber3_medium", associated with MCW cv_small_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_CAS3_medium", associated with MCW cv_small_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_fighter3_medium", associated with MCW cv_small_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_fighter2_medium", associated with MCW cv_small_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_CAS2_medium", associated with MCW cv_small_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_naval_bomber2_medium", associated with MCW cv_small_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_naval_bomber1_medium", associated with MCW cv_small_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_CAS1_medium", associated with MCW cv_small_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_fighter1_medium", associated with MCW cv_small_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_early_fighter_medium", associated with MCW cv_small_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_heavy_fighter3_medium", associated with MCW medium_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_tactical_bomber3_medium", associated with MCW medium_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_heavy_fighter2_medium", associated with MCW medium_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_tactical_bomber2_medium", associated with MCW medium_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_heavy_fighter1_medium", associated with MCW medium_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_tactical_bomber1_medium", associated with MCW medium_plane_airframe
+[00:59:02][no_game_date][equipment_graphic_database.cpp:38]: GFX referenced in equipment graphic database does not exist: "GFX_POR_early_bomber_medium", associated with MCW medium_plane_airframe
+[00:59:02][no_game_date][persistent.cpp:66]: Error: "Error reading division names group - Garda Homeland, division_types has unknown token: special_forces: }, near line: 62" in file: "common/units/names_divisions/NCH_redux_names_divisions.txt" near line: 62
+[00:59:02][no_game_date][technologytemplate.cpp:791]: Technology "elite_forces" has two more outgoing xor paths in folder "infantry_folder", only the first will be shown as XOR in the tree
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: resource_gain_efficiency, near line: 16" in file: "common/ideas/sub_NCH_ideas.txt" near line: 16
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: resource_gain_efficiency, near line: 60" in file: "common/ideas/sub_NCH_ideas.txt" near line: 60
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "trade_opinion_factor specified multiple time, last value will be used: -0.25, near line: 64" in file: "common/ideas/sub_NCH_ideas.txt" near line: 64
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: resource_gain_efficiency, near line: 232" in file: "common/ideas/sub_NCH_ideas.txt" near line: 232
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: local_manpower_factor, near line: 249" in file: "common/ideas/sub_NCH_ideas.txt" near line: 249
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: resource_gain_efficiency, near line: 305" in file: "common/ideas/sub_NCH_ideas.txt" near line: 305
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: production_cost_max_ship_hull_fleet_submarine, near line: 359" in file: "common/ideas/sub_NCH_ideas.txt" near line: 359
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: production_cost_max_destroyer, near line: 360" in file: "common/ideas/sub_NCH_ideas.txt" near line: 360
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: construction_speed_factor, near line: 837" in file: "common/ideas/sub_NCH_ideas.txt" near line: 837
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: random_owned_state, near line: 1021" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1026
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: build_cost_ic, near line: 1221" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1221
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: foreign_subversive_activities, near line: 1248" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1248
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: ideology_attack, near line: 1249" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1249
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: research_speed, near line: 1251" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1251
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: air_equipment_research_speed, near line: 1405" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1405
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: license_air_equipment_purchase_cost, near line: 1410" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1410
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: production_cost_max_ship_hull_fleet_submarine, near line: 1505" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1505
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: production_cost_max_destroyer, near line: 1506" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1506
+[00:59:03][no_game_date][common/ideas/sub_NCH_ideas.txt:1616]: Value does not belong to designated Script EnumType: heavy_cruiser not in script_enum_equipment_bonus_type
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: land_organization, near line: 1829" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1829
+[00:59:03][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: division_recovery_rate, near line: 1830" in file: "common/ideas/sub_NCH_ideas.txt" near line: 1830
+[00:59:03][no_game_date][idea.cpp:1713]: Duplicate idea. NCH_FBK_pact is a duplicate.
+[00:59:03][no_game_date][idea.cpp:1713]: Duplicate idea. NCH_submarine_buff_idea is a duplicate.
+[00:59:03][no_game_date][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/leaders/NCH/AWN_leader.tga
+[00:59:03][no_game_date][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/leaders/NCH/AWN_leader.tga'
+[00:59:04][no_game_date][persistent.cpp:66]: Error: "Unexpected token: large, near line: 63" in file: "common/characters/NCH.txt" near line: 63
+[00:59:04][no_game_date][trigger.cpp:700]: Invalid trigger 'no' in common/characters/NCH.txt line : 108
+[00:59:04][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: no, near line: 108" in file: "common/characters/NCH.txt" near line: 111
+[00:59:04][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 246" in file: "common/characters/NCH.txt" near line: 246
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 477" in file: "common/characters/NCH.txt" near line: 477
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 494" in file: "common/characters/NCH.txt" near line: 494
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 748" in file: "common/characters/NCH.txt" near line: 748
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: power_of_balance_weakly, near line: 68" in file: "common/country_leader/NCH_traits.txt" near line: 68
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: stability, near line: 74" in file: "common/country_leader/NCH_traits.txt" near line: 74
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: resistance_growth_bonus, near line: 78" in file: "common/country_leader/NCH_traits.txt" near line: 78
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: attack, near line: 7" in file: "common/country_leader/REB_traits.txt" near line: 7
+[00:59:05][no_game_date][decision.cpp:4511]: Duplicate category. prospect_for_resources is a duplicate.
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 236
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 236" in file: "common/decisions/GRI_decisions.txt" near line: 237
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 545
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 545" in file: "common/decisions/GRI_decisions.txt" near line: 546
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 548
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 548" in file: "common/decisions/GRI_decisions.txt" near line: 549
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 551
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 551" in file: "common/decisions/GRI_decisions.txt" near line: 552
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 723
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 723" in file: "common/decisions/GRI_decisions.txt" near line: 724
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 727
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 727" in file: "common/decisions/GRI_decisions.txt" near line: 728
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 730
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 730" in file: "common/decisions/GRI_decisions.txt" near line: 731
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 733
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 733" in file: "common/decisions/GRI_decisions.txt" near line: 734
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 736
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 736" in file: "common/decisions/GRI_decisions.txt" near line: 737
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 739
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 739" in file: "common/decisions/GRI_decisions.txt" near line: 740
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 742
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 742" in file: "common/decisions/GRI_decisions.txt" near line: 743
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'all_original_cores_owned_by_ROOT' in common/decisions/GRI_decisions.txt line : 745
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: all_original_cores_owned_by_ROOT, near line: 745" in file: "common/decisions/GRI_decisions.txt" near line: 746
+[00:59:05][no_game_date][effect.cpp:433]: Invalid scope type for effect swap_ruler_traits in common/decisions/NCH_decisions.txt line : 86
+[00:59:05][no_game_date][effect.cpp:356]: Error: "swap_ruler_traits effect: Invalid trait for add: steel_lady, near line: 88" in file: "common/decisions/NCH_decisions.txt" near line: 90
+[00:59:05][no_game_date][effect.cpp:433]: Invalid scope type for effect swap_ruler_traits in common/decisions/NCH_decisions.txt line : 98
+[00:59:05][no_game_date][effect.cpp:356]: Error: "swap_ruler_traits effect: Invalid trait for add: steel_lady, near line: 100" in file: "common/decisions/NCH_decisions.txt" near line: 102
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 111
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 111" in file: "common/decisions/NCH_decisions.txt" near line: 112
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 117
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 117" in file: "common/decisions/NCH_decisions.txt" near line: 118
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 123
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 123" in file: "common/decisions/NCH_decisions.txt" near line: 124
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 129
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 129" in file: "common/decisions/NCH_decisions.txt" near line: 130
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 135
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 135" in file: "common/decisions/NCH_decisions.txt" near line: 136
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 141
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 141" in file: "common/decisions/NCH_decisions.txt" near line: 142
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 147
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 147" in file: "common/decisions/NCH_decisions.txt" near line: 148
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 153
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 153" in file: "common/decisions/NCH_decisions.txt" near line: 154
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 159
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 159" in file: "common/decisions/NCH_decisions.txt" near line: 160
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 165
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 165" in file: "common/decisions/NCH_decisions.txt" near line: 166
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 171
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 171" in file: "common/decisions/NCH_decisions.txt" near line: 172
+[00:59:05][no_game_date][trigger.cpp:700]: Invalid trigger 'owner' in common/decisions/NCH_decisions.txt line : 966
+[00:59:05][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: owner, near line: 966" in file: "common/decisions/NCH_decisions.txt" near line: 967
+[00:59:05][no_game_date][effect.cpp:433]: Invalid scope type for effect swap_ruler_traits in common/decisions/NCH_decisions.txt line : 1038
+[00:59:05][no_game_date][effect.cpp:356]: Error: "swap_ruler_traits effect: Invalid trait for add: steel_lady, near line: 1040" in file: "common/decisions/NCH_decisions.txt" near line: 1042
+[00:59:05][no_game_date][effect.cpp:433]: Invalid scope type for effect swap_ruler_traits in common/decisions/NCH_decisions.txt line : 1050
+[00:59:05][no_game_date][effect.cpp:356]: Error: "swap_ruler_traits effect: Invalid trait for add: steel_lady, near line: 1052" in file: "common/decisions/NCH_decisions.txt" near line: 1054
+[00:59:05][no_game_date][effect.cpp:433]: Invalid scope type for effect swap_ruler_traits in common/decisions/NCH_decisions.txt line : 1242
+[00:59:05][no_game_date][effect.cpp:356]: Error: "swap_ruler_traits effect: Invalid trait for add: steel_lady, near line: 1244" in file: "common/decisions/NCH_decisions.txt" near line: 1246
+[00:59:05][no_game_date][effect.cpp:433]: Invalid scope type for effect swap_ruler_traits in common/decisions/NCH_decisions.txt line : 1254
+[00:59:05][no_game_date][effect.cpp:356]: Error: "swap_ruler_traits effect: Invalid trait for add: steel_lady, near line: 1256" in file: "common/decisions/NCH_decisions.txt" near line: 1258
+[00:59:05][no_game_date][effect.cpp:443]: Invalid effect 'limit' in common/decisions/NCH_decisions.txt line : 2074
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Unknown effect-type: limit, near line: 2074" in file: "common/decisions/NCH_decisions.txt" near line: 2111
+[00:59:05][no_game_date][effect.cpp:443]: Invalid effect 'not' in common/decisions/NCH_decisions.txt line : 2215
+[00:59:05][no_game_date][effect.cpp:356]: Error: "Unknown effect-type: not, near line: 2215" in file: "common/decisions/NCH_decisions.txt" near line: 2222
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Unexpected token: mission_timeout, near line: 2337" in file: "common/decisions/NCH_decisions.txt" near line: 2337
+[00:59:05][no_game_date][effect.cpp:433]: Invalid scope type for effect add_state_modifier in common/decisions/NCH_decisions.txt line : 2360
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Token has_country_flag is not supported within the allowed trigger: }, near line: 2663" in file: "common/decisions/NCH_decisions.txt" near line: 2663
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Token has_country_flag is not supported within the allowed trigger: }, near line: 2696" in file: "common/decisions/NCH_decisions.txt" near line: 2696
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Token has_country_flag is not supported within the allowed trigger: }, near line: 2728" in file: "common/decisions/NCH_decisions.txt" near line: 2728
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Token has_country_flag is not supported within the allowed trigger: }, near line: 2761" in file: "common/decisions/NCH_decisions.txt" near line: 2761
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Token has_country_flag is not supported within the allowed trigger: }, near line: 2794" in file: "common/decisions/NCH_decisions.txt" near line: 2794
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Token has_country_flag is not supported within the allowed trigger: }, near line: 2827" in file: "common/decisions/NCH_decisions.txt" near line: 2827
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Token has_country_flag is not supported within the allowed trigger: }, near line: 2860" in file: "common/decisions/NCH_decisions.txt" near line: 2860
+[00:59:05][no_game_date][persistent.cpp:66]: Error: "Token has_country_flag is not supported within the allowed trigger: }, near line: 2893" in file: "common/decisions/NCH_decisions.txt" near line: 2893
+[00:59:06][no_game_date][effect.cpp:433]: Invalid scope type for effect set_country_flag in common/decisions/resource_prospecting_NCH.txt line : 163
+[00:59:06][no_game_date][effect.cpp:433]: Invalid scope type for effect set_country_flag in common/decisions/resource_prospecting_NCH.txt line : 210
+[00:59:06][no_game_date][effect.cpp:433]: Invalid scope type for effect set_country_flag in common/decisions/resource_prospecting_NCH.txt line : 256
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_baltimare_aluminium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_apple_groove_mines is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_freeside_steel_factories is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_ghastly_gorge_crystals is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_welcoming_hills_tungsten_deposits is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. neighgara_falls_crystals_develop is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. some_magical_plateu_oil is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. deeper_into_crystal_mountains is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. deeper_into_crystal_mountains_2 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. deeper_into_crystal_mountains_3 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. upper_unicorn_range_chromium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. bogg_toxic_marsh_oil is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. bogg_toxic_marsh_rubber is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. haysead_marsh_rubber is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. haysead_marsh_rubber_2 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. albion_aluminium_aircraft is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. falcontown_oil_well is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. falcontown_oil_well_2 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. crystal_peaks is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. beak_mine_expansion is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. jem_mines is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. tainaholm_aluminium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_celestia_rubber_plantations is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_northern_cross_tungsten_deposits_1 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_northern_cross_tungsten_deposits_2 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_karthin_oil_fields is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_bloodtalon_rubber_plantations is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_warthog_forest_rubber_plantations is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_griffinstone_crystal_mines is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_griffinstone_crystal_mines2 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. kivessin_steel is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_ochme_tungsten_deposits_1 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_ochme_tungsten_deposits_2 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_bonedrift_steel_deposits is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_stormwingia_chromium_deposits is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_desponia_oil_fields is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. vesalipolis_rubber_production is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. svarm_oil_company is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. vyzima_rubber_company is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. crownspike_oil_fields is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_osnabeak_oil_fields is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_osnabeak_oil_fields2 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_dwarftail_iron_ore_deposits is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_dwarftail_chromium_deposits_1 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_dwarftail_chromium_deposits_2 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_dwarftail_chromium_deposits_3 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. LCT_exploit_plains_kaiv_598 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. LCT_exploit_plains_nicage_612 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. LCT_exploit_plains_cessabit_607 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. canterlot_crystal_mines is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. canterlot_crystal_mines_2 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. canterlot_crystal_mines_3 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_aurez_hills_tungsten_deposits is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. furry_mountains_chromium_excavation is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. further_coldmouth_tungsten is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. moonrise_crystal_dowsing is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. mathair_oil_drilling is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. dimpeak_tungsten_mines is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. arrowpeaks_steel_excavation is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. starclaw_steel_refining is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. expand_karthin_aluminum is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. little_griff_mountain_steel is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. windford_iron is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_bymnonia_tungsten is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_chykchyryn_chromium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_chykchyryn_aluminium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_east_rose_forest_tungsten is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_den_crystals is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_hind_tungsten is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_hsihoof_tungsten is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_antlerjab_steel is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_huanchu_steel is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_ginje_steel is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_dulla_aluminium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_koltshgar_aluminium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_rio_de_jandaia_steel is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_plissalto_steel is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_serra_recondito_chromium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_darnaigh_chromium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_qatrain_aluminium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_karen_steel is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_zwahile_steel is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_wetbanks_aluminium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_thunderpoint_aluminium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_eye_of_the_storm_tungsten is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_eye_of_the_storm_crystals1 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_eye_of_the_storm_crystals2 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_eye_of_the_storm_crystals3 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_eye_of_the_storm_crystals4 is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_thunder_cliffs_chromium is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_calfkum_oil is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_furna_oil is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_shizra_oil is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_zamfara_oil is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_gelion_oil is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_modnihendi_oil is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. develop_grand_alaudia_bauxite_mine is a duplicate.
+[00:59:06][no_game_date][decision.cpp:4493]: Duplicate decision. expand_oromeowia_oil_field is a duplicate.
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3758
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3758" in file: "common/national_focus/HEL.txt" near line: 3758
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3759
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3759" in file: "common/national_focus/HEL.txt" near line: 3759
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3760
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3760" in file: "common/national_focus/HEL.txt" near line: 3760
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3761
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3761" in file: "common/national_focus/HEL.txt" near line: 3761
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3842
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3842" in file: "common/national_focus/HEL.txt" near line: 3842
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3863
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3863" in file: "common/national_focus/HEL.txt" near line: 3863
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4021
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4021" in file: "common/national_focus/HEL.txt" near line: 4021
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4044
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4044" in file: "common/national_focus/HEL.txt" near line: 4044
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4601
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4601" in file: "common/national_focus/HEL.txt" near line: 4601
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4602
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4602" in file: "common/national_focus/HEL.txt" near line: 4602
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4603
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4603" in file: "common/national_focus/HEL.txt" near line: 4603
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4604
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4604" in file: "common/national_focus/HEL.txt" near line: 4604
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4684
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4684" in file: "common/national_focus/HEL.txt" near line: 4684
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4705
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4705" in file: "common/national_focus/HEL.txt" near line: 4705
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4932
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4932" in file: "common/national_focus/HEL.txt" near line: 4932
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4933
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4933" in file: "common/national_focus/HEL.txt" near line: 4933
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4934
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4934" in file: "common/national_focus/HEL.txt" near line: 4934
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4935
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4935" in file: "common/national_focus/HEL.txt" near line: 4935
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4936
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4936" in file: "common/national_focus/HEL.txt" near line: 4936
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4968
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4968" in file: "common/national_focus/HEL.txt" near line: 4968
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4989
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4989" in file: "common/national_focus/HEL.txt" near line: 4989
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 5010
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 5010" in file: "common/national_focus/HEL.txt" near line: 5010
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 5776
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 5776" in file: "common/national_focus/HEL.txt" near line: 5776
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 5777
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 5777" in file: "common/national_focus/HEL.txt" near line: 5777
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 5778
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 5778" in file: "common/national_focus/HEL.txt" near line: 5778
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 5779
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 5779" in file: "common/national_focus/HEL.txt" near line: 5779
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6452
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6452" in file: "common/national_focus/HEL.txt" near line: 6452
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6453
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6453" in file: "common/national_focus/HEL.txt" near line: 6453
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6454
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6454" in file: "common/national_focus/HEL.txt" near line: 6454
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6455
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6455" in file: "common/national_focus/HEL.txt" near line: 6455
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6507
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6507" in file: "common/national_focus/HEL.txt" near line: 6507
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6525
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6525" in file: "common/national_focus/HEL.txt" near line: 6525
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6615
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6615" in file: "common/national_focus/HEL.txt" near line: 6615
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6636
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6636" in file: "common/national_focus/HEL.txt" near line: 6636
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6637
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6637" in file: "common/national_focus/HEL.txt" near line: 6637
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6701
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6701" in file: "common/national_focus/HEL.txt" near line: 6701
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6702
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6702" in file: "common/national_focus/HEL.txt" near line: 6702
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8104
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8104" in file: "common/national_focus/HEL.txt" near line: 8104
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8126
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8126" in file: "common/national_focus/HEL.txt" near line: 8126
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8184
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8184" in file: "common/national_focus/HEL.txt" near line: 8184
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8264
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8264" in file: "common/national_focus/HEL.txt" near line: 8264
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8265
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8265" in file: "common/national_focus/HEL.txt" near line: 8265
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8266
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8266" in file: "common/national_focus/HEL.txt" near line: 8266
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8267
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8267" in file: "common/national_focus/HEL.txt" near line: 8267
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8268
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8268" in file: "common/national_focus/HEL.txt" near line: 8268
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Non assign trigger is not enclosed in {}: has_country_leader, near line: 18" in file: "common/national_focus/NCH_Chrysalis_shared_focus.txt" near line: 19
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Not a valid value: CHN, near line: 301" in file: "common/national_focus/NCH_Chrysalis_shared_focus.txt" near line: 302
+[00:59:06][no_game_date][effect.cpp:433]: Invalid scope type for effect create_wargoal in common/national_focus/NCH_Chrysalis_shared_focus.txt line : 411
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'every_state' in common/national_focus/NCH_Chrysalis_shared_focus.txt line : 441
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: every_state, near line: 441" in file: "common/national_focus/NCH_Chrysalis_shared_focus.txt" near line: 452
+[00:59:06][no_game_date][effect.cpp:356]: Error: "Non assign effect is not enclosed in {}: set_capital, near line: 702" in file: "common/national_focus/NCH_Chrysalis_shared_focus.txt" near line: 703
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'has_ideas' in common/national_focus/NCH_Chrysalis_shared_focus.txt line : 776
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: has_ideas, near line: 776" in file: "common/national_focus/NCH_Chrysalis_shared_focus.txt" near line: 777
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Non assign trigger is not enclosed in {}: has_country_leader, near line: 806" in file: "common/national_focus/NCH_Chrysalis_shared_focus.txt" near line: 807
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'is_exists' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 736
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: is_exists, near line: 736" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 737
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'is_exists' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 750
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: is_exists, near line: 750" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 751
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'is_exists' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 764
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: is_exists, near line: 764" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 765
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'is_exists' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 778
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: is_exists, near line: 778" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 779
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'is_exists' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 792
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: is_exists, near line: 792" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 793
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'is_exists' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 806
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: is_exists, near line: 806" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 807
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'is_exists' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 820
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: is_exists, near line: 820" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 821
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'is_exists' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 834
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: is_exists, near line: 834" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 835
+[00:59:06][no_game_date][effect.cpp:443]: Invalid effect 'limit' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 1038
+[00:59:06][no_game_date][persistent.cpp:66]: Error: "Unknown effect-type: limit, near line: 1038" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 1050
+[00:59:06][no_game_date][effect.cpp:443]: Invalid effect 'exists' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 1765
+[00:59:06][no_game_date][effect.cpp:356]: Error: "Unknown effect-type: exists, near line: 1765" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 1766
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Malformed token: NUM, near line: 1793" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 1793
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Not a valid value: RCT, near line: 2310" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 2311
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'LTC' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 2788
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'controller' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 2801
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: LTC, near line: 2788
+Unknown trigger-type: controller, near line: 2801" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 2804
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'controller' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 2811
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: controller, near line: 2811" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 2814
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'controller' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 2821
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: controller, near line: 2821" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 2824
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'controller' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 2831
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: controller, near line: 2831" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 2834
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'controller' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 2841
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: controller, near line: 2841" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 2844
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'controller' in common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt line : 2851
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: controller, near line: 2851" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 2854
+[00:59:06][no_game_date][effect.cpp:356]: Error: "Non assign effect is not enclosed in {}: remove_country_leader_role, near line: 2870" in file: "common/national_focus/NCH_Gytha_Patch_Main_shared_focus.txt" near line: 2871
+[00:59:06][no_game_date][effect.cpp:443]: Invalid effect 'limit' in common/national_focus/NCH_army_shared_focus.txt line : 84
+[00:59:06][no_game_date][effect.cpp:356]: Error: "Unknown effect-type: limit, near line: 84" in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 91
+[00:59:06][no_game_date][effect.cpp:443]: Invalid effect 'research_bonus' in common/national_focus/NCH_army_shared_focus.txt line : 748
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown effect-type: research_bonus, near line: 748" in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 757
+[00:59:06][no_game_date][effect.cpp:356]: Error: "not a province building type: 5188, near line: 829" in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 832
+[00:59:06][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 894 ( add )
+[00:59:06][no_game_date][effect.cpp:443]: Invalid effect 'add' in common/national_focus/NCH_army_shared_focus.txt line : 894
+[00:59:06][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 894 ( = )
+[00:59:06][no_game_date][effect.cpp:443]: Invalid effect '=' in common/national_focus/NCH_army_shared_focus.txt line : 894
+[00:59:06][no_game_date][effect.cpp:356]: Error: "Unknown effect-type: add, near line: 894
+Unknown effect-type: =, near line: 894" in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 904
+[00:59:06][no_game_date][trigger.cpp:700]: Invalid trigger 'no' in common/national_focus/NCH_army_shared_focus.txt line : 1042
+[00:59:06][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: no, near line: 1042" in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 1043
+[00:59:06][no_game_date][effect.cpp:433]: Invalid scope type for effect add_equipment_bonus in common/national_focus/NCH_army_shared_focus.txt line : 1058
+[00:59:06][no_game_date][effect.cpp:443]: Invalid effect 'remove_idea' in common/national_focus/NCH_army_shared_focus.txt line : 1100
+[00:59:06][no_game_date][effect.cpp:443]: Invalid effect 'remove_idea' in common/national_focus/NCH_army_shared_focus.txt line : 1101
+[00:59:06][no_game_date][effect.cpp:443]: Invalid effect 'remove_idea' in common/national_focus/NCH_army_shared_focus.txt line : 1102
+[00:59:06][no_game_date][effect.cpp:356]: Error: "Unknown effect-type: remove_idea, near line: 1100
+Unknown effect-type: remove_idea, near line: 1101
+Unknown effect-type: remove_idea, near line: 1102" in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 1103
+[00:59:06][no_game_date][effect.cpp:356]: Error: "not a province building type: 5131, near line: 1478" in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 1481
+[00:59:06][no_game_date][effectimplementation.cpp:5427]: common/national_focus/NCH_army_shared_focus.txt:1999: recruit_character should only happen in game/history files in order to be executed only at game start
+[00:59:06][no_game_date][effect.cpp:443]: Invalid effect 'NCH_air_production_buff_effect' in common/national_focus/NCH_army_shared_focus.txt line : 2075
+[00:59:06][no_game_date][effect.cpp:356]: Error: "Unknown effect-type: NCH_air_production_buff_effect, near line: 2075" in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 2081
+[00:59:06][no_game_date][effect.cpp:356]: Error: "not a province building type: 10952, near line: 2114" in file: "common/national_focus/NCH_army_shared_focus.txt" near line: 2115
+[00:59:06][no_game_date][effectimplementation.cpp:5427]: common/national_focus/NCH_army_shared_focus.txt:2303: recruit_character should only happen in game/history files in order to be executed only at game start
+[00:59:07][no_game_date][nationalfocus.cpp:2410]: NCH_inity_as_the_highest_good: Couldn't find dependency NCH_first_president 
+[00:59:07][no_game_date][nationalfocus.cpp:2410]: NCH_sorry_as_bee: Couldn't find dependency NCH_air_support 
+[00:59:08][no_game_date][musicmanager.cpp:137]: Missing music_station faceplate GUI component containerWindowType with name: GF_faceplate
+[00:59:08][no_game_date][pdx_audio.cpp:1369]: Could not find music named Maxwell_the_Cat_Theme
+[00:59:08][no_game_date][pdx_audio.cpp:1369]: Could not find music named anbennar_AF_deioderan
+[00:59:08][no_game_date][pdx_audio.cpp:1369]: Could not find music named Resonant_Tonality-Hearth's_Warming_War
+[00:59:08][no_game_date][pdx_audio.cpp:1369]: Could not find music named liberty_equality_fraternity
+[00:59:08][no_game_date][pdx_audio.cpp:1369]: Could not find music named imperterrita
+[00:59:08][no_game_date][pdx_audio.cpp:1369]: Could not find music named cloak_and_dagger
+[00:59:08][no_game_date][pdx_audio.cpp:1369]: Could not find music named a_storm_coming
+[00:59:08][no_game_date][musicmanager.cpp:153]: Error no music_station defined for songs in [file] music/secret_songs.txt [location]  file: music/secret_songs.txt line: 10
+[00:59:08][no_game_date][pdx_audio.cpp:1369]: Could not find music named darkwood_wedding
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/00_scripted_effects.txt line : 1682
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 1682" in file: "common/scripted_effects/00_scripted_effects.txt" near line: 1682
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/00_scripted_effects.txt line : 1698
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 1698" in file: "common/scripted_effects/00_scripted_effects.txt" near line: 1699
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 211
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 211" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 211
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 217
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 217" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 217
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 223
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 223" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 223
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 229
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 229" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 229
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 235
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 235" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 235
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 241
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 241" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 241
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 247
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 247" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 247
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 253
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 253" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 253
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3381
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3381" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3381
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3388
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3388" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3388
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3395
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3395" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3395
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3402
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3402" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3402
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3409
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3409" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3409
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3416
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3416" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3416
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3423
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3423" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3423
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3430
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3430" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3430
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3437
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3437" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3437
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3444
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3444" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3444
+[00:59:09][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3451
+[00:59:09][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3451" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3451
+[00:59:09][no_game_date][persistent.cpp:66]: Error: "Token has_country_flag is not supported within the allowed trigger: }, near line: 112" in file: "common/ai_strategy_plans/NCH_alternate_strategy_plan.txt" near line: 112
+[00:59:09][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/ai_strategy_plans/NCH_historical_strategy_plan.txt" near line: 63 ( } )
+[00:59:09][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ai_NCHck, near line: 126" in file: "common/scripted_guis/slp_menu_open.txt" near line: 129
+[00:59:09][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ai_NCHck, near line: 134" in file: "common/scripted_guis/slp_menu_open.txt" near line: 136
+[00:59:09][no_game_date][equipment_database.cpp:655]: pre_dreadnought_nomtg is an equipment type or equipment category but is not in script enum script_enum_equipment_bonus_type. This script enum is used as documentation and should be updated at the same time as either game/common/units/equipment or the equipment categories (hardcoded in code).
+[00:59:09][no_game_date][equipment_database.cpp:655]: battleship_5 is an equipment type or equipment category but is not in script enum script_enum_equipment_bonus_type. This script enum is used as documentation and should be updated at the same time as either game/common/units/equipment or the equipment categories (hardcoded in code).
+[00:59:09][no_game_date][equipment_database.cpp:655]: battleship_6 is an equipment type or equipment category but is not in script enum script_enum_equipment_bonus_type. This script enum is used as documentation and should be updated at the same time as either game/common/units/equipment or the equipment categories (hardcoded in code).
+[00:59:09][no_game_date][equipment_database.cpp:655]: SH_battleship_3 is an equipment type or equipment category but is not in script enum script_enum_equipment_bonus_type. This script enum is used as documentation and should be updated at the same time as either game/common/units/equipment or the equipment categories (hardcoded in code).
+[00:59:09][no_game_date][equipment_database.cpp:655]: battle_cruiser_3 is an equipment type or equipment category but is not in script enum script_enum_equipment_bonus_type. This script enum is used as documentation and should be updated at the same time as either game/common/units/equipment or the equipment categories (hardcoded in code).
+[00:59:10][no_game_date][effect.cpp:443]: Invalid effect 'duration' in events/NCH_events.txt line : 2045
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Unknown effect-type: duration, near line: 2045" in file: "events/NCH_events.txt" near line: 2046
+[00:59:10][no_game_date][effectimplementation.cpp:5427]: events/NCH_events.txt:2062: recruit_character should only happen in game/history files in order to be executed only at game start
+[00:59:10][no_game_date][effectimplementation.cpp:5427]: events/NCH_events.txt:2063: recruit_character should only happen in game/history files in order to be executed only at game start
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Malformed token: NCH_WIT_friends, near line: 3347" in file: "events/NCH_events.txt" near line: 3348
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Malformed token: NCH_WIT_friends, near line: 3378" in file: "events/NCH_events.txt" near line: 3379
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Multiple limits in a 'if' effect.: limit, near line: 3470" in file: "events/NCH_events.txt" near line: 3485
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Multiple limits in a 'if' effect.: limit, near line: 3506" in file: "events/NCH_events.txt" near line: 3521
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Not a valid value: RCT, near line: 4185" in file: "events/NCH_events.txt" near line: 4186
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Not a valid value: RCT, near line: 4211" in file: "events/NCH_events.txt" near line: 4212
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Not a valid value: RCT, near line: 4237" in file: "events/NCH_events.txt" near line: 4238
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Not a valid value: RCT, near line: 4262" in file: "events/NCH_events.txt" near line: 4265
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Not a valid value: RCT, near line: 4280" in file: "events/NCH_events.txt" near line: 4282
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Not a valid value: RCT, near line: 4297" in file: "events/NCH_events.txt" near line: 4297
+[00:59:10][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: local_manpower_factor, near line: 4356" in file: "events/NCH_events.txt" near line: 4356
+[00:59:10][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: local_manpower_factor, near line: 4366" in file: "events/NCH_events.txt" near line: 4366
+[00:59:10][no_game_date][persistent.cpp:66]: Error: "local_building_slots specified multiple time, last value will be used: 1, near line: 4375" in file: "events/NCH_events.txt" near line: 4375
+[00:59:10][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: local_manpower_factor, near line: 4376" in file: "events/NCH_events.txt" near line: 4376
+[00:59:10][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: local_manpower_factor, near line: 4386" in file: "events/NCH_events.txt" near line: 4386
+[00:59:10][no_game_date][persistent.cpp:66]: Error: "Unknown modifier: local_supplies_factor, near line: 4427" in file: "events/NCH_events.txt" near line: 4427
+[00:59:10][no_game_date][effect.cpp:443]: Invalid effect 'tag' in events/NCH_events.txt line : 5014
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Unknown effect-type: tag, near line: 5014" in file: "events/NCH_events.txt" near line: 5015
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Non assign effect is not enclosed in {}: remove_country_leader_role, near line: 5088" in file: "events/NCH_events.txt" near line: 5089
+[00:59:10][no_game_date][effect.cpp:433]: Invalid scope type for effect swap_ruler_traits in events/NCH_events.txt line : 5109
+[00:59:10][no_game_date][effect.cpp:356]: Error: "swap_ruler_traits effect: Invalid trait for add: steel_lady, near line: 5111" in file: "events/NCH_events.txt" near line: 5113
+[00:59:10][no_game_date][effect.cpp:433]: Invalid scope type for effect swap_ruler_traits in events/NCH_events.txt line : 5121
+[00:59:10][no_game_date][effect.cpp:356]: Error: "swap_ruler_traits effect: Invalid trait for add: steel_lady, near line: 5123" in file: "events/NCH_events.txt" near line: 5125
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Non assign effect is not enclosed in {}: remove_country_leader_role, near line: 5140" in file: "events/NCH_events.txt" near line: 5141
+[00:59:10][no_game_date][trigger.cpp:700]: Invalid trigger 'clr_country_flag' in events/North Zebrica War.txt line : 26
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: clr_country_flag, near line: 26" in file: "events/North Zebrica War.txt" near line: 27
+[00:59:10][no_game_date][trigger.cpp:700]: Invalid trigger 'clr_country_flag' in events/North Zebrica War.txt line : 37
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: clr_country_flag, near line: 37" in file: "events/North Zebrica War.txt" near line: 38
+[00:59:10][no_game_date][trigger.cpp:700]: Invalid trigger 'clr_country_flag' in events/North Zebrica War.txt line : 48
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: clr_country_flag, near line: 48" in file: "events/North Zebrica War.txt" near line: 49
+[00:59:10][no_game_date][trigger.cpp:700]: Invalid trigger 'has_historical_ai_behaviour' in events/RiverFedEvents.txt line : 1228
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: has_historical_ai_behaviour, near line: 1228" in file: "events/RiverFedEvents.txt" near line: 1228
+[00:59:10][no_game_date][trigger.cpp:700]: Invalid trigger 'has_historical_ai_behaviour' in events/RiverFedEvents.txt line : 1300
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: has_historical_ai_behaviour, near line: 1300" in file: "events/RiverFedEvents.txt" near line: 1301
+[00:59:10][no_game_date][trigger.cpp:700]: Invalid trigger 'has_historical_ai_behaviour' in events/RiverFedEvents.txt line : 1349
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: has_historical_ai_behaviour, near line: 1349" in file: "events/RiverFedEvents.txt" near line: 1350
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Unexpected token: major, near line: 22" in file: "common/on_actions/NCH_on_action.txt" near line: 24
+[00:59:10][no_game_date][trigger.cpp:700]: Invalid trigger 'is_captured' in common/on_actions/NCH_on_action.txt line : 35
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: is_captured, near line: 35" in file: "common/on_actions/NCH_on_action.txt" near line: 36
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Unexpected token: major, near line: 40" in file: "common/on_actions/NCH_on_action.txt" near line: 42
+[00:59:10][no_game_date][trigger.cpp:700]: Invalid trigger 'is_captured' in common/on_actions/NCH_on_action.txt line : 54
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: is_captured, near line: 54" in file: "common/on_actions/NCH_on_action.txt" near line: 55
+[00:59:10][no_game_date][effect.cpp:356]: Error: "Unexpected token: major, near line: 66" in file: "common/on_actions/NCH_on_action.txt" near line: 68
+[00:59:10][no_game_date][trigger.cpp:700]: Invalid trigger 'add_ideas' in common/on_actions/NCH_on_action.txt line : 239
+[00:59:10][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: add_ideas, near line: 239" in file: "common/on_actions/NCH_on_action.txt" near line: 242
+[00:59:10][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: heavy_cruiser_1. use var:var_name to explicitly use variables in effects/triggers
+[00:59:10][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: light_cruiser_1. use var:var_name to explicitly use variables in effects/triggers
+[00:59:10][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: destroyer_1. use var:var_name to explicitly use variables in effects/triggers
+[00:59:10][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: destroyer_2. use var:var_name to explicitly use variables in effects/triggers
+[00:59:10][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: ship_shields_1. use var:var_name to explicitly use variables in effects/triggers
+[00:59:10][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: secondary_battery_1. use var:var_name to explicitly use variables in effects/triggers
+[00:59:10][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: ship_armor_cruiser_1. use var:var_name to explicitly use variables in effects/triggers
+[00:59:10][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: ship_torpedo_1. use var:var_name to explicitly use variables in effects/triggers
+[00:59:10][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: ship_depth_charge_1. use var:var_name to explicitly use variables in effects/triggers
+[00:59:10][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: mega_carrier. use var:var_name to explicitly use variables in effects/triggers
+[00:59:10][no_game_date][triggerimplementation.cpp:4136]: common/national_focus/NCH_Chrysalis_shared_focus.txt:18: has_country_leader: in has_country_leader, either character, id or name is mandatory to find the character.
+[00:59:10][no_game_date][triggerimplementation.cpp:4136]: common/national_focus/NCH_Chrysalis_shared_focus.txt:806: has_country_leader: in has_country_leader, either character, id or name is mandatory to find the character.
+[00:59:10][no_game_date][triggerimplementation.cpp:9803]: common/on_actions/eaw_ai_focus_on_actions_NCH.txt:37: has_game_rule: game rule option NCH_alternate_facism is not valid for the rule NCH_ai_behavior
+[00:59:10][no_game_date][triggerimplementation.cpp:9803]: common/on_actions/eaw_ai_focus_on_actions_NCH.txt:48: has_game_rule: game rule option NCH_alternate_communist is not valid for the rule NCH_ai_behavior
+[00:59:10][no_game_date][triggerimplementation.cpp:9803]: common/on_actions/eaw_ai_focus_on_actions_NCH.txt:59: has_game_rule: game rule option NCH_alternate_neutrality is not valid for the rule NCH_ai_behavior
+[00:59:10][no_game_date][effect.cpp:811]: common/decisions/NCH_decisions.txt:1432: add_timed_idea: Invalid idea: NCH_boost_exp. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[00:59:10][no_game_date][effectimplementation.cpp:2250]: common/national_focus/NCH_army_shared_focus.txt:2325: swap_ideas: Invalid idea: NCH_GAF_masters_3. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[00:59:10][no_game_date][effectimplementation.cpp:2250]: common/national_focus/NCH_army_shared_focus.txt:2325: swap_ideas: Invalid idea: NCH_GAF_masters_4_tac. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[00:59:10][no_game_date][effectimplementation.cpp:2250]: common/national_focus/NCH_army_shared_focus.txt:2344: swap_ideas: Invalid idea: NCH_GAF_masters_3. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[00:59:10][no_game_date][effectimplementation.cpp:2250]: common/national_focus/NCH_army_shared_focus.txt:2344: swap_ideas: Invalid idea: NCH_GAF_masters_4_fig. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
+[00:59:10][no_game_date][effect.cpp:811]: events/NCH_events.txt:2043: add_timed_idea: At least one of those parameter is mandatory : days, months or years
+[00:59:10][no_game_date][persistent.cpp:66]: Error: "Unexpected token: REB, near line: 7" in file: "common/countries/REB.txt" near line: 10
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/00_scripted_effects.txt line : 1682
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 1682" in file: "common/scripted_effects/00_scripted_effects.txt" near line: 1682
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/00_scripted_effects.txt line : 1698
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 1698" in file: "common/scripted_effects/00_scripted_effects.txt" near line: 1699
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 211
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 211" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 211
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 217
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 217" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 217
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 223
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 223" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 223
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 229
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 229" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 229
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 235
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 235" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 235
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 241
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 241" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 241
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 247
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 247" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 247
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 253
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 253" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 253
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3381
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3381" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3381
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3388
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3388" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3388
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3395
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3395" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3395
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3402
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3402" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3402
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3409
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3409" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3409
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3416
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3416" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3416
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3423
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3423" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3423
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3430
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3430" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3430
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3437
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3437" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3437
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3444
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3444" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3444
+[00:59:12][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3451
+[00:59:12][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3451" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3451
+[00:59:12][no_game_date][gameitemdatabase.h:323]: 42 errors.
+[00:59:12][no_game_date][gameitemdatabase.h:335]: =============================
+[00:59:25][1007.01.01.12][effectimplementation.cpp:11255]: history/states/1243-arc copy 2.txt:20: add_resource can't be called from a history file!
+[00:59:25][1007.01.01.12][effectimplementation.cpp:11255]: history/states/1243-arc copy 2.txt:24: add_resource can't be called from a history file!
+[00:59:25][1007.01.01.12][effectimplementation.cpp:11255]: history/states/1243-arc copy 2.txt:28: add_resource can't be called from a history file!
+[00:59:25][1007.01.01.12][scopedvariable.cpp:363]: mio:EQS_mustang_organization was not found in country scope TEM
+[00:59:25][1007.01.01.12][scopedvariable.cpp:363]: mio:EQS_mustang_organization was not found in country scope TEM
+[00:59:25][1007.01.01.12][scopedvariable.cpp:363]: mio:EQS_shoof_organization was not found in country scope TEM
+[00:59:25][1007.01.01.12][effectimplementation.cpp:5447]: history/countries/AWP.txt:12: recruit_character: Unknown character 
+[00:59:25][1007.01.01.12][effectimplementation.cpp:5457]: history/countries/REB - CHN Rebbels.txt:56: recruit_character: Character NCH_Adler cannot be assigned to REB as it is already assigned to NCH
+[01:00:01][1007.01.01.12][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/interface/counters/divisions_large/custom_template_guntruck.dds
+[01:00:01][1007.01.01.12][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/interface/counters/divisions_large/custom_template_guntruck.dds'
+[01:00:01][1007.01.01.12][texturehandler.cpp:160]: Texture Handler encountered missing texture file: gfx/interface/counters/divisions_large/custom_template_tortoise.dds
+[01:00:01][1007.01.01.12][texturehandler.cpp:216]: Couldn't find texture file: 'gfx/interface/counters/divisions_large/custom_template_tortoise.dds'
+[01:00:03][1007.01.01.12][gui.cpp:931]: Undefined GUI_TYPE: _stations_entry - This will most likely crash the game
+[01:00:03][1007.01.01.12][musicplayerview.cpp:63]: Missing music_station_entry GUI component containerWindowType with name: _stations_entry
+[01:00:06][1007.01.01.12][graphics.cpp:1280]: No font with name  
+[01:00:06][1007.01.01.12][graphics.cpp:1280]: No font with name  
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: military_access, near line: 662403" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662405
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: days_until_next_rebuild_access_list, near line: 662406" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662406
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: days_to_need_update, near line: 662407" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662407
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: seed, near line: 662408" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662408
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: irrationality, near line: 662409" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662409
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: pp_spend_priority, near line: 662410" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662410
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: pp_spend_amount, near line: 662411" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662413
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: num_wanted_divisions, near line: 662414" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662414
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: desire_unlock_land_doctrine, near line: 662415" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662415
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: desire_unlock_naval_doctrine, near line: 662416" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662416
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: desire_unlock_air_doctrine, near line: 662417" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662417
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: desire_update_land_template, near line: 662418" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662418
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: desire_upgrade_land_equipment, near line: 662419" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662419
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: desire_upgrade_naval_equipment, near line: 662420" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662420
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: desire_upgrade_air_equipment, near line: 662421" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662421
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: desire_unlock_army_spirit, near line: 662422" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662422
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: desire_unlock_navy_spirit, near line: 662423" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662423
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: desire_unlock_air_spirit, near line: 662424" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662424
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: reserved_xp_land_research, near line: 662425" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662425
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: reserved_xp_naval_research, near line: 662426" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662426
+[01:01:05][1007.01.01.12][persistent.cpp:66]: Error: "Unexpected token: reserved_xp_air_research, near line: 662427" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 662427
+[01:01:05][1007.01.01.12][savegamehelper.cpp:307]: Error: "Unexpected token: DRG, near line: 665460
+Unexpected token: manpower, near line: 673631
+Unexpected token: cores, near line: 673634
+Unexpected token: claims, near line: 673635
+Unexpected token: focus_tree, near line: 673636
+Unexpected token: continuous_focus_palette, near line: 673637
+Unexpected token: focus, near line: 673638
+Unexpected token: refresh, near line: 673641
+Unexpected token: external_rules, near line: 673642
+Unexpected token: original_research_slots, near line: 673647
+Unexpected token: strategic_navy, near line: 673648
+Unexpected token: logistics, near line: 674001
+Unexpected token: accidents_score, near line: 674003
+Unexpected token: decision_status, near line: 674005
+Unexpected token: radar, near line: 674073
+Unexpected token: occupation_status, near line: 674081
+Unexpected token: collaboration, near line: 674085
+Unexpected token: intel, near line: 674087
+Unexpected token: country_reports, near line: 675930
+Not a sunk_ship?: history_queue, near line: 675999
+Unexpected token: incoming_diplomatic_action, near line: 676017
+Unexpected token: operations, near line: 676019
+Unexpected token: tokens, near line: 676024
+Unexpected token: preferred_tactic, near line: 676032" in file: "save games/NCH_1007_01_22_17 test7.hoi4" near line: 676033
+[01:01:06][1007.01.01.12][gui.cpp:931]: Undefined GUI_TYPE: _stations_entry - This will most likely crash the game
+[01:01:06][1007.01.01.12][musicplayerview.cpp:63]: Missing music_station_entry GUI component containerWindowType with name: _stations_entry
+[01:01:06][1007.01.01.12][graphics.cpp:1280]: No font with name  
+[01:01:06][1007.01.01.12][graphics.cpp:1280]: No font with name  
