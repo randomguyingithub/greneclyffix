@@ -81,8 +81,10 @@ shared_focus = {
 		}
 
 		670 = {
-			limit = {
-				is_owned_by = NCH
+			if = {
+				limit = {
+					is_owned_by = NCH
+				}
 			}
 			add_extra_state_shared_building_slots = 3
 			add_building_construction = {
@@ -745,7 +747,7 @@ shared_focus = {
 	}
 
 	completion_reward = {
-		research_bonus = {
+		add_tech_bonus = {
 			name = marine_bonus
 			bonus = 1.0
 			uses = 2
