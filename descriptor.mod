@@ -7,8 +7,6 @@ tags={
 dependencies={
 	"Equestria at War"
 }
-name="Greneclyf Redux | Equestria At War"
+name="Greneclyf Redux | Equestria At War fix"
 picture="thumbnail.png"
 supported_version="1.17.*"
-path="C:/Users/fofol/Documents/Paradox Interactive/Hearts of Iron IV/mod/Greneclyf-Redux-EAW"
-remote_file_id="3330541760"
