@@ -297,10 +297,8 @@ Shared_focus = {
 	y = 3
 
 	available = {
-		not = {
-			exists = CHN
-		}
 		CHN = {
+			exists = no
 			all_core_state = {
 				not = {
 					is_controlled_by = CHN
