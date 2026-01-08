@@ -891,8 +891,6 @@ shared_focus = {
 		add_ideas = NCH_break_ice_idea
 		set_country_flag = NCH_break_the_ice_research
 
-		add
-
 		add_equipment_bonus = {
 			name = sp_mega_carrier_eq_bonus_strength
 			bonus = {
