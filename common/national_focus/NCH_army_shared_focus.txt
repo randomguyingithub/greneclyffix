@@ -2295,7 +2295,7 @@ shared_focus = {
 
 		set_country_flag = NCH_air_advisor_flag_fighter
 
-		recruit_character = NCH_Nowel_Dark
+		#recruit_character = NCH_Nowel_Dark
 
 		air_experience = 50
 
