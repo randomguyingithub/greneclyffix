@@ -1996,7 +1996,7 @@ shared_focus = {
 
 		set_country_flag = NCH_air_advisor_flag_airborn
 
-		recruit_character = NCH_Harris_Perk
+	#	recruit_character = NCH_Harris_Perk
 
 		add_tech_bonus = {
 			name = x
