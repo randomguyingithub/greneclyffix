@@ -891,16 +891,16 @@ shared_focus = {
 		add_ideas = NCH_break_ice_idea
 		set_country_flag = NCH_break_the_ice_research
 
-		add_equipment_bonus = {
-			name = sp_mega_carrier_eq_bonus_strength
-			bonus = {
-				ship_hull_mega_carrier = {
-					build_cost_ic = -0.15
-					max_strength = 0.05
-					instant = yes
-				}
-			}
-		}		
+#		add_equipment_bonus = {
+#			name = sp_mega_carrier_eq_bonus_strength
+#			bonus = {
+#				ship_hull_mega_carrier = {
+#					build_cost_ic = -0.15
+#					max_strength = 0.05
+#					instant = yes
+#				}
+#			}
+#		}		
 	}
 }
 ############
