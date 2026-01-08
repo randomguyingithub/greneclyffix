@@ -2754,6 +2754,10 @@ shared_focus = {
 	id = NCH_inity_as_the_highest_good
 	icon = GFX_goal_release_one_big_dream
 	cost = 10
+
+
+	x = 33
+	y = 24
 	prerequisite = {
 		focus = NCH_first_president
 	}
@@ -2783,7 +2787,7 @@ shared_focus = {
 						all_core_state = {
 							OR = {
 								is_controlled_by = NCH
-								is_controlled_by = {
+								controller = {
 									is_subject_of = NCH
 								}
 							}
@@ -2863,10 +2867,6 @@ shared_focus = {
 			}
 		}
 	}
-
-
-	x = 33
-	y = 24
 
 	completion_reward = {
 		#set_country_flag = NCH_fed_found
