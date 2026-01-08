@@ -359,96 +359,6 @@
 [19:46:45][no_game_date][decision.cpp:4493]: Duplicate decision. develop_modnihendi_oil is a duplicate.
 [19:46:45][no_game_date][decision.cpp:4493]: Duplicate decision. develop_grand_alaudia_bauxite_mine is a duplicate.
 [19:46:45][no_game_date][decision.cpp:4493]: Duplicate decision. expand_oromeowia_oil_field is a duplicate.
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3758
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3758" in file: "common/national_focus/HEL.txt" near line: 3758
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3759
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3759" in file: "common/national_focus/HEL.txt" near line: 3759
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3760
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3760" in file: "common/national_focus/HEL.txt" near line: 3760
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3761
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3761" in file: "common/national_focus/HEL.txt" near line: 3761
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3842
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3842" in file: "common/national_focus/HEL.txt" near line: 3842
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 3863
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 3863" in file: "common/national_focus/HEL.txt" near line: 3863
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4021
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4021" in file: "common/national_focus/HEL.txt" near line: 4021
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4044
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4044" in file: "common/national_focus/HEL.txt" near line: 4044
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4601
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4601" in file: "common/national_focus/HEL.txt" near line: 4601
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4602
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4602" in file: "common/national_focus/HEL.txt" near line: 4602
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4603
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4603" in file: "common/national_focus/HEL.txt" near line: 4603
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4604
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4604" in file: "common/national_focus/HEL.txt" near line: 4604
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4684
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4684" in file: "common/national_focus/HEL.txt" near line: 4684
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4705
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4705" in file: "common/national_focus/HEL.txt" near line: 4705
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4932
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4932" in file: "common/national_focus/HEL.txt" near line: 4932
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4933
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4933" in file: "common/national_focus/HEL.txt" near line: 4933
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4934
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4934" in file: "common/national_focus/HEL.txt" near line: 4934
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4935
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4935" in file: "common/national_focus/HEL.txt" near line: 4935
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4936
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4936" in file: "common/national_focus/HEL.txt" near line: 4936
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4968
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4968" in file: "common/national_focus/HEL.txt" near line: 4968
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 4989
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 4989" in file: "common/national_focus/HEL.txt" near line: 4989
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 5010
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 5010" in file: "common/national_focus/HEL.txt" near line: 5010
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 5776
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 5776" in file: "common/national_focus/HEL.txt" near line: 5776
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 5777
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 5777" in file: "common/national_focus/HEL.txt" near line: 5777
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 5778
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 5778" in file: "common/national_focus/HEL.txt" near line: 5778
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 5779
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 5779" in file: "common/national_focus/HEL.txt" near line: 5779
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6452
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6452" in file: "common/national_focus/HEL.txt" near line: 6452
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6453
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6453" in file: "common/national_focus/HEL.txt" near line: 6453
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6454
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6454" in file: "common/national_focus/HEL.txt" near line: 6454
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6455
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6455" in file: "common/national_focus/HEL.txt" near line: 6455
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6507
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6507" in file: "common/national_focus/HEL.txt" near line: 6507
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6525
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6525" in file: "common/national_focus/HEL.txt" near line: 6525
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6615
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6615" in file: "common/national_focus/HEL.txt" near line: 6615
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6636
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6636" in file: "common/national_focus/HEL.txt" near line: 6636
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6637
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6637" in file: "common/national_focus/HEL.txt" near line: 6637
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6701
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6701" in file: "common/national_focus/HEL.txt" near line: 6701
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 6702
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 6702" in file: "common/national_focus/HEL.txt" near line: 6702
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8104
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8104" in file: "common/national_focus/HEL.txt" near line: 8104
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8126
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8126" in file: "common/national_focus/HEL.txt" near line: 8126
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8184
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8184" in file: "common/national_focus/HEL.txt" near line: 8184
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8264
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8264" in file: "common/national_focus/HEL.txt" near line: 8264
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8265
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8265" in file: "common/national_focus/HEL.txt" near line: 8265
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8266
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8266" in file: "common/national_focus/HEL.txt" near line: 8266
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8267
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8267" in file: "common/national_focus/HEL.txt" near line: 8267
-[19:46:46][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/national_focus/HEL.txt line : 8268
-[19:46:46][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 8268" in file: "common/national_focus/HEL.txt" near line: 8268
 [19:46:46][no_game_date][trigger.cpp:568]: Error: "Non assign trigger is not enclosed in {}: has_country_leader, near line: 18" in file: "common/national_focus/NCH_Chrysalis_shared_focus.txt" near line: 19
 [19:46:46][no_game_date][trigger.cpp:568]: Error: "Not a valid value: CHN, near line: 301" in file: "common/national_focus/NCH_Chrysalis_shared_focus.txt" near line: 302
 [19:46:46][no_game_date][effect.cpp:433]: Invalid scope type for effect create_wargoal in common/national_focus/NCH_Chrysalis_shared_focus.txt line : 411
@@ -525,48 +435,6 @@ Unknown effect-type: remove_idea, near line: 1102" in file: "common/national_foc
 [19:46:47][no_game_date][nationalfocus.cpp:2410]: NCH_sorry_as_bee: Couldn't find dependency NCH_air_support 
 [19:46:50][no_game_date][musicmanager.cpp:137]: Missing music_station faceplate GUI component containerWindowType with name: GF_faceplate
 [19:46:50][no_game_date][musicmanager.cpp:153]: Error no music_station defined for songs in [file] music/secret_songs.txt [location]  file: music/secret_songs.txt line: 10
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/00_scripted_effects.txt line : 1682
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 1682" in file: "common/scripted_effects/00_scripted_effects.txt" near line: 1682
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/00_scripted_effects.txt line : 1698
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 1698" in file: "common/scripted_effects/00_scripted_effects.txt" near line: 1699
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 211
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 211" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 211
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 217
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 217" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 217
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 223
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 223" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 223
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 229
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 229" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 229
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 235
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 235" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 235
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 241
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 241" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 241
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 247
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 247" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 247
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 253
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 253" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 253
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3381
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3381" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3381
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3388
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3388" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3388
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3395
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3395" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3395
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3402
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3402" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3402
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3409
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3409" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3409
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3416
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3416" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3416
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3423
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3423" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3423
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3430
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3430" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3430
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3437
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3437" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3437
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3444
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3444" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3444
-[19:46:51][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3451
-[19:46:51][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3451" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3451
 [19:46:51][no_game_date][scopedvariable.cpp:582]: sp:sp_land_infantry_mobility_vehicles does not match any Special Project in database
 [19:46:51][no_game_date][scopedvariable.cpp:582]: sp:sp_land_infantry_mobility_vehicles does not match any Special Project in database
 [19:46:51][no_game_date][eventtarget.cpp:211]: sp:sp_land_infantry_mobility_vehicles does not match any Special Project in database
@@ -670,48 +538,6 @@ Unknown effect-type: remove_idea, near line: 1102" in file: "common/national_foc
 [19:46:56][no_game_date][effectimplementation.cpp:2250]: common/national_focus/NCH_army_shared_focus.txt:2344: swap_ideas: Invalid idea: NCH_GAF_masters_4_fig. If you wanted to reference a variable, you need to explicitly prefix it with var: or temp_var:.
 [19:46:56][no_game_date][effect.cpp:811]: events/NCH_events.txt:2043: add_timed_idea: At least one of those parameter is mandatory : days, months or years
 [19:46:57][no_game_date][persistent.cpp:66]: Error: "Unexpected token: REB, near line: 7" in file: "common/countries/REB.txt" near line: 10
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/00_scripted_effects.txt line : 1682
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 1682" in file: "common/scripted_effects/00_scripted_effects.txt" near line: 1682
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/00_scripted_effects.txt line : 1698
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 1698" in file: "common/scripted_effects/00_scripted_effects.txt" near line: 1699
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 211
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 211" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 211
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 217
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 217" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 217
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 223
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 223" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 223
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 229
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 229" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 229
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 235
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 235" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 235
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 241
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 241" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 241
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 247
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 247" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 247
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'exists_outside_sphere_of_influence' in common/scripted_effects/EAW_GRI_effect.txt line : 253
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: exists_outside_sphere_of_influence, near line: 253" in file: "common/scripted_effects/EAW_GRI_effect.txt" near line: 253
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3381
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3381" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3381
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3388
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3388" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3388
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3395
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3395" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3395
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3402
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3402" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3402
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3409
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3409" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3409
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3416
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3416" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3416
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3423
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3423" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3423
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3430
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3430" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3430
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3437
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3437" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3437
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3444
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3444" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3444
-[19:47:00][no_game_date][trigger.cpp:700]: Invalid trigger 'check_bop_value_loop_trigger' in common/scripted_effects/EAW_misc_effect.txt line : 3451
-[19:47:00][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: check_bop_value_loop_trigger, near line: 3451" in file: "common/scripted_effects/EAW_misc_effect.txt" near line: 3451
 [19:47:00][no_game_date][scopedvariable.cpp:582]: sp:sp_land_infantry_mobility_vehicles does not match any Special Project in database
 [19:47:00][no_game_date][scopedvariable.cpp:582]: sp:sp_land_infantry_mobility_vehicles does not match any Special Project in database
 [19:47:00][no_game_date][eventtarget.cpp:211]: sp:sp_land_infantry_mobility_vehicles does not match any Special Project in database
