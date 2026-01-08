@@ -1,5 +1,5 @@
 characters = {
-	AWN_leader = {
+	AWP_leader = {
 		name = AWP_leader
 
 		portraits={
