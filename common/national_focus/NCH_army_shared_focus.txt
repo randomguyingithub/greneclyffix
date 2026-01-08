@@ -1039,12 +1039,12 @@ shared_focus = {
 
 		complete_special_project = sp:sp_naval_ice_carrier
 
-		else = {
+#		else = {
 			set_technology = { torpedo_cruiser_mtg = 1 }
 			set_technology = {
 				mega_carrier = 1
 			}
-		}		
+#		}		
 
 		#complete_special_project = sp:sp_naval_ice_carrier
 
