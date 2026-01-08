@@ -2067,7 +2067,7 @@ shared_focus = {
 		focus = NCH_aisling_air_institute
 	}
 	completion_reward = {
-		NCH_air_production_buff_effect = yes
+	#	NCH_air_production_buff_effect = yes
 		random_core_state = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
