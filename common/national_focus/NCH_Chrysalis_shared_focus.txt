@@ -699,7 +699,7 @@ Shared_focus = {
 					transfer_state = 314
 					transfer_state = 264
 
-					set_capital = 252
+					set_capital = { state = 252 }
 				}
 
 				REB = {
@@ -773,7 +773,7 @@ Shared_focus = {
 
 		if = {
 			limit = {
-				has_ideas = NCH_humanitary_crisis_2
+				has_idea = NCH_humanitary_crisis_2
 			}
 			remove_ideas = NCH_humanitary_crisis_2
 		}
