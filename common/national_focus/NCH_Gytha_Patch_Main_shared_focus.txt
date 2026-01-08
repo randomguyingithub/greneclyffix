@@ -2758,9 +2758,9 @@ shared_focus = {
 
 	x = 33
 	y = 24
-	prerequisite = {
-		focus = NCH_first_president
-	}
+#	prerequisite = {
+#		focus = NCH_first_president
+#	}
 	prerequisite = {
 		focus = NCH_what_we_strive_for
 	}

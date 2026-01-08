@@ -2285,9 +2285,9 @@ shared_focus = {
 		# }
 	}
 
-	prerequisite = {
-		focus = NCH_air_support
-	}
+#	prerequisite = {
+#		focus = NCH_air_support
+#	}
 	prerequisite = {
 		focus = NCH_naval_bomber_project
 	}
