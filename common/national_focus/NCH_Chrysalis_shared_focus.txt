@@ -406,9 +406,13 @@ Shared_focus = {
 					is_controlled_by = CHN
 				}
 			}
-			create_wargoal = {
-				target = THIS
-				type = annex_everything
+			owner = {
+				NCH = {
+					create_wargoal = {
+						target = PREV
+						type = annex_everything
+					}
+				}
 			}
 		}
 	}
