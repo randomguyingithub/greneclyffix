@@ -1790,7 +1790,7 @@ shared_focus = {
 			has_opinion = { target = BAK value > 25 }
 			has_opinion = { target = DMT value > 25 }
 			has_opinion = { target = DEP value > 25 }
-			has_opinion = { target = NUM value > 25 }
+			has_opinion = { target = NIM value > 25 }
 			has_opinion = { target = RCT value > 25 }
 			has_opinion = { target = FRE value > 25 }
 			has_opinion = { target = WIT value > 25 }
