@@ -1035,20 +1035,22 @@ shared_focus = {
 		}
 
 		NCH = {
-			limit = {
-				and = {
-					is_riverlands_country_tag = yes
-					has_opinion = {
-						target = FROM
-						value > 25
+			if = {
+				limit = {
+					and = {
+						is_riverlands_country_tag = yes
+						has_opinion = {
+							target = FROM
+							value > 25
+						}
 					}
 				}
-			}
-			every_core_state = {
-				add_state_modifier = {
-					modifier = {
-						local_resources = 0.10
-						local_building_slots_factor = 0.05
+				every_core_state = {
+					add_state_modifier = {
+						modifier = {
+							local_resources = 0.10
+							local_building_slots_factor = 0.05
+						}
 					}
 				}
 			}
@@ -1761,8 +1763,10 @@ shared_focus = {
 		}
 
 		if = {
-			FRE = {
-				exists = yes
+			limit = {
+				FRE = {
+					exists = yes
+				}
 			}
 			NCH = {
 				release_puppet = FRE
@@ -2306,8 +2310,8 @@ shared_focus = {
 						owns_state = 577
 						owns_state = 646
 					}
-					not = {
-						exists = RCT
+					RCT = {
+						exists = no
 					}
 				}
 				
@@ -2779,16 +2783,16 @@ shared_focus = {
 						all_core_state = {
 							OR = {
 								is_controlled_by = NCH
-								controller = {
+								is_controlled_by = {
 									is_subject_of = NCH
 								}
 							}
 						}
 					}
-					LTC = {
+					LCT = {
 						all_core_state = {
 							OR = {
-								controller = NCH
+								is_controlled_by = NCH
 								controller = {
 									is_subject_of = NCH
 								}
@@ -2798,7 +2802,7 @@ shared_focus = {
 					BAK = {
 						all_core_state = {
 							OR = {
-								controller = NCH
+								is_controlled_by = NCH
 								controller = {
 									is_subject_of = NCH
 								}
@@ -2808,7 +2812,7 @@ shared_focus = {
 					NIM = {
 						all_core_state = {
 							OR = {
-								controller = NCH
+								is_controlled_by = NCH
 								controller = {
 									is_subject_of = NCH
 								}
@@ -2818,7 +2822,7 @@ shared_focus = {
 					DEP = {
 						all_core_state = {
 							OR = {
-								controller = NCH
+								is_controlled_by = NCH
 								controller = {
 									is_subject_of = NCH
 								}
@@ -2828,7 +2832,7 @@ shared_focus = {
 					FRE = {
 						all_core_state = {
 							OR = {
-								controller = NCH
+								is_controlled_by = NCH
 								controller = {
 									is_subject_of = NCH
 								}
@@ -2838,7 +2842,7 @@ shared_focus = {
 					WIT = {
 						all_core_state = {
 							OR = {
-								controller = NCH
+								is_controlled_by = NCH
 								controller = {
 									is_subject_of = NCH
 								}
@@ -2848,7 +2852,7 @@ shared_focus = {
 					DMT = {
 						all_core_state = {
 							OR = {
-								controller = NCH
+								is_controlled_by = NCH
 								controller = {
 									is_subject_of = NCH
 								}
