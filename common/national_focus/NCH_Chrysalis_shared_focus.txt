@@ -441,9 +441,7 @@ Shared_focus = {
 			is_in_faction_with = EQS
 
 			any_state = {
-				limit = {
-					is_core_of = CHN
-				}
+				is_core_of = CHN
 				controller = {
 					or = {
 						original_tag = EQS
