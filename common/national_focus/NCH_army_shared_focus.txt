@@ -1049,18 +1049,18 @@ shared_focus = {
 		#complete_special_project = sp:sp_naval_ice_carrier
 
 
-		sp:sp_naval_ice_carrier={
-			add_equipment_bonus = {
-				name = sp_mega_carrier_eq_bonus_strength
-				bonus = {
-					mega_carrier = {
-						build_cost_ic = 0.075
-						max_strength = 0.1	
-						instant = yes		 
-					}
-				}
-			}	
-		}
+#		sp:sp_naval_ice_carrier={
+#			add_equipment_bonus = {
+#				name = sp_mega_carrier_eq_bonus_strength
+#				bonus = {
+#					mega_carrier = {
+#						build_cost_ic = 0.075
+#						max_strength = 0.1	
+#						instant = yes		 
+#					}
+#				}
+#			}	
+#		}
 	}
 }
 
