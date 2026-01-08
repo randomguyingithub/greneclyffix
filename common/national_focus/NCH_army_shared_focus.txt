@@ -1097,9 +1097,9 @@ shared_focus = {
 		
 		# NOT WORKING WHY #
 		hidden_effect = {
-			remove_idea = NCH_expand_blosmport_dockyards
-			remove_idea = NCH_naval_academy_establish
-			remove_idea = NCH_break_ice_idea
+			remove_ideas = NCH_expand_blosmport_dockyards
+			remove_ideas = NCH_naval_academy_establish
+			remove_ideas = NCH_break_ice_idea
 		}
 
 		if = {
