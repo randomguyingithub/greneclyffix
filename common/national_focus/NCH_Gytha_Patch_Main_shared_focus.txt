@@ -2867,7 +2867,7 @@ shared_focus = {
 	completion_reward = {
 		#set_country_flag = NCH_fed_found
 		NCH = {
-			remove_country_leader_role = yes
+			retire_country_leader = yes
 		}
 
 		create_country_leader = {

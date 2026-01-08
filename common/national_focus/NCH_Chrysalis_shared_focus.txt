@@ -15,7 +15,7 @@ Shared_focus = {
 
 	available = {
 		not = {
-			has_country_leader = { NCH_Svirl_chosen_leader }
+			has_country_leader = { character =  NCH_Svirl_chosen_leader }
 		}
 		or = {
 			has_completed_focus = NCH_shield_and_sword_harmony
@@ -440,7 +440,7 @@ Shared_focus = {
 
 			is_in_faction_with = EQS
 
-			every_state = {
+			any_state = {
 				limit = {
 					is_core_of = CHN
 				}
@@ -805,7 +805,7 @@ Shared_focus = {
 
 	available = {
 		not = {
-			has_country_leader = NCH_Svirl_chosen_leader
+			has_country_leader = { character =  NCH_Svirl_chosen_leader }
 		}
 		CHN = {
 			all_core_state = {
