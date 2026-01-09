@@ -35,27 +35,26 @@ NCH_historical = {
 		NCH_invite_the_equestrians
 		NCH_a_different_kind_of_changeling
 		NCH_intercontinental_trade
+	}
+	research = {
+	}
 
-		research = {
-		}
+	ideas = {
+	}
 
-		ideas = {
-		}
+	traits = {
+	}
 
-		traits = {
-		}
-
-		# Keep small, as it is used as a factor for some things (such as research needs)
-		# Recommended around 1.0. Useful for relation between plans
-		weight = {
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
 			factor = 1.0
-			modifier = {
-				factor = 1.0
-			}
 		}
+	}
 
-		focus_factors = {
-		}
+	focus_factors = {
 	}
 }
 

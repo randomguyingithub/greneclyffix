@@ -108,17 +108,17 @@ NCH_alternate_facism = {
 
 	allowed = {
 		original_tag = NCH
-		has_country_flag = NCH_AI_FASCISM
+		#has_country_flag = NCH_AI_FASCISM
 	}
 
 	enable = {
-			OR = {
-				has_country_flag = NCH_AI_FASCISM
-				has_game_rule = {
-					rule = NCH_ai_behavior
-					option = FASCISM
-				}
+		OR = {
+			has_country_flag = NCH_AI_FASCISM
+			has_game_rule = {
+				rule = NCH_ai_behavior
+				option = FASCISM
 			}
+		}
 	}
 	abort = {
 		
@@ -153,5 +153,4 @@ NCH_alternate_facism = {
 	focus_factors = {
 		
 	}
-
 }
