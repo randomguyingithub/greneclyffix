@@ -14,8 +14,9 @@ Shared_focus = {
 	}
 
 	available = {
-		not = {
-			has_country_leader = { character =  NCH_Svirl_chosen_leader }
+		has_country_leader = {
+			character = NCH_queen_gytha
+			ruling_only = yes
 		}
 		or = {
 			has_completed_focus = NCH_shield_and_sword_harmony
@@ -148,7 +149,10 @@ Shared_focus = {
 	y = 4
 
 	available = {
-		has_government = democratic
+		has_country_leader = {
+			character = NCH_queen_gytha
+			ruling_only = yes
+		}
 		CHN = {
 			has_government = fascism
 		}
@@ -277,6 +281,13 @@ Shared_focus = {
 	x = 9
 	y = 6
 
+	available = {
+		has_country_leader = {
+			character = NCH_queen_gytha
+			ruling_only = yes
+		}
+	}
+
 	bypass = {
 		has_country_flag = NCH_chrysalis_reb
 	}
@@ -297,6 +308,23 @@ Shared_focus = {
 	y = 3
 
 	available = {
+		not = {
+			or = {
+				REB = {
+					is_puppet_of = NCH
+				}
+				CHN = {
+					is_puppet_of = NCH
+				}
+				CHN = {
+					all_core_state = {
+						is_controlled_by = NCH
+						is_controlled_by = REB
+					}
+				}
+			}
+		}
+
 		CHN = {
 			exists = no
 			all_core_state = {
@@ -397,6 +425,13 @@ Shared_focus = {
 	}
 	x = 13
 	y = 6
+
+	available = {
+		has_country_leader = {
+			character = NCH_queen_gytha
+			ruling_only = yes
+		}
+	}
 
 	completion_reward = {
 		every_state = {
@@ -802,8 +837,9 @@ Shared_focus = {
 	y = 8
 
 	available = {
-		not = {
-			has_country_leader = { character =  NCH_Svirl_chosen_leader }
+		has_country_leader = {
+			character = NCH_queen_gytha
+			ruling_only = yes
 		}
 		CHN = {
 			all_core_state = {
