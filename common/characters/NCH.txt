@@ -31,7 +31,7 @@ characters={
 			desc = "Gytha_iron_lady_desc"
 			ideology = conservatism
 			expire = "1965.1.1.1"
-			traits = { steel_lady }
+			traits = { The_Steel_lady }
 			id = -1
 		}
 		gender = female
