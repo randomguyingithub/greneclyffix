@@ -2059,8 +2059,8 @@ add_namespace = greneclyf_hive
 			}
 
 			NCH = {
-				recruit_character = CHN_legus
-				recruit_character = CHN_fylifa
+#				recruit_character = CHN_legus #set_nationality alone is enough
+#				recruit_character = CHN_fylifa
 				activate_advisor = CHN_legus
 				activate_advisor = CHN_fylifa
 			}
@@ -2517,13 +2517,11 @@ add_namespace = greneclyf_hive
 		}
 
 		option = {
-			ai_weight = {
-				ai_will_do = {
-					base = 0
-					modifier = {
-						is_ai = yes
-						add = 0
-					}
+			ai_chance = {
+				base = 0
+				modifier = {
+					is_ai = yes
+					add = 0
 				}
 			}
 			name = greneclyf_base.10.b
@@ -3348,7 +3346,7 @@ add_namespace = greneclyf_hive
 
 			add_opinion_modifier = {
 				target = WAT
-				modifier = NCH_WIT_friends
+				modifier = NCH_WAT_friends
 			}
 
 			add_opinion_modifier = {
@@ -3379,7 +3377,7 @@ add_namespace = greneclyf_hive
 			}
 			add_opinion_modifier = {
 				target = NCH
-				modifier = NCH_WIT_friends
+				modifier = NCH_WAT_friends
 			}
 			add_timed_idea = {
 				idea = NCH_help_with_industrialization
@@ -3507,6 +3505,8 @@ add_namespace = greneclyf_hive
 					target = FBK
 					type = puppet_wargoal_focus 
 				}
+			}
+			if =
 				limit = {
 					or = {
 						FIR = {
@@ -4194,7 +4194,9 @@ add_namespace = greneclyf_hive
 			set_country_flag = NCH_riv_deceline
 			if = {
 				limit = {
-					exists = RCT
+					RCT = {
+						exists = yes
+					}
 					NOT = { has_government = democratic }
 				}
 				RCT = {
@@ -4220,7 +4222,9 @@ add_namespace = greneclyf_hive
 			# RCT netr #
 			if = {
 				limit = {
-					exists = RCT
+					RCT = {
+						exists = yes
+					}
 					NOT = { has_government = democratic }
 				}
 				RCT = {
@@ -4246,7 +4250,9 @@ add_namespace = greneclyf_hive
 			# RCT fascism #			
 			if = {
 				limit = {
-					exists = RCT
+					RCT = {
+						exists = yes
+					}
 					NOT = { has_government = democratic }
 				}
 				RCT = {
@@ -4271,7 +4277,9 @@ add_namespace = greneclyf_hive
 			# RCT puppet #
 			if = {
 				limit = {
-					exists = RCT
+					RCT = {
+						exists = yes
+					}
 					RCT = {
 						is_puppet = yes
 					}
@@ -4289,7 +4297,9 @@ add_namespace = greneclyf_hive
 			# RCT exists democratic baka / player 
 			if = {
 				limit = {
-					exists = RCT
+					RCT = {
+						exists = yes
+					}
 					OR = {
 						RCT = { has_government = democratic }
 						ROOT = { has_government = democratic }
@@ -4365,7 +4375,7 @@ add_namespace = greneclyf_hive
 						recruitable_population_factor = 0.15
 						local_building_slots = 1
 						local_resources_factor = 0.10
-						local_manpower_factor = 0.1
+#						local_manpower = 0.1
 						state_production_speed_buildings_factor = 0.05
 					}
 				}
@@ -4375,7 +4385,7 @@ add_namespace = greneclyf_hive
 					modifier = { 
 						local_building_slots = 1
 						local_resources_factor = 0.10
-						local_manpower_factor = 0.05
+#						local_manpower = 0.05
 						state_production_speed_buildings_factor = 0.05
 					}
 				}
@@ -4385,7 +4395,7 @@ add_namespace = greneclyf_hive
 					modifier = { 
 						local_building_slots = 2
 						local_building_slots = 1
-						local_manpower_factor = 0.15
+						local_manpower = 0.15
 						state_production_speed_buildings_factor = 0.15
 					}
 				}
@@ -4395,7 +4405,7 @@ add_namespace = greneclyf_hive
 					modifier = { 
 						local_building_slots = 1
 						local_resources_factor = 0.10
-						local_manpower_factor = 0.05
+						local_manpower = 0.05
 						state_production_speed_buildings_factor = 0.05
 					}
 				}
@@ -4436,7 +4446,7 @@ add_namespace = greneclyf_hive
 				add_state_modifier = {
 					modifier = { 
 						local_manpower = 0.05
-						local_supplies_factor = 0.05
+						local_supplies = 0.05
 					}
 				}
 			}
@@ -5023,11 +5033,11 @@ add_namespace = greneclyf_hive
 			name = greneclyf_core.115.a
 			add_stability = 0.03
 			add_political_power = 30
-
-			OVERLORD = {
-				tag = NCH
+			trigger = {
+				OVERLORD = {
+					tag = NCH
+				}
 			}
-
 			ai_chance = {
 				base = 1
 				modifier = {
@@ -5129,7 +5139,7 @@ add_namespace = greneclyf_hive
 					}
 					swap_ruler_traits = {
 						remove = The_naive_reformer
-						add = steel_lady
+						add = The_Steel_lady
 					}
 				}
 
@@ -5141,7 +5151,7 @@ add_namespace = greneclyf_hive
 					}
 					swap_ruler_traits = {
 						remove = The_god_chosen_queen
-						add = steel_lady
+						add = The_Steel_lady
 					}
 				}
 			}
