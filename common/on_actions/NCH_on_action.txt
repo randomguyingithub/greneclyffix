@@ -8,158 +8,159 @@ on_actions = {
     on_daily_NCH = {
         effect = {
 			# REDUX #
+			NCH = {
+				# START HIVES WAR #
+				if = {
+				
+					limit = {
+						not = {
+							set_country_flag = NCH_hives_war_news_start
+						}
+						has_war_with = CHN
+						REB = {
+							is_subject_of = NCH
+						}
+					}
+					set_country_flag = NCH_hives_war_news_start
+					country_event = {
+						id = greneclyf_hive.10
+						major = yes
+						days = 0
+					}
+				}
 
-			# START HIVES WAR #
-			if = {
-				limit = {
-					not = {
-						set_country_flag = NCH_hives_war_news_start
-					}
-					has_war_with = CHN
-					REB = {
-						is_subject_of = NCH
-					}
-				}
-				set_country_flag = NCH_hives_war_news_start
-				country_event = {
-					id = greneclyf_hive.10
-					major = yes
-					days = 0
-				}
-			}
-
-			# DEFEAT HIVES WAR #
-			if = {
-				limit = {
-					not = {
-						set_country_flag = NCH_hives_war_news_defeat
-					}
-					has_war_with = CHN
-					REB = {
-						is_subject_of = NCH
-					}
-					REB = {
-						has_capitulated = yes
-					}
-				}
-				set_country_flag = NCH_hives_war_news_defeat
-				country_event = {
-					id = greneclyf_hive.11
-					major = yes
-					days = 0
-				}
-			}
-			
-			# SUCSESS HIVES WAR #
-			if = {
-				limit = {
-					not = {
-						set_country_flag = NCH_hives_war_news_win
-					}
-					has_war_with = CHN
-					REB = {
-						is_subject_of = NCH
-					}
-					or = {
-						CHN = {
-							has_capitulated = yes
+				# DEFEAT HIVES WAR #
+				if = {
+					limit = {
+						not = {
+							set_country_flag = NCH_hives_war_news_defeat
+						}
+						has_war_with = CHN
+						REB = {
+							is_subject_of = NCH
 						}
 						REB = {
-							owns_state = 251
-						}
-						NCH = {
-							owns_state = 251
+							has_capitulated = yes
 						}
 					}
-				}
-				set_country_flag = NCH_hives_war_news_win
-				country_event = {
-					id = greneclyf_hive.12
-					major = yes
-					days = 0
-				}
-			}
-
-			if = {
-				limit = {
-					has_completed_focus = NCH_colony_development
-				}
-				if = {
-					limit = {
-						owns_state = 1234
-					}
-					add_victory_points = {
-						province = 20358
-						value = 1
-					}
-					add_building_construction = {
-						type = naval_base
-						level = 1
-						province = 20358
-					}
-				}
-
-				if = {
-					limit = {
-						owns_state = 1215
-					}
-					add_victory_points = {
-						province = 20324
-						value = 1
-					}
-					add_building_construction = {
-						type = naval_base
-						level = 1
-						province = 20324
-					}
-				}
-
-				if = {
-					limit = {
-						owns_state = 1245
-					}
-					add_victory_points = {
-						province = 20352
-						value = 1
-					}
-					add_building_construction = {
-						type = naval_base
-						level = 1
-						province = 20352
-					}
-				}
-
-				if = {
-					limit = {
-						owns_state = 1236
-					}
-					add_victory_points = {
-						province = 20321
-						value = 1
-					}
-					add_building_construction = {
-						type = naval_base
-						level = 1
-						province = 20321
+					set_country_flag = NCH_hives_war_news_defeat
+					country_event = {
+						id = greneclyf_hive.11
+						major = yes
+						days = 0
 					}
 				}
 				
+				# SUCSESS HIVES WAR #
 				if = {
 					limit = {
-						owns_state = 1227
+						not = {
+							set_country_flag = NCH_hives_war_news_win
+						}
+						has_war_with = CHN
+						REB = {
+							is_subject_of = NCH
+						}
+						or = {
+							CHN = {
+								has_capitulated = yes
+							}
+							REB = {
+								owns_state = 251
+							}
+							NCH = {
+								owns_state = 251
+							}
+						}
 					}
-					add_victory_points = {
-						province = 20314
-						value = 1
+					set_country_flag = NCH_hives_war_news_win
+					country_event = {
+						id = greneclyf_hive.12
+						major = yes
+						days = 0
 					}
-					add_building_construction = {
-						type = naval_base
-						level = 1
-						province = 20314
+				}
+
+				if = {
+					limit = {
+						has_completed_focus = NCH_colony_development
+					}
+					if = {
+						limit = {
+							owns_state = 1234
+						}
+						add_victory_points = {
+							province = 20358
+							value = 1
+						}
+						add_building_construction = {
+							type = naval_base
+							level = 1
+							province = 20358
+						}
+					}
+
+					if = {
+						limit = {
+							owns_state = 1215
+						}
+						add_victory_points = {
+							province = 20324
+							value = 1
+						}
+						add_building_construction = {
+							type = naval_base
+							level = 1
+							province = 20324
+						}
+					}
+
+					if = {
+						limit = {
+							owns_state = 1245
+						}
+						add_victory_points = {
+							province = 20352
+							value = 1
+						}
+						add_building_construction = {
+							type = naval_base
+							level = 1
+							province = 20352
+						}
+					}
+
+					if = {
+						limit = {
+							owns_state = 1236
+						}
+						add_victory_points = {
+							province = 20321
+							value = 1
+						}
+						add_building_construction = {
+							type = naval_base
+							level = 1
+							province = 20321
+						}
+					}
+					
+					if = {
+						limit = {
+							owns_state = 1227
+						}
+						add_victory_points = {
+							province = 20314
+							value = 1
+						}
+						add_building_construction = {
+							type = naval_base
+							level = 1
+							province = 20314
+						}
 					}
 				}
 			}
-		 
 			every_country = {
 				if = {
 					limit = {
@@ -250,10 +251,9 @@ on_actions = {
 						not = {
 							has_idea = NCH_blosmport_economic_consequences
 						}
-
-						add_ideas = {
-							NCH_blosmport_economic_org
-						}
+					}
+					add_ideas = {
+						NCH_blosmport_economic_org
 					}
 				}
 			}
