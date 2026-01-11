@@ -123,16 +123,16 @@ scripted_gui = {
 			tag = GER
 		}
 		
-		ai_NCHck = {
-			NCHck_variable = { ROOT.ger_port_2 < 0.99 }
-			NCHck_variable = { ai_random > 0.4 }
+		ai_check_scope = {
+			check_variable = { ROOT.ger_port_2 < 0.99 }
+			check_variable = { ai_random > 0.4 }
 		}
 		
 		ai_test_interval = 24
         ai_test_variance = 0.2
  
-        ai_NCHck = {
-            NCHck_variable = { ger_port_2 < 0.99 }
+        ai_check_scope = {
+            check_variable = { ger_port_2 < 0.99 }
         }
 		
         triggers = {
