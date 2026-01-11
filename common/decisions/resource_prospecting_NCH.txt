@@ -160,7 +160,7 @@ prospect_for_resources = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove deeper_into_crystal_mountains"
-			668 = { set_country_flag = mining_cristal_mission_2  }
+			668.owner = { set_country_flag = mining_cristal_mission_2  }
 			668 = {
 				add_resource = {
 					type = crystals
@@ -207,7 +207,7 @@ prospect_for_resources = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove deeper_into_crystal_mountains"
-			668 = { set_country_flag = mining_cristal_mission_2  }
+			668.owner = { set_country_flag = mining_cristal_mission_2  }
 			668 = {
 				add_resource = {
 					type = crystals
@@ -253,7 +253,7 @@ prospect_for_resources = {
 		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove deeper_into_crystal_mountains"
-			668 = { set_country_flag = mining_cristal_mission_2  }
+			668.owner = { set_country_flag = mining_cristal_mission_2  }
 			668 = {
 				add_resource = {
 					type = crystals
