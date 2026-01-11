@@ -85,7 +85,7 @@ NCH_debug_decision = {
 					}
 					swap_ruler_traits = {
 						remove = The_naive_reformer
-						add = steel_lady
+						add = The_Steel_lady
 					}
 				}
 
@@ -97,33 +97,66 @@ NCH_debug_decision = {
 					}
 					swap_ruler_traits = {
 						remove = The_god_chosen_queen
-						add = steel_lady
+						add = The_Steel_lady
 					}
 				}
 			}
 
 			
 
-			NCH = {
-				every_state = {
-						limit = {
-						owner = {
-							OR = {
-								tag = RCT
-								tag = NIM
-								tag = DMT
-								tag = BAK
-								tag = DEP
-								tag = LCT
-								tag = WIT
-								tag = FRE
-								tag = FBK
-								tag = FIR
-								tag = WAT
-					}
-						}
-						add_core_of = NCH
-					}
+			RCT = {
+				every_core_state = {
+					add_core_of = NCH
+				}
+			}
+			NIM = {
+				every_core_state = {
+					add_core_of = NCH
+				}
+			}
+			DMT = {
+				every_core_state = {
+					add_core_of = NCH
+				}
+			}
+			BAK = {
+				every_core_state = {
+					add_core_of = NCH
+				}
+			}
+			DEP = {
+				every_core_state = {
+					add_core_of = NCH
+				}
+			}
+			LCT = {
+				every_core_state = {
+					add_core_of = NCH
+				}
+			}
+			WIT = {
+				every_core_state = {
+					add_core_of = NCH
+				}
+			}
+			FRE = {
+				every_core_state = {
+					add_core_of = NCH
+				}
+			}
+			FBK = {
+				every_core_state = {
+					add_core_of = NCH
+				}
+			}
+			FIR = {
+				every_core_state = {
+					add_core_of = NCH
+				}
+			}
+			WAT = {
+				every_core_state = {
+					add_core_of = NCH
 				}
 			}
 
@@ -941,7 +974,7 @@ NCH_fed_found_category = {
 					}
 					swap_ruler_traits = {
 						remove = The_naive_reformer
-						add = steel_lady
+						add = The_Steel_lady
 					}
 				}
 
@@ -953,7 +986,7 @@ NCH_fed_found_category = {
 					}
 					swap_ruler_traits = {
 						remove = The_god_chosen_queen
-						add = steel_lady
+						add = The_Steel_lady
 					}
 				}
 			}
@@ -1145,7 +1178,7 @@ NCH_fed_found_category = {
 					}
 					swap_ruler_traits = {
 						remove = The_naive_reformer
-						add = steel_lady
+						add = The_Steel_lady
 					}
 				}
 
@@ -1157,7 +1190,7 @@ NCH_fed_found_category = {
 					}
 					swap_ruler_traits = {
 						remove = The_god_chosen_queen
-						add = steel_lady
+						add = The_Steel_lady
 					}
 				}
 			}
@@ -1986,40 +2019,41 @@ NCH_gov_rotation_category = {
 
 		timeout_effect = {
 			# ALL POLITIC ADVISORS #
-			limit = {
-				has_idea = {
-					NCH_Oiren_Judge_itoken #pol
-					NCH_generic_military_theorist #other / Basalt
-					NCH_Caider_it #other
-					NCH_Valha_it #industrial
-					NCH_celarl_it #other
-					NCH_Derkliones_it #other spymaster
-					NCH_Sul_Oraiste_it # bunkers / industrial
-					NCH_Marikel_it #
-					NCH_Ludas_it #industrial
-					NCH_Arachi_it #pol 
-					NCH_Yorilos_it #industrial
-					NCH_Floppa_it #pol 
-				}
-				remove_ideas = {
-					NCH_Oiren_Judge_itoken #pol
-					NCH_generic_military_theorist #other / Basalt
-					NCH_Caider_it #other
-					NCH_Valha_it #industrial
-					NCH_celarl_it #other
-					NCH_Derkliones_it #other spymaster
-					NCH_Sul_Oraiste_it # bunkers / industrial
-					NCH_Marikel_it #
-					NCH_Ludas_it #industrial
-					NCH_Arachi_it #pol 
-					NCH_Yorilos_it #industrial
-					NCH_Floppa_it #pol 
-					NCH_Gerald_3_it #pol
-					NCH_kianit_oir_it # pol
-					NCH_Adler_it #other
+			if = {
+				limit = {
+					has_idea = {
+						NCH_Oiren_Judge_itoken #pol
+						NCH_generic_military_theorist #other / Basalt
+						NCH_Caider_it #other
+						NCH_Valha_it #industrial
+						NCH_celarl_it #other
+						NCH_Derkliones_it #other spymaster
+						NCH_Sul_Oraiste_it # bunkers / industrial
+						NCH_Marikel_it #
+						NCH_Ludas_it #industrial
+						NCH_Arachi_it #pol 
+						NCH_Yorilos_it #industrial
+						NCH_Floppa_it #pol 
+					}
+					remove_ideas = {
+						NCH_Oiren_Judge_itoken #pol
+						NCH_generic_military_theorist #other / Basalt
+						NCH_Caider_it #other
+						NCH_Valha_it #industrial
+						NCH_celarl_it #other
+						NCH_Derkliones_it #other spymaster
+						NCH_Sul_Oraiste_it # bunkers / industrial
+						NCH_Marikel_it #
+						NCH_Ludas_it #industrial
+						NCH_Arachi_it #pol 
+						NCH_Yorilos_it #industrial
+						NCH_Floppa_it #pol 
+						NCH_Gerald_3_it #pol
+						NCH_kianit_oir_it # pol
+						NCH_Adler_it #other
+					}
 				}
 			}
-			
 			# NEW GOV #
 			# ECONOMIC #
 			random_list = {
@@ -2127,16 +2161,20 @@ NCH_queen_plan = {
 		}	
 
 		timeout_effect = {
-			not = {
-				custom_effect_tooltip = NCH_queen_plan_sucsess
+			if = {
+			limit = {
+				not = {
+					custom_effect_tooltip = NCH_queen_plan_sucsess
+				}
 			}
-			add_political_power = -200
-			add_popularity = {
-				ideology = democratic
-				popularity = -0.25
+				add_political_power = -200
+				add_popularity = {
+					ideology = democratic
+					popularity = -0.25
+				}
+				add_stability = -0.15
+				
 			}
-			add_stability = -0.15
-			
 		}
 	}
 }
@@ -2249,7 +2287,6 @@ NCH_celarl_laboratory = {
 		NCH_nuce_mission = {
 			icon = gfx_decision_icon_default
 			days_mission_timeout = 1100
-			mission_timeout = 1100
 			fire_only_once = yes
 			desc = ""
 			is_good = no
@@ -2301,7 +2338,7 @@ NCH_celarl_laboratory = {
 	}
 
 	# NCH_change_portrait_category = {
-	# 	NCH_Gytha_vanila_portait_to_steel_lady = {
+	# 	NCH_Gytha_vanila_portait_to_The_Steel_lady = {
 	# 		icon = generic_politics
 	# 		days_re_enable = 1
 
@@ -2354,7 +2391,7 @@ NCH_celarl_laboratory = {
 
 		
 		
-	# 	NCH_Gytha_steel_lady_portrait_to_vanila = {
+	# 	NCH_Gytha_The_Steel_lady_portrait_to_vanila = {
 	# 		icon = generic_politics
 	# 		days_re_enable = 1
 
@@ -2371,7 +2408,7 @@ NCH_celarl_laboratory = {
 	# 		}
 	# 	}
 
-	# 	NCH_Gytha_steel_lady_portrait_to_president = {
+	# 	NCH_Gytha_The_Steel_lady_portrait_to_president = {
 	# 		icon = generic_politics
 	# 		days_re_enable = 1
 
@@ -2388,7 +2425,7 @@ NCH_celarl_laboratory = {
 	# 		}
 	# 	}
 
-	# 	NCH_Gytha_steel_lady_portrait_to_steel_lady = {
+	# 	NCH_Gytha_The_Steel_lady_portrait_to_The_Steel_lady = {
 	# 		icon = generic_politics
 	# 		days_re_enable = 1
 
@@ -2571,10 +2608,11 @@ NCH_celarl_laboratory = {
 					}
 				}
 			}
-			
+			available = {
+				has_country_flag = NCH_obsidian_export
+			}
 			allowed = {
 				original_tag = NCH
-				has_country_flag = NCH_obsidian_export
 			}
 
 			complete_effect = {
