@@ -3297,6 +3297,24 @@ add_namespace = greneclyf_hive
 						value < 25
 					}
 				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
+						}
+					}
+				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
+						}
+					}
+				}
 			}
 		}
 	}
@@ -3941,6 +3959,15 @@ add_namespace = greneclyf_hive
 						value < 10
 					}
 				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
+						}
+					}
+				}
 			}
 
 			NCH  = {
@@ -4015,7 +4042,7 @@ add_namespace = greneclyf_hive
 			ai_chance = {
 				base = 0.7
 				modifier = {
-					factor = 0.15
+					factor = 2
 					has_opinion = {
 						target = NCH
 						value > 25
@@ -4035,7 +4062,7 @@ add_namespace = greneclyf_hive
 			ai_chance = {
 				base = 0.3
 				modifier = {
-					factor = 0.8
+					factor = 2
 					has_opinion = {
 						target = NCH
 						value < 10
@@ -4117,13 +4144,14 @@ add_namespace = greneclyf_hive
 		# Accept #
 		option = {
        		name = greneclyf_core.3.a	
+			set_global_flag = NCH_join_riverland
 			NCH = {
 				add_ideas = RIV_member_state	
 			}
 			ai_chance = {
 				base = 0.3
 				modifier = {
-					factor = 0.7
+					factor = 4
 					has_government = democratic
 
 					has_opinion = {
@@ -4138,9 +4166,9 @@ add_namespace = greneclyf_hive
 		option = {
        		name = greneclyf_core.2.b		
 			ai_chance = {
-				base = 0.7
+				base = 2
 				modifier = {
-					factor = 0.7
+					factor = 4
 					not = {
 						has_government = democratic
 					}
@@ -4148,6 +4176,14 @@ add_namespace = greneclyf_hive
 					has_opinion = {
     					target = NCH
     					value < 70
+					}
+				}
+				modifier = {
+					factor = 0
+
+					has_opinion = {
+    					target = NCH
+    					value > 70
 					}
 				}
 			}
@@ -4170,7 +4206,7 @@ add_namespace = greneclyf_hive
 		is_triggered_only = yes
 
 		option = {
-			set_country_flag = NCH_join_riverland
+			set_global_flag = NCH_join_riverland
 			name = greneclyf_core.3.a
 
 			# NEED ADDED #
@@ -4596,6 +4632,15 @@ add_namespace = greneclyf_hive
 						}
 					}
 				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
+						}
+					}
+				}
 			}
 		}
 	}
@@ -4666,6 +4711,15 @@ add_namespace = greneclyf_hive
 					has_opinion = {
 						target = NCH
 						value > 50
+						}
+					}
+				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
 						}
 					}
 				}
@@ -4764,6 +4818,15 @@ add_namespace = greneclyf_hive
 						}
 					}
 				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
+						}
+					}
+				}
 			}
 		}
 
@@ -4788,6 +4851,15 @@ add_namespace = greneclyf_hive
 					has_opinion = {
 						target = NCH
 						value < 30
+						}
+					}
+				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
 						}
 					}
 				}
@@ -4883,6 +4955,15 @@ add_namespace = greneclyf_hive
 					has_opinion = {
 						target = NCH
 						value < 30
+						}
+					}
+				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
 						}
 					}
 				}
@@ -4982,6 +5063,15 @@ add_namespace = greneclyf_hive
 						}
 					}
 				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
+						}
+					}
+				}
 			}
 		}
 	}
@@ -5041,7 +5131,7 @@ add_namespace = greneclyf_hive
 			ai_chance = {
 				base = 1
 				modifier = {
-					factor = 0.95
+					factor = 4
 					has_country_flag = NCH_ready_to_integration_1
 					has_opinion = {
 						target = NCH
@@ -5063,6 +5153,15 @@ add_namespace = greneclyf_hive
 					not = {
 						has_country_flag = NCH_ready_to_integration_1
 						has_government = democratic
+					}
+				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
+						}
 					}
 				}
 			}

@@ -1,4 +1,4 @@
 AWT = "countries/AWT.txt"
 AWP = "countries/AWP.txt"
 AWN = "countries/AWN.txt"
-REB = "countries/REB.txt"
+REB = "countries/REB - CHN Rebbels.txt"

@@ -1,15 +1,17 @@
 capital = 1251
 
+set_country_flag = has_custom_advisors
+set_country_flag = has_custom_designers
+set_country_flag = has_custom_spymaster
 
 set_research_slots = 0
 
 set_technology = {
-
+	polar_race = 1
 }
 actually_fix_weapon_techs = yes
 
 set_convoys = 0
-recruit_character = AWT_wastland
 
 set_popularities = {
 	democratic = 90
@@ -26,14 +28,20 @@ set_politics = {
 }
 
 add_ideas = {
+	#polar_race
 	detached_country
 	lack_of_scientists
 	poor_science_base
 	primitive_economy
 	closed_economy
+
+	#polar_nation
 }
 
-set_stability = 0.6
+set_stability = 0
+set_war_support = 0
+
+recruit_character = AWT_wastland
 
 set_rule = {
 	can_generate_female_aces = yes

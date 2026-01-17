@@ -1,5 +1,4 @@
-capital = 1251
-
+capital = 1215
 
 set_research_slots = 0
 
@@ -8,8 +7,9 @@ set_technology = {
 }
 actually_fix_weapon_techs = yes
 
-set_convoys = 0
-recruit_character = AWT_wastland
+set_convoys = 1
+
+recruit_character = AWN_leader
 
 set_popularities = {
 	democratic = 90
