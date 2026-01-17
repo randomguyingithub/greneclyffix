@@ -55,10 +55,6 @@ Shared_focus = {
 
 	available = {
 		has_completed_focus = NCH_adopt_consitution
-		CHN = {
-			has_government = fascism
-			exists = yes
-		}
 	}
 
 	completion_reward = {
@@ -81,10 +77,6 @@ Shared_focus = {
 
 	available = {
 		has_completed_focus = NCH_Queen_Ditrisium
-		CHN = {
-			has_government = fascism
-			exists = yes
-		}
 	}
 
 	completion_reward = {
@@ -108,13 +100,6 @@ Shared_focus = {
 	}
 	x = 6
 	y = 5
-
-	available = {
-		CHN = {
-			has_government = fascism
-			exists = yes
-		}
-	}
 
 	bypass = {
 		has_country_flag = NCH_chrysalis_reb
@@ -140,10 +125,6 @@ Shared_focus = {
 
 	available = {
 		has_completed_focus = NCH_adopt_consitution
-		CHN = {
-			has_government = fascism
-			exists = yes
-		}
 	}
 
 	completion_reward = {
@@ -174,7 +155,6 @@ Shared_focus = {
 		}
 		CHN = {
 			has_government = fascism
-			exists = yes	
 		}
 	}
 
@@ -255,13 +235,6 @@ Shared_focus = {
 	x = 7
 	y = 6
 
-	available = {
-		CHN = {
-			has_government = fascism
-			exists = yes
-		}
-	}
-
 	bypass = {
 		has_country_flag = NCH_chrysalis_reb
 	}
@@ -284,13 +257,6 @@ Shared_focus = {
 	}
 	x = 10
 	y = 5
-
-	available = {
-		CHN = {
-			has_government = fascism
-			exists = yes
-		}
-	}
 
 	bypass = {
 		has_country_flag = NCH_chrysalis_reb
@@ -319,10 +285,6 @@ Shared_focus = {
 		has_country_leader = {
 			character = NCH_queen_gytha
 			ruling_only = yes
-		}
-		CHN = {
-			has_government = fascism
-			exists = yes
 		}
 	}
 
@@ -364,6 +326,7 @@ Shared_focus = {
 		}
 
 		CHN = {
+			exists = no
 			all_core_state = {
 				not = {
 					is_controlled_by = CHN
@@ -696,7 +659,6 @@ Shared_focus = {
 	completion_reward = {
 		country_event = {
 			id = greneclyf_hive.18
-			days = 0
 		}
 	}
 }
@@ -896,18 +858,14 @@ Shared_focus = {
 			limit = {
 				has_completed_focus = NCH_fangs_dug
 			}
-			country_event = {
-				id = greneclyf_hive.20
-			}
+			country_event = greneclyf_hive.20
 		}
 
 		if = {
 			limit = {
 				has_completed_focus = NCH_all_or_nothing
 			}
-			country_event = {
-				id = greneclyf_hive.21
-			}
+			country_event = greneclyf_hive.21
 		}
 
 		if = {
@@ -917,9 +875,7 @@ Shared_focus = {
 					has_completed_focus = NCH_after_war_plans
 				}
 			}
-			country_event = {
-				id = greneclyf_hive.22
-			}
+			country_event = greneclyf_hive.22
 		}
 
 		add_ideas = NCH_Gytha_triumpf

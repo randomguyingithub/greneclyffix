@@ -1283,7 +1283,7 @@ greneclyf_hive.18.a:0 "‘Helvia will be surprised.’"
 greneclyf_hive.19.t:0 "Demons of the Hegemony"
 greneclyf_hive.19.d:0 "After tense negotiations, we managed to convince Celestia that it is our responsibility to prosecute Chrysalis. In return, we handed over all captured military officers to the ponies.\n\nChrysalis was sentenced by the Supreme Military Tribunal to life imprisonment in the secret penal colony of Aisling. Additionally, custody over several Hegemony scientists passed to us – the ones responsible for advanced weapons development and the horrific experiments extracting love from prisoners of war.\n\nTruthfully, their capture was a stroke of pure luck, the result of chaotic battles during the storming of enemy facilities. When the ponies learned of it, they demanded we either hand the scientists over or execute them for crimes against life itself.\n\nBut the decision lies with our tribunal. We may imprison them, execute them. Or... we may put their expertise to use for the good of the Federation. The court ruled..."
 greneclyf_hive.19.a:0 "...that each be sentenced to long-term imprisonment in Coldridge Penitentiary." 
-greneclyf_hive.19.c:0 "...that they be granted immunity in exchange for unrestricted access to their research data."
+greneclyf_hive.19.b:0 "...that they be granted immunity in exchange for unrestricted access to their research data."
 
 # FOREVER? #
 greneclyf_hive.20.t:0 "Forever?"
