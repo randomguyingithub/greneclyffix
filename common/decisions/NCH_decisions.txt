@@ -83,7 +83,7 @@ NCH_debug_decision = {
 							has_trait = The_naive_reformer
 						}
 					}
-					swap_ruler_traits = {
+					swap_country_leader_traits = {
 						remove = The_naive_reformer
 						add = The_Steel_lady
 					}
@@ -95,7 +95,7 @@ NCH_debug_decision = {
 							has_trait = The_god_chosen_queen
 						}
 					}
-					swap_ruler_traits = {
+					swap_country_leader_traits = {
 						remove = The_god_chosen_queen
 						add = The_Steel_lady
 					}
