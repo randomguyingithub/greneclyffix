@@ -1,0 +1,11 @@
+ideas={
+	country = {
+		monthly_pop_boost_NCH ={
+			picture = NCH_obsidian_crystals
+
+			modifier = {
+				monthly_population = 0.15
+			}
+		}
+	}
+}

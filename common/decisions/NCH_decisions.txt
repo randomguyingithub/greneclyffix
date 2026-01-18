@@ -2201,12 +2201,7 @@ NCH_queen_plan = {
 		}	
 
 		timeout_effect = {
-			if = {
-			limit = {
-				not = {
-					custom_effect_tooltip = NCH_queen_plan_sucsess
-				}
-			}
+				custom_effect_tooltip = NCH_queen_plan_sucsess
 				add_political_power = -200
 				add_popularity = {
 					ideology = democratic
@@ -2349,9 +2344,7 @@ NCH_celarl_laboratory = {
 			complete_effect = {
 				add_political_power = 100
 				add_stability = 0.05
-				add_state_modifier = {
-					modifier = { monthly_population = 0.15 }
-				}
+				add_ideas = monthly_pop_boost_NCH
 				country_event = {
 					id = greneclyf.516 # success
 					days = 0
