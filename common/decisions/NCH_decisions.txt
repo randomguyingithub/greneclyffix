@@ -929,26 +929,26 @@ NCH_fed_found_category = {
 				NCH = {
 					every_state = {
 							limit = {
-							owner = {
-								OR = {
-									tag = RCT
-									tag = NIM
-									tag = DMT
-									tag = BAK
-									tag = DEP
-									tag = LCT
-									tag = WIT
-									tag = FRE
-									tag = FBK
-									tag = FIR
-									tag = WAT
-						}
+								owner = {
+									OR = {
+										tag = RCT
+										tag = NIM
+										tag = DMT
+										tag = BAK
+										tag = DEP
+										tag = LCT
+										tag = WIT
+										tag = FRE
+										tag = FBK
+										tag = FIR
+										tag = WAT
+									}
+								}
 							}
 							add_core_of = NCH
 						}
 					}
 				}
-			}
 			
 
 			NCH = {
