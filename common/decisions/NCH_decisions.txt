@@ -2021,39 +2021,77 @@ NCH_gov_rotation_category = {
 			# ALL POLITIC ADVISORS #
 			if = {
 				limit = {
-					has_idea = {
-						NCH_Oiren_Judge_itoken #pol
-						NCH_generic_military_theorist #other / Basalt
-						NCH_Caider_it #other
-						NCH_Valha_it #industrial
-						NCH_celarl_it #other
-						NCH_Derkliones_it #other spymaster
-						NCH_Sul_Oraiste_it # bunkers / industrial
-						NCH_Marikel_it #
-						NCH_Ludas_it #industrial
-						NCH_Arachi_it #pol 
-						NCH_Yorilos_it #industrial
-						NCH_Floppa_it #pol 
-					}
-					remove_ideas = {
-						NCH_Oiren_Judge_itoken #pol
-						NCH_generic_military_theorist #other / Basalt
-						NCH_Caider_it #other
-						NCH_Valha_it #industrial
-						NCH_celarl_it #other
-						NCH_Derkliones_it #other spymaster
-						NCH_Sul_Oraiste_it # bunkers / industrial
-						NCH_Marikel_it #
-						NCH_Ludas_it #industrial
-						NCH_Arachi_it #pol 
-						NCH_Yorilos_it #industrial
-						NCH_Floppa_it #pol 
-						NCH_Gerald_3_it #pol
-						NCH_kianit_oir_it # pol
-						NCH_Adler_it #other
-					}
+					has_idea = NCH_Oiren_Judge_itoken #pol
 				}
+				remove_ideas = NCH_Oiren_Judge_itoken #pol
 			}
+			if = {
+				limit = {
+					has_idea = NCH_generic_military_theorist #other / Basalt
+				}
+				remove_ideas = NCH_generic_military_theorist #other / Basalt
+			}
+			if = {
+				limit = {
+					has_idea = NCH_Caider_it #other
+				}
+				remove_ideas = NCH_Caider_it #other
+			}
+			if = {
+				limit = {
+					has_idea = NCH_Valha_it #industrial
+				}
+				remove_ideas = NCH_Valha_it #industrial
+			}
+			if = {
+				limit = {
+					has_idea = NCH_celarl_it #other
+				}
+				remove_ideas = NCH_celarl_it #other
+			}
+			if = {
+				limit = {
+					has_idea = NCH_Derkliones_it #other spymaster
+				}
+				remove_ideas = NCH_Derkliones_it #other spymaster
+			}
+			if = {
+				limit = {
+					has_idea = NCH_Sul_Oraiste_it # bunkers / industrial
+				}
+				remove_ideas = NCH_Sul_Oraiste_it # bunkers / industrial
+			}
+			if = {
+				limit = {
+					has_idea = NCH_Marikel_it #
+				}
+				remove_ideas = NCH_Marikel_it #
+			}
+			if = {
+				limit = {
+					has_idea = NCH_Ludas_it #industrial
+				}
+				remove_ideas = NCH_Ludas_it #industrial
+			}
+			if = {
+				limit = {
+					has_idea = NCH_Arachi_it #pol 
+				}
+				remove_ideas = NCH_Arachi_it #pol 
+			}
+			if = {
+				limit = {
+					has_idea = NCH_Yorilos_it #industrial
+				}
+				remove_ideas = NCH_Yorilos_it #industrial
+			}
+			if = {
+				limit = {
+					has_idea = NCH_Floppa_it #pol 
+				}
+				remove_ideas = NCH_Floppa_it #pol 
+			}
+			###possible shorten it with array ^ - ssd21345
 			# NEW GOV #
 			# ECONOMIC #
 			random_list = {
