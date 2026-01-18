@@ -4602,7 +4602,7 @@ add_namespace = greneclyf_hive
 				idea = NCH_blosmport_economic_consequences
 				days = 180
 			}
-
+			set_country_flag = NCH_neg_blosmport_economic
 			# NCH = {
 			# 	country_event = {
 			# 		id = greneclyf_core.101
@@ -4612,7 +4612,7 @@ add_namespace = greneclyf_hive
 			ai_chance = {
 				base = 2
 				modifier = {
-					factor = 0.3
+					factor = 4
 					OR = {
 					has_government = democratic
 					has_opinion = {
