@@ -3524,7 +3524,7 @@ add_namespace = greneclyf_hive
 					type = puppet_wargoal_focus 
 				}
 			}
-			if =
+			if = {
 				limit = {
 					or = {
 						FIR = {
@@ -4366,7 +4366,9 @@ add_namespace = greneclyf_hive
 			# RCT not exists
 			if = {
 				limit = {
-					NOT = { exists = RCT }
+					RCT = {
+						exists = no
+					}
 					619 = {
 						not = {
 							owner = {
