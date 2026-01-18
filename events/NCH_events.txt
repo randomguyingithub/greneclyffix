@@ -3486,7 +3486,7 @@ add_namespace = greneclyf_hive
 					target = FBK
 					autonomy_state = autonomy_integrated_puppet
 				}
-
+			if = {
 				limit = {
 					and = {
 						FIR = {
