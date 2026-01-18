@@ -2683,7 +2683,7 @@ NCH_celarl_laboratory = {
 			}
 			allowed = {
 				original_tag = NCH
-				has_country_flag = NCH_obsidian_export
+				#has_country_flag = NCH_obsidian_export
 			}
 			complete_effect = {
 				every_country = {
@@ -2715,7 +2715,7 @@ NCH_celarl_laboratory = {
 			}
 			allowed = {
 				original_tag = NCH
-				has_country_flag = NCH_obsidian_export
+				#has_country_flag = NCH_obsidian_export
 			}
 			complete_effect = {
 				every_country = {
@@ -2748,7 +2748,7 @@ NCH_celarl_laboratory = {
 			}
 			allowed = {
 				original_tag = NCH
-				has_country_flag = NCH_obsidian_export
+				#has_country_flag = NCH_obsidian_export
 			}
 			complete_effect = {
 				every_country = {
@@ -2781,7 +2781,7 @@ NCH_celarl_laboratory = {
 			}
 			allowed = {
 				original_tag = NCH
-				has_country_flag = NCH_obsidian_export
+				#has_country_flag = NCH_obsidian_export
 			}
 			complete_effect = {
 				every_country = {
@@ -2814,7 +2814,7 @@ NCH_celarl_laboratory = {
 			}
 			allowed = {
 				original_tag = NCH
-				has_country_flag = NCH_obsidian_export
+				#has_country_flag = NCH_obsidian_export
 			}
 			complete_effect = {
 				every_country = {
@@ -2847,7 +2847,7 @@ NCH_celarl_laboratory = {
 			}
 			allowed = {
 				original_tag = NCH
-				has_country_flag = NCH_obsidian_export
+				#has_country_flag = NCH_obsidian_export
 			}
 			complete_effect = {
 				every_country = {
@@ -2880,7 +2880,7 @@ NCH_celarl_laboratory = {
 			}
 			allowed = {
 				original_tag = NCH
-				has_country_flag = NCH_obsidian_export
+				#has_country_flag = NCH_obsidian_export
 			}
 			complete_effect = {
 				every_country = {
