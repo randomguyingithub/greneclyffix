@@ -2201,15 +2201,13 @@ NCH_queen_plan = {
 		}	
 
 		timeout_effect = {
-				custom_effect_tooltip = NCH_queen_plan_sucsess
-				add_political_power = -200
-				add_popularity = {
-					ideology = democratic
-					popularity = -0.25
-				}
-				add_stability = -0.15
-				
+			custom_effect_tooltip = NCH_queen_plan_sucsess
+			add_political_power = -200
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.25
 			}
+			add_stability = -0.15			
 		}
 	}
 }
