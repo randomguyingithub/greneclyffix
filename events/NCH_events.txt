@@ -3364,7 +3364,7 @@ add_namespace = greneclyf_hive
 
 			add_opinion_modifier = {
 				target = WAT
-				modifier = NCH_WIT_friends
+				modifier = NCH_WAT_friends
 			}
 
 			add_opinion_modifier = {
@@ -3395,7 +3395,7 @@ add_namespace = greneclyf_hive
 			}
 			add_opinion_modifier = {
 				target = NCH
-				modifier = NCH_WIT_friends
+				modifier = NCH_WAT_friends
 			}
 			add_timed_idea = {
 				idea = NCH_help_with_industrialization
