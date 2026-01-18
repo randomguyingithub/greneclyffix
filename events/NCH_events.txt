@@ -3469,23 +3469,23 @@ add_namespace = greneclyf_hive
 			}
 
 			# READY #
-			if = {
-				limit = {
-					and = {
-						FBK = {
-							has_government = democratic
-						}
-						FBK = {
-							not = {
-								has_country_flag = NCH_not_friendship_accepted
-							}
+		if = {
+			limit = {
+				and = {
+					FBK = {
+						has_government = democratic
+					}
+					FBK = {
+						not = {
+							has_country_flag = NCH_not_friendship_accepted
 						}
 					}
 				}
-				release_autonomy = {
-					target = FBK
-					autonomy_state = autonomy_integrated_puppet
-				}
+			}
+			release_autonomy = {
+				target = FBK
+				autonomy_state = autonomy_integrated_puppet
+			}
 			if = {
 				limit = {
 					and = {
@@ -3544,7 +3544,7 @@ add_namespace = greneclyf_hive
 			}
 		}
 	}
-
+}
 	# ALWAYS LOYALITY #
 	country_event = {
 		id = greneclyf_foregin.4
