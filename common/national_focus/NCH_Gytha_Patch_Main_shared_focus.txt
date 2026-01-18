@@ -1290,19 +1290,13 @@ shared_focus = {
 	available = {
 		or = {
 			FBK = {
-				OVERLORD = {
-					tag = NCH
-				}
+				is_subject_of = NCH
 			}
 			FIR = {
-				OVERLORD = {
-					tag = NCH
-				}
+				is_subject_of = NCH
 			}
 			WAT = {
-				OVERLORD = {
-					tag = NCH
-				}
+				is_subject_of = NCH
 			}
 		}
 	}
@@ -2004,9 +1998,7 @@ shared_focus = {
 					controls_state = 603
 				}
 				FBK = {
-					overlord = {
-						tag = NCH
-					}
+					is_subject_of = NCH
 				}
 			}
 
@@ -2024,7 +2016,7 @@ shared_focus = {
 				}
 				WAT = {
 					overlord = {
-						tag = NCH
+						is_subject_of = NCH
 					}
 				}
 			}
@@ -2049,7 +2041,7 @@ shared_focus = {
 				}
 				FIR = {
 					overlord = {
-						tag = NCH
+						is_subject_of = NCH
 					}
 				}
 			}
