@@ -4635,16 +4635,16 @@ add_namespace = greneclyf_hive
 			}
 
 			ai_chance = {
-				base = 3
+				base = 0
 				modifier = {
-					factor = 0.5
-					OR = {
-					not = {
-						has_government = democratic
-					}
-					has_opinion = {
-						target = NCH
-						value < 30
+					add = 2
+					AND = {
+						not = {
+							has_government = democratic
+						}
+						has_opinion = {
+							target = NCH
+							value < 30
 						}
 					}
 				}
@@ -4730,15 +4730,6 @@ add_namespace = greneclyf_hive
 						}
 					}
 				}
-				modifier = {
-					factor = 0
-					OR = {
-					has_opinion = {
-						target = NCH
-						value > 30
-						}
-					}
-				}
 			}
 		}
 
@@ -4756,13 +4747,22 @@ add_namespace = greneclyf_hive
 				base = 3
 				modifier = {
 					factor = 0.5
-					OR = {
+					AND = {
 					not = {
 						has_government = democratic
 					}
 					has_opinion = {
 						target = NCH
 						value < 30
+						}
+					}
+				}
+				modifier = {
+					factor = 0
+					OR = {
+					has_opinion = {
+						target = NCH
+						value > 30
 						}
 					}
 				}
@@ -4834,15 +4834,6 @@ add_namespace = greneclyf_hive
 						}
 					}
 				}
-				modifier = {
-					factor = 0
-					OR = {
-					has_opinion = {
-						target = NCH
-						value > 30
-						}
-					}
-				}
 			}
 		}
 
@@ -4860,7 +4851,7 @@ add_namespace = greneclyf_hive
 				base = 3
 				modifier = {
 					factor = 0.5
-					OR = {
+					AND = {
 					not = {
 						has_government = democratic
 					}
@@ -4938,7 +4929,7 @@ add_namespace = greneclyf_hive
 			ai_chance = {
 				base = 2
 				modifier = {
-					factor = 0.3
+					factor = 4
 					OR = {
 					has_government = democratic
 					has_opinion = {
@@ -4964,15 +4955,15 @@ add_namespace = greneclyf_hive
 				base = 3
 				modifier = {
 					factor = 0.5
-					OR = {
-					not = {
-						has_government = democratic
-					}
-					has_opinion = {
-						target = NCH
-						value < 30
+					AND = {
+						not = {
+							has_government = democratic
 						}
-					}
+						has_opinion = {
+							target = NCH
+							value < 30
+							}
+						}
 				}
 				modifier = {
 					factor = 0
@@ -5069,15 +5060,15 @@ add_namespace = greneclyf_hive
 				base = 3
 				modifier = {
 					factor = 0.5
-					OR = {
-					not = {
-						has_government = democratic
-					}
-					has_opinion = {
-						target = NCH
-						value < 30
+					AND = {
+						not = {
+							has_government = democratic
 						}
-					}
+						has_opinion = {
+							target = NCH
+							value < 30
+							}
+						}
 				}
 				modifier = {
 					factor = 0
@@ -5139,11 +5130,7 @@ add_namespace = greneclyf_hive
 			name = greneclyf_core.115.a
 			add_stability = 0.03
 			add_political_power = 30
-			trigger = {
-				OVERLORD = {
-					tag = NCH
-				}
-			}
+			NCH = { puppet = ROOT }
 			ai_chance = {
 				base = 1
 				modifier = {
@@ -5165,10 +5152,10 @@ add_namespace = greneclyf_hive
 			ai_chance = {
 				base = 2
 				modifier = {
-					factor = 0.7
+					factor = 4
 					not = {
 						has_country_flag = NCH_ready_to_integration_1
-						has_government = democratic
+						#has_government = democratic
 					}
 				}
 				modifier = {
