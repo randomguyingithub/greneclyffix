@@ -59,7 +59,7 @@ NCH_INF_REDUX_02 = {
 
 	can_use = { NOT = { has_government = communism } }
 
-	division_types = { "special_forces" "mountaineers" }
+	division_types = { "mountaineers" "marine" "amphibious_armor" "amphibious_mechanized" "paratrooper" }
 
 	fallback_name = "%dú Aonad turraing"
 	
