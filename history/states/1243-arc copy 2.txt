@@ -16,11 +16,12 @@ state={
 		}
 
 		victory_points = { 20422 1 }
-	}
-	resources={
-		chromium=7
-		oil = 15
-		tungsten = 6
+
+		resources={
+			chromium=7
+			oil = 15
+			tungsten = 6
+		}
 	}
 	manpower= 175869
 	buildings_max_level_factor=1.000
