@@ -20307,10 +20307,10 @@
 20306;199;222;144;land;true;plains;2
 20307;199;252;144;land;true;hills;2
 20308;103;209;185;lake;false;lakes;2
-20309;0;0;0;land;false;unknown;1
-20310;71;66;0;land;false;unknown;1
-20311;0;115;82;land;false;unknown;1
-20312;2;0;0;land;false;unknown;1
+20309;3;0;0;land;false;hills;1
+20310;71;66;0;land;false;hills;1
+20311;0;115;82;land;false;hills;1
+20312;2;0;0;land;false;hills;1
 20313;234;116;242;land;true;plains;1
 20314;225;246;183;land;true;plains;1
 20315;139;177;193;land;true;plains;1
